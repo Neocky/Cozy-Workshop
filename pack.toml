@@ -1,0 +1,13 @@
+name = "Cozy-Workshop"
+author = "Neocky"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "e9e87f3b45c8e431abb80460e77d468092f6b4aa2709093f6b227b0852e6d745"
+
+[versions]
+forge = "47.2.21"
+minecraft = "1.20.1"
