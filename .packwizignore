@@ -1,0 +1,39 @@
+# .packwizignore follows the same format as .gitignore, and can be used to exclude unwanted files from pack exports
+# See https://git-scm.com/docs/gitignore
+
+# Exclude README
+/README.md
+
+/.github/
+/.vscode/
+
+# Prism launcher
+/coremods/
+/mods/.index/
+
+*.bak
+*.mrpack
+
+*.jar
+*.zip
+
+/config/jei/recipe-category-sort-order.ini
+/config/jei/bookmarks.ini
+
+/crash-reports/
+/debug/
+/logs/
+/local/
+/saves/
+/servers.dat
+/usercache.json
+/usernamecache.json
+/keybindings.txt
+/knownkeys.txt
+/options.txt
+/profile.json
+/rhino.local.properties
+
+/curseforge
+
+/java/
