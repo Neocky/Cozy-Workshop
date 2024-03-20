@@ -1,12 +1,112 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/MouseTweaks.cfg"
+hash = "4069ce1a439d8c37453c1b1e9f2037e0942674c7e48723a39b37eab245792ad4"
+
+[[files]]
+file = "config/almostunified/debug.json"
+hash = "3e03a291b5310a6b94a45aff63e4731baa643701c42a968ed716483ccd1d5a37"
+
+[[files]]
+file = "config/almostunified/duplicates.json"
+hash = "40639e8cb9e9ea52b8557c50d29fc06e73e2ad1e7ca27ae5ce8fe2eca2e97188"
+
+[[files]]
+file = "config/almostunified/startup.json"
+hash = "ad711622f9b8c5cc8115f52396f5d82587b809fb20cbf9d94c7744aeebcaf4d5"
+
+[[files]]
+file = "config/almostunified/unify.json"
+hash = "9dd105eb404830a866f936672179caba237f174c21bdc31c7756442339241131"
+
+[[files]]
+file = "config/appleskin-client.toml"
+hash = "e6609ffbea927ee6390b1317bb6f3abb3f31ee591ca5c1d5e748f5e625fefea1"
+
+[[files]]
+file = "config/create-client.toml"
+hash = "667b50af91a4312360fac0502a25f9497e745e3e321b297ed4efb6e257e81db4"
+
+[[files]]
+file = "config/create-common.toml"
+hash = "36a4d9f5da68f6801b83ce0c4a1a8805fbeffb0dd997f2d405465d7774522296"
+
+[[files]]
+file = "config/curios-client.toml"
+hash = "9c0985b85e67e704a3640d028186dc0b220fa69404b9555244add55eaf5d4794"
+
+[[files]]
+file = "config/darkmodeeverywhere-client.toml"
+hash = "a770ad7e7aaffa966fda5ca4eed9d542b0aad0f7314f54d6069ca9481792fcf9"
+
+[[files]]
+file = "config/darkmodeeverywhereshaders.json"
+hash = "2b00452f5043e33ccc023d017324e80ef333f861da68a6e989576c46a970f487"
+
+[[files]]
+file = "config/embeddium++.toml"
+hash = "6621a738caff955c10e024fdbe7cc00dbfcbdb78542a1c090e8953eb5cd3b13e"
+
+[[files]]
+file = "config/embeddium-fingerprint.json"
+hash = "0b1de3130e9b50542b72b949ce51e4356c8038172793c83726977fb02c9246b7"
+
+[[files]]
+file = "config/embeddium-mixins.properties"
+hash = "09ff183e061d93b79514bc171bf9118497578757e7a5c45946039487656e2619"
+
+[[files]]
+file = "config/embeddium-options.json"
+hash = "ebc94577ad1c7494c3bb5d2947d8166a07ddf26a8559f449a105e637045bd8c0"
+
+[[files]]
+file = "config/ferritecore-mixin.toml"
+hash = "c164439c632aa7c95c07edec5cfef74b8e2d5671a8445a781deeb4de7ad0c8b6"
+
+[[files]]
+file = "config/flywheel-client.toml"
+hash = "0d0e22785b8811b4010b7cf39f78fcfb25e31e70558176a52cb9e95ea9202c8f"
+
+[[files]]
 file = "config/fml.toml"
 hash = "0bc9ae95cfe44f8bd70e47c524f35441c9bc2aa8a09340fef933cc9b98bce29e"
 
 [[files]]
 file = "config/forge-client.toml"
 hash = "7bc724152ad613fc492e7439074edeed178bc3405fc80a741add5ab562626684"
+
+[[files]]
+file = "config/jade/hide-blocks.json"
+hash = "6f6658b4a600c154e8bceb74fbfd887c9cb159ae389b1c87d29bd90f21ce5b0a"
+
+[[files]]
+file = "config/jade/hide-entities.json"
+hash = "38975f3f3c25a40c905172a9ccde5489946048173d6173967f37aadcf602455a"
+
+[[files]]
+file = "config/jade/jade.json"
+hash = "3c063cc05aa131779252e096360242fc7cf23c382003032f264c0c3a27821891"
+
+[[files]]
+file = "config/jade/plugins.json"
+hash = "91ab0eb4f070ed3f196a2198cd99226e53306b0f9f02cf917108c47ce4fa150b"
+
+[[files]]
+file = "config/jade/sort-order.json"
+hash = "4c133342a6fb5491729312c578310891084da8122af4c0529ffc16c534f183e1"
+
+[[files]]
+file = "config/jei/blacklist.cfg"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "config/jei/ingredient-list-mod-sort-order.ini"
+hash = "03203918aeec0b984f9c3821e7934670766a5ff3d68d7a1b6791806a3a760f12"
+
+[[files]]
+file = "config/jei/ingredient-list-type-sort-order.ini"
+hash = "40159d9dcf1d5a4db8ff25aafbc748e00cbb61f915dea39612960a29e5a57f17"
 
 [[files]]
 file = "config/jei/jei-client.ini"
@@ -33,12 +133,65 @@ file = "config/jeresources.toml"
 hash = "b101c668c6c658e2db126b7f6d3b9eb913537ff8903fbfce0128534299b2aea5"
 
 [[files]]
+file = "config/modernfix-common.toml"
+hash = "fad9aea710ec3508eab562cd8f2b5f8e2dda6ee1c5fb1fe818f90ce253017f66"
+
+[[files]]
+file = "config/modernfix-mixins.properties"
+hash = "1838bc5236cd65bf40d6026b8f35c28799f32e2e3e077f979a1c34593604ec2b"
+
+[[files]]
+file = "config/oculus.properties"
+hash = "08654115fe495db642981695b7812b9f7152a030ef6d0602f54182f68c240134"
+
+[[files]]
+file = "config/productivebees-client.toml"
+hash = "3cc5a0f6959691ae103f123e9b7f1c3bdf0014261f86fce9d6eed06d1c909fdf"
+
+[[files]]
 file = "icon.png"
-hash = "aba93480387ce59f4f8ec4157ec0c07b3c8243088df535bc9cdd61acd8e869a2"
+hash = "eb198fbccf4672e5622d94f1f9933e8bcd836db39c4944bc672d956696cebf36"
+
+[[files]]
+file = "kubejs/README.txt"
+hash = "989f3737ae4621b8ff6730bce4cbeeee756921e7e510e0c281c8a350501d98af"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/example_block.png"
+hash = "783d78bd1ee61d3b32273670dff9d82c34cd74c5ae899a10f104f473828d5bbc"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/example_item.png"
+hash = "45a5f56eba6066ad05c70988a32b72c50cfeb6e35857739bd582007011ea002b"
+
+[[files]]
+file = "kubejs/client_scripts/example.js"
+hash = "152019ed6e0410a82805a95ea10f1ad1a17beaf2b50864d89b8fa9d172129ac7"
+
+[[files]]
+file = "kubejs/config/client.properties"
+hash = "8bf3d750d660bdb3210d0b9ac1c771d284b06467bcb0e2b1956e7bc7d135e787"
+
+[[files]]
+file = "kubejs/config/common.properties"
+hash = "9bc2882a3767c1602b4b94f2456bfdeb6210ec4fc93af4806467b7a3dcc60622"
+
+[[files]]
+file = "kubejs/server_scripts/mods/productivebees/productivebees.js"
+hash = "30ff432130a3606a0546f745a5c19cc0f50e4010b4fef548b7ee83a909ec1280"
+
+[[files]]
+file = "kubejs/startup_scripts/example.js"
+hash = "395c96d3ddd178821db851f387e91560e606ea752177f66d2016f12bd0542b8f"
+
+[[files]]
+file = "mods/ai-improvements.pw.toml"
+hash = "d45d8ba9633fe8d819e6a8822b5f25807a52a5f29a82e87d31ce8920fd080500"
+metafile = true
 
 [[files]]
 file = "mods/almost-unified.pw.toml"
-hash = "aa14fce8a6a91618809e369bbb591e115bb3ae8c25e2f295447d7787998ff97f"
+hash = "468010808e6157b52ff172c72065da086d67c8bdd850d3af6a2d89eb46b1d110"
 metafile = true
 
 [[files]]
@@ -49,6 +202,11 @@ metafile = true
 [[files]]
 file = "mods/architectury-api.pw.toml"
 hash = "fa34a3117af7f8ed553ec563a7c90c1d6462184c7df5b837c831cb482c6ae582"
+metafile = true
+
+[[files]]
+file = "mods/attributefix.pw.toml"
+hash = "ecdd4372e076170c6b3bc4665dfdc5dac60292aaac013c7f95305b43e8916495"
 metafile = true
 
 [[files]]
@@ -64,6 +222,26 @@ metafile = true
 [[files]]
 file = "mods/curios.pw.toml"
 hash = "18b1ca556e2221cedba762a96b55df57bb4cf0ad390ed70f2d704b6b286ef679"
+metafile = true
+
+[[files]]
+file = "mods/dark-mode-everywhere.pw.toml"
+hash = "363eaa44985a9a6c36fca94d8f6e5967eda1fa31b3b4f3211407a4ac1d0f3b55"
+metafile = true
+
+[[files]]
+file = "mods/dynamiclights-reforged.pw.toml"
+hash = "7c42037125573675148f40d1be3c2dfbbfb58065de4793828281de9cd70f0588"
+metafile = true
+
+[[files]]
+file = "mods/embeddium.pw.toml"
+hash = "3d96079b4e2a4cd6c3c69f077f531d24d4b70df01278c5c9af16d98c7314bfbd"
+metafile = true
+
+[[files]]
+file = "mods/ferrite-core.pw.toml"
+hash = "4a73f04a8986129d79ea4f283a0a33ce51af17079b6efa23596af5bc685e1c1e"
 metafile = true
 
 [[files]]
@@ -97,8 +275,23 @@ hash = "c6cd4e6e65f28324728b3dc837f12866efcdd04d098d06e23fdb8bef1f5493ee"
 metafile = true
 
 [[files]]
+file = "mods/magnesium-extras.pw.toml"
+hash = "a5c9c4409681fb848186182fb09aabd4d2cfcbd6fe4c46c219e4b2020b162b96"
+metafile = true
+
+[[files]]
+file = "mods/modernfix.pw.toml"
+hash = "712ac79bb4012b906355269fa28ac92c1cae6bf37b43a4dcd1320f98a323b4b2"
+metafile = true
+
+[[files]]
 file = "mods/mouse-tweaks.pw.toml"
 hash = "d71fd32a56325b8fe378cfafe78f81d985436b2fd44638f5bab1f1386680b096"
+metafile = true
+
+[[files]]
+file = "mods/oculus.pw.toml"
+hash = "524acd510387c61c5f3c984e605fae03015434ae756b683d3b45a95951180394"
 metafile = true
 
 [[files]]
@@ -114,4 +307,9 @@ metafile = true
 [[files]]
 file = "mods/searchables.pw.toml"
 hash = "f435fb26b5ce5e660cf709d8415732d19f4fe1aa498edbd55a7ae5af1e8c802f"
+metafile = true
+
+[[files]]
+file = "mods/textrues-embeddium-options.pw.toml"
+hash = "ae4956baa7bfc8a7d596169d256eba7ed2e2961b55e4ad331b50d3dc6c72baeb"
 metafile = true

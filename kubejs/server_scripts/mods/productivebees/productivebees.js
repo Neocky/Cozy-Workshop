@@ -11,8 +11,14 @@ let productivebees_blocks = [
     "incubator",
 ]
 
+
 ServerEvents.recipes(event => {
     productivebees_blocks.forEach(block => {
         event.remove({output: "productivebees:" + block})
-    }) 
+    })
+
+    event.remove({ type: "productivebees:centrifuge" })
+    event.remove({ type: "productivebees:bottler" })
+
+    event.remove({ id: "productivebees:milk_bucket" })
 })
