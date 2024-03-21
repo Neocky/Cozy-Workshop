@@ -35,8 +35,6 @@ hs_err_pid*
 
 ### Modpack ###
 *.bak
-*.mrpack
-*.zip
 
 /crash-reports/
 /debug/
