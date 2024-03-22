@@ -74,7 +74,7 @@ hash = "09ff183e061d93b79514bc171bf9118497578757e7a5c45946039487656e2619"
 
 [[files]]
 file = "config/embeddium-options.json"
-hash = "ebc94577ad1c7494c3bb5d2947d8166a07ddf26a8559f449a105e637045bd8c0"
+hash = "0be93a1a06ffcb6081ff77f80686b5e02dcf3b0c3a59ae431c4f0ec278da5743"
 
 [[files]]
 file = "config/ferritecore-mixin.toml"
@@ -110,7 +110,7 @@ hash = "91ab0eb4f070ed3f196a2198cd99226e53306b0f9f02cf917108c47ce4fa150b"
 
 [[files]]
 file = "config/jade/sort-order.json"
-hash = "b8ffbd67197cfa715edd565b5db2e4417ffc79e6601a02c32446a8c38038bb99"
+hash = "4c133342a6fb5491729312c578310891084da8122af4c0529ffc16c534f183e1"
 
 [[files]]
 file = "config/jei/blacklist.cfg"
@@ -154,11 +154,11 @@ hash = "fad9aea710ec3508eab562cd8f2b5f8e2dda6ee1c5fb1fe818f90ce253017f66"
 
 [[files]]
 file = "config/modernfix-mixins.properties"
-hash = "bff8aa2ba06b586107bca4b5074f0fc7246529f6f8b18409e0fb49c577ae55b9"
+hash = "1838bc5236cd65bf40d6026b8f35c28799f32e2e3e077f979a1c34593604ec2b"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "1223087aae5096cf1ba5864f1ba9035b62382330997b43ac70b42672235b2c90"
+hash = "cd3fa14225be2b6cf1c7d42766b3ce5343fbdafd361ca75118aa8c55888a7c8b"
 
 [[files]]
 file = "config/productivebees-client.toml"
@@ -510,6 +510,11 @@ hash = "363eaa44985a9a6c36fca94d8f6e5967eda1fa31b3b4f3211407a4ac1d0f3b55"
 metafile = true
 
 [[files]]
+file = "mods/ding.pw.toml"
+hash = "9a47ae3e125db2d8222de6b8e145678687201e500f9b788b9fd014619db091c3"
+metafile = true
+
+[[files]]
 file = "mods/dynamiclights-reforged.pw.toml"
 hash = "7c42037125573675148f40d1be3c2dfbbfb58065de4793828281de9cd70f0588"
 metafile = true
@@ -597,4 +602,18 @@ metafile = true
 [[files]]
 file = "mods/textrues-embeddium-options.pw.toml"
 hash = "ae4956baa7bfc8a7d596169d256eba7ed2e2961b55e4ad331b50d3dc6c72baeb"
+metafile = true
+
+[[files]]
+file = "shaderpacks/ComplementaryReimagined_r5.1.1.zip.txt"
+hash = "8f09b3d9dd94ad729c86642f154cfe2ffe33fd83e08a63ca491a271758311a09"
+
+[[files]]
+file = "shaderpacks/complementary-reimagined.pw.toml"
+hash = "1e9f9f7053c256baf766dddba7a1f929634f5629c6787ae4ff1f117159232c22"
+metafile = true
+
+[[files]]
+file = "shaderpacks/complementary-unbound.pw.toml"
+hash = "345a368be43732e614d93ffb06fa8c76fa8f6060f2d105455242d15acc97e80d"
 metafile = true
