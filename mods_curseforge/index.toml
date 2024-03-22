@@ -154,7 +154,7 @@ hash = "fad9aea710ec3508eab562cd8f2b5f8e2dda6ee1c5fb1fe818f90ce253017f66"
 
 [[files]]
 file = "config/modernfix-mixins.properties"
-hash = "1838bc5236cd65bf40d6026b8f35c28799f32e2e3e077f979a1c34593604ec2b"
+hash = "bff8aa2ba06b586107bca4b5074f0fc7246529f6f8b18409e0fb49c577ae55b9"
 
 [[files]]
 file = "config/oculus.properties"
