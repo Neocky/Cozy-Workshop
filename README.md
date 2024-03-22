@@ -1,8 +1,9 @@
 
 # 🔥 Cozy Workshop
-A cozy minecraft modpack to play with your girlfriend.  
+> A cozy minecraft modpack to play with your girlfriend.
+
 This is an easy to grasp modpack with quests, farming and the mod Create to experience a seamless expansion and expand the minecraft horizon.  
-The modpack is pretty light with under 100 mods in total and only needs 4GB of ram on my shitty laptop to run with 60 FPS.  
+The modpack is pretty light with under 100 mods in total and only needs 4 GB of ram on my shitty laptop to run with 60 FPS.  
 This modpack is suited for beginners and every mod in this pack is documented in-game and guided by quests.
 
 
