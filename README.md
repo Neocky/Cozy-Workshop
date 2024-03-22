@@ -28,6 +28,6 @@ This script will copy all necessary files and export the resulting modpack with 
 
 ### Export for Modrinth
 Run this packwiz command:
-````
+```
 .\packwiz.exe curseforge export -o MODPACK_NAME.zip
 ```
