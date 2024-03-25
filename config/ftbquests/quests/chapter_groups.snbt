@@ -1,0 +1,9 @@
+{
+	chapter_groups: [
+		{ id: "6E30B58C103A8CEE", title: "{mp.chapters.group.1}" }
+		{ id: "7CE1DD02538D7728", title: "{mp.chapters.group.2}" }
+		{ id: "0D958BFFBE88F1A4", title: "{mp.chapters.group.3}" }
+		{ id: "7EBEFCF7B4BEED55", title: "{mp.chapters.group.4}" }
+		{ id: "0071C289A6E2B62E", title: "Challenges" }
+	]
+}

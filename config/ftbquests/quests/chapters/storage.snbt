@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "storage"
+	group: "0D958BFFBE88F1A4"
+	icon: "minecraft:barrel"
+	id: "2747A065007C768D"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+	title: "{mp.chapters.8.title}"
+}

@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "fishing"
+	group: "7EBEFCF7B4BEED55"
+	icon: "minecraft:tropical_fish"
+	id: "584EFF3F290C4098"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "{mp.chapters.10.title}"
+}

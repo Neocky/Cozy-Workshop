@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "plants"
+	group: "7CE1DD02538D7728"
+	icon: "minecraft:potato"
+	id: "5F2BD6452B6E703E"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+	title: "Plants"
+}

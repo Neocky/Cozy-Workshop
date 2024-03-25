@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "exploration"
+	group: "7EBEFCF7B4BEED55"
+	icon: "minecraft:spyglass"
+	id: "0BAE9F5DAC6B933D"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+	title: "{mp.chapters.9.title}"
+}

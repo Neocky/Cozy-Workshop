@@ -1,0 +1,80 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "welcome"
+	group: "6E30B58C103A8CEE"
+	icon: "minecraft:campfire"
+	id: "26B2A7EA014B1E98"
+	images: [{
+		click: "https://discord.gg/"
+		corner: false
+		dev: false
+		height: 1.0d
+		hover: ["mp.quest.welcome.discord.img"]
+		image: "ftblibrary:icons/star"
+		rotation: 0.0d
+		width: 1.0d
+		x: 0.0d
+		y: 2.5d
+	}]
+	order_index: 0
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{mp.quest.welcome.welcome.desc.1}"
+				""
+				"{mp.quest.welcome.welcome.desc.2}"
+				""
+				"{mp.quest.welcome.welcome.desc.3}"
+			]
+			icon: "minecraft:campfire"
+			id: "5765A49D82E16101"
+			shape: "diamond"
+			size: 3.0d
+			tasks: [{
+				id: "671D1CE09D45B6E6"
+				title: "{mp.quest.welcome.welcome}"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: ["{mp.quest.welcome.quests.desc}"]
+			icon: "ftbquests:book"
+			id: "3F51D17664803AFB"
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "0C87F5489C28D506"
+				title: "{mp.quest.welcome.quests}"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			description: ["{mp.quest.welcome.team.desc}"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbteams:textures/teams.png"
+				}
+			}
+			id: "76179D24F0FA577D"
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "5EE0B186B83C3D0A"
+				title: "{mp.quest.welcome.team}"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+	]
+	title: "{mp.chapters.1.title}"
+}

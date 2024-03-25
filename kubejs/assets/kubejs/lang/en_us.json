@@ -1,0 +1,49 @@
+{
+
+    "mp.modpack.title": "Cozy Workshop",
+    "mp.chapters.group.1": "Main",
+    "mp.chapters.1.title": "Welcome",
+    "mp.chapters.2.title": "Resources",
+    
+    "mp.chapters.group.2": "Farming",
+    "mp.chapters.3.title": "Plants",
+    "mp.chapters.4.title": "Kitchen",
+    "mp.chapters.5.title": "Meals",
+    
+    "mp.chapters.group.3": "Technology",
+    "mp.chapters.6.title": "Automation",
+    "mp.chapters.7.title": "Bees",
+    "mp.chapters.8.title": "Storage",
+
+    "mp.chapters.group.4": "Exploration",
+    "mp.chapters.9.title": "Exploration",
+    "mp.chapters.10.title": "Fishing",
+    "mp.chapters.11.title": "Zoology",
+
+
+
+    "mp.quest.welcome.welcome": "&dWelcome to Cozy Workshop!",
+    "mp.quest.welcome.quests": "Quests",
+    "mp.quest.welcome.team": "Creating a team",
+
+    "mp.quest.welcome.welcome.desc.1": "Cozy Workshop is a cozy experience to play the game in your own way and in your own speed!",
+    "mp.quest.welcome.welcome.desc.2": "If you have any questions or issues, feel free to join the discord!",
+    "mp.quest.welcome.welcome.desc.3": "&aThank you for playing!",
+    
+    "mp.quest.welcome.quests.desc": "Quests are optional in this modpack. They will guide you through different mods but they won't unlock any gated content. Some quests give rewards.",
+    "mp.quest.welcome.team.desc": "Players in a team share their quest progress with their team members. If you want to create a team use the command &b/ftbteams party create (name of team)&r to create the team.",
+
+    "mp.quest.welcome.discord.img": "Join the Discord!",
+
+
+    "mp.quest.chapter1.welcome": "Welcome to the getting started chapter!",
+
+    "mp.quest.chapter1.welcome.desc": "This questline serves as a guide through the progression of Minecraft, whether you are brand new to Minecraft or you have previously played it. \\n \\n Like in every other modpack, wood is a necessary starting item!",
+
+    "mp.quest.chapter1.welcome.req1": "Gather wood",
+
+
+
+    "mp.item.tropical_fish_huh.display": "Huh?",
+    "mp.item.tropical_fish_huh.lore": "Found in your pocket"
+}

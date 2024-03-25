@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "bees"
+	group: "0D958BFFBE88F1A4"
+	icon: "productivebees:advanced_oak_beehive"
+	id: "13912873A199FCA8"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "{mp.chapters.7.title}"
+}

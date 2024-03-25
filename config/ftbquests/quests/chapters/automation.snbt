@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "automation"
+	group: "0D958BFFBE88F1A4"
+	icon: "create:wrench"
+	id: "5112D40166FE9A47"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+	title: "{mp.chapters.6.title}"
+}

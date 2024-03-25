@@ -1,0 +1,33 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "resources"
+	group: "6E30B58C103A8CEE"
+	icon: "minecraft:crafting_table"
+	id: "6E42DB777C49B230"
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		description: ["{mp.quest.chapter1.welcome.desc}"]
+		id: "48B8992B6A14929A"
+		shape: "hexagon"
+		size: 2.0d
+		tasks: [{
+			icon: "minecraft:oak_log"
+			id: "536FC6882FCFD70C"
+			item: {
+				Count: 1b
+				id: "itemfilters:tag"
+				tag: {
+					value: "minecraft:logs"
+				}
+			}
+			title: "{mp.quest.chapter1.welcome.req1}"
+			type: "item"
+		}]
+		title: "{mp.quest.chapter1.welcome}"
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Resources"
+}

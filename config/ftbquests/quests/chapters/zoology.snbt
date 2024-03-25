@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "zoology"
+	group: "7EBEFCF7B4BEED55"
+	icon: "alexsmobs:animal_dictionary"
+	id: "62CFDFD9DEB70C58"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+	title: "{mp.chapters.11.title}"
+}
