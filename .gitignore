@@ -71,13 +71,9 @@ config/jade/sort-order.json
 .vscode/probe.code-snippets
 /unzipped_mods/
 /screenshots/
-/curseforge/config
-/curseforge/defaultconfigs
-/curseforge/fancymenu_data
-/curseforge/kubejs
-/curseforge/modpack-update-checker
 kubejs/server_scripts/base/featrues/removeCraftingTable.js
 config/bcc-common.toml
+/modernfix/
 
 kubejs/translation_tools/missing_translations/*.missing.json
 kubejs/allEnglishTranslationKeys.json
