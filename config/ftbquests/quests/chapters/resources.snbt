@@ -203,6 +203,7 @@
 		}
 		{
 			dependencies: ["5ADC181453C8F1BE"]
+			description: ["{mp.quest.chapter1.wooden_pickaxe.desc}"]
 			id: "25446C2FC2DB9C78"
 			shape: "rsquare"
 			tasks: [{
@@ -216,11 +217,13 @@
 				}
 				type: "item"
 			}]
+			title: "{mp.quest.chapter1.wooden_pickaxe}"
 			x: 6.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["25446C2FC2DB9C78"]
+			description: ["{mp.quest.chapter1.stone_pickaxe.desc}"]
 			id: "4E215D2FF42F197E"
 			shape: "rsquare"
 			tasks: [{
@@ -234,11 +237,13 @@
 				}
 				type: "item"
 			}]
+			title: "{mp.quest.chapter1.stone_pickaxe}"
 			x: 8.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["25446C2FC2DB9C78"]
+			description: ["{mp.quest.chapter1.furnace.desc}"]
 			id: "093FD58E643F4E37"
 			shape: "diamond"
 			tasks: [{
@@ -246,11 +251,13 @@
 				item: "minecraft:furnace"
 				type: "item"
 			}]
+			title: "{mp.quest.chapter1.furnace}"
 			x: 6.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["25446C2FC2DB9C78"]
+			description: ["{mp.quest.chapter1.smoker.desc}"]
 			id: "320B445F66E29144"
 			shape: "diamond"
 			tasks: [{
@@ -258,11 +265,13 @@
 				item: "minecraft:smoker"
 				type: "item"
 			}]
+			title: "{mp.quest.chapter1.smoker}"
 			x: 6.5d
 			y: -2.5d
 		}
 		{
 			dependencies: ["25446C2FC2DB9C78"]
+			description: ["{mp.quest.chapter1.blast_furnace.desc}"]
 			id: "4DDBAEC017A8AA22"
 			shape: "diamond"
 			tasks: [{
@@ -270,33 +279,47 @@
 				item: "minecraft:blast_furnace"
 				type: "item"
 			}]
+			title: "{mp.quest.chapter1.blast_furnace}"
 			x: 5.5d
 			y: -2.5d
 		}
 		{
 			dependencies: ["4E215D2FF42F197E"]
+			description: ["{mp.quest.chapter1.coal.desc}"]
+			icon: "minecraft:coal"
 			id: "2147BEFC02A99C66"
 			tasks: [{
 				id: "2ED5FD07978B39D1"
-				item: "minecraft:coal"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:coals"
+					}
+				}
+				title: "Any #minecraft:coals"
 				type: "item"
 			}]
+			title: "{mp.quest.chapter1.coal}"
 			x: 8.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["4E215D2FF42F197E"]
+			description: ["{mp.quest.chapter1.iron_ingot.desc}"]
 			id: "0EC6020EDECB0A2F"
 			tasks: [{
 				id: "7DDAEA8840086446"
 				item: "minecraft:iron_ingot"
 				type: "item"
 			}]
+			title: "{mp.quest.chapter1.iron_ingot}"
 			x: 10.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["0EC6020EDECB0A2F"]
+			description: ["{mp.quest.chapter1.iron_pickaxe.desc}"]
 			id: "38D8F9B5C9D49B3B"
 			shape: "rsquare"
 			tasks: [{
@@ -310,39 +333,46 @@
 				}
 				type: "item"
 			}]
+			title: "{mp.quest.chapter1.iron_pickaxe}"
 			x: 12.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["4E215D2FF42F197E"]
+			description: ["{mp.quest.chapter1.copper_ingot.desc}"]
 			id: "01A77B328530019C"
 			tasks: [{
 				id: "7DB4FA6CD1857274"
 				item: "minecraft:copper_ingot"
 				type: "item"
 			}]
+			title: "{mp.quest.chapter1.copper_ingot}"
 			x: 9.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["38D8F9B5C9D49B3B"]
+			description: ["{mp.quest.chapter1.gold_ingot.desc}"]
 			id: "61EFD93C1E211336"
 			tasks: [{
 				id: "0FB583C4BB0DF97C"
 				item: "minecraft:gold_ingot"
 				type: "item"
 			}]
+			title: "{mp.quest.chapter1.gold_ingot}"
 			x: 12.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["38D8F9B5C9D49B3B"]
+			description: ["{mp.quest.chapter1.redstone.desc}"]
 			id: "4CA3E26471990882"
 			tasks: [{
 				id: "6638FB43381E0D48"
 				item: "minecraft:redstone"
 				type: "item"
 			}]
+			title: "{mp.quest.chapter1.redstone}"
 			x: 13.0d
 			y: 2.0d
 		}
@@ -377,12 +407,14 @@
 		}
 		{
 			dependencies: ["38D8F9B5C9D49B3B"]
+			description: ["{mp.quest.chapter1.zinc_ingot.desc}"]
 			id: "6D7C3A5E56B5D134"
 			tasks: [{
 				id: "288B3CAF579B33E9"
 				item: "create:zinc_ingot"
 				type: "item"
 			}]
+			title: "{mp.quest.chapter1.zinc_ingot}"
 			x: 14.0d
 			y: 2.0d
 		}

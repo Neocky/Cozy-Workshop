@@ -29,7 +29,6 @@
     "mp.quest.welcome.welcome.desc.1": "Cozy Workshop is a cozy experience to play the game in your own way and in your own speed!",
     "mp.quest.welcome.welcome.desc.2": "If you have any questions or issues, feel free to join the discord!",
     "mp.quest.welcome.welcome.desc.3": "&aThank you for playing!",
-    
     "mp.quest.welcome.quests.desc": "Quests are optional in this modpack. They will guide you through different mods but they won't unlock any gated content. Some quests give rewards.",
     "mp.quest.welcome.team.desc": "Players in a team share their quest progress with their team members. If you want to create a team use the command &b/ftbteams party create (name of team)&r to create the team.",
 
@@ -38,9 +37,35 @@
 
     "mp.quest.chapter1.welcome": "Welcome to the getting started chapter!",
     "mp.quest.chapter1.crafting": "Age of crafting",
+    "mp.quest.chapter1.wooden_pickaxe": "Let's go mining!",
+    "mp.quest.chapter1.furnace": "Power of Heat",
+    "mp.quest.chapter1.blast_furnace": "Ore Smelting",
+    "mp.quest.chapter1.smoker": "Smoking Meat",
+    "mp.quest.chapter1.stone_pickaxe": "Caveman Tools",
+    "mp.quest.chapter1.coal": "Furnace Fuel",
+    "mp.quest.chapter1.iron_ingot": "Iron Age",
+    "mp.quest.chapter1.iron_pickaxe": "Metal Tools",
+    "mp.quest.chapter1.copper_ingot": "Copper Ingots",
+    "mp.quest.chapter1.gold_ingot": "Shiny Metal",
+    "mp.quest.chapter1.redstone": "01010010",
+    "mp.quest.chapter1.zinc_ingot": "New Ore on the Block",
+    
 
     "mp.quest.chapter1.welcome.desc": "This questline serves as a guide through the progression of Minecraft, whether you are brand new to Minecraft or you have previously played it. \\n \\n Like in every other modpack, wood is a necessary starting item!",
-    "mp.quest.chapter1.crafting.desc": "Let's upgrade our crafting grid to a 3x3 grid with a crafting table. This way we can create more complex items.",
+    "mp.quest.chapter1.crafting.desc": "Let's upgrade our crafting grid! Craft a Crafting Table to unlock a 3x3 crafting grid. This way we can create more complex items.",
+    "mp.quest.chapter1.wooden_pickaxe.desc": "Pickaxes can break most stone and metal blocks. They will allow you to gather more advanced resources for later use. \\n \\n Start by crafting a &2Wooden Pickaxe&r and gather some &3Cobblestone&r with it!",
+    "mp.quest.chapter1.furnace.desc": "A furnace can be used to smelt ores and cook food.",
+    "mp.quest.chapter1.blast_furnace.desc": "A Blast Furnace can smelt down ores into ingots much faster than a furnace.",
+    "mp.quest.chapter1.smoker.desc": "A smoker can process food much faster than a furnace.",
+    "mp.quest.chapter1.stone_pickaxe.desc": "Stone can be easily broken with our new Wooden Pickaxe. \\n \\n We should upgrade our pickaxe to a &3Stone Pickaxe&r to break better ores like &bIron&r.",
+    "mp.quest.chapter1.coal.desc": "Coal is used as fuel in a furnace. To prevent mining coal, you can smelt down &2Wooden Logs&r into Charcoal. This is a renewable fuel source.",
+    "mp.quest.chapter1.iron_ingot.desc": "Iron Ingots are used in advanced tools and machines. \\n \\n Obtain some to get started!",
+    "mp.quest.chapter1.iron_pickaxe.desc": "Let's keep progressing. \\n \\n Iron Pickaxes can mine rarer ores, like diamond!",
+    "mp.quest.chapter1.copper_ingot.desc": "Copper Ingots are used in advanced machinery and blocks. \\n \\n Obtain some to get started!",
+    "mp.quest.chapter1.gold_ingot.desc": "Gold Ingots are used in advanced machinery and blocks. \\n \\n Obtain some to get started!",
+    "mp.quest.chapter1.redstone.desc": "Redstone can be used to create circuits and advanced machinery. \\n \\n Obtain some to get started!",
+    "mp.quest.chapter1.zinc_ingot.desc": "This new ore is mainly used for advanced machines from the mod &9Create&r. \\n \\n Obtain some to get started!",
+
 
     "mp.quest.chapter1.welcome.req1": "Gather wood",
 
