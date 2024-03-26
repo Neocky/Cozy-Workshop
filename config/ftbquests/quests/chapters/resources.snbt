@@ -5,29 +5,688 @@
 	group: "6E30B58C103A8CEE"
 	icon: "minecraft:crafting_table"
 	id: "6E42DB777C49B230"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "minecraft:block/furnace_front_on"
+			rotation: 0.0d
+			width: 1.5d
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.4d
+			hover: ["block.minecraft.soul_sand"]
+			image: "minecraft:block/soul_sand"
+			rotation: 0.0d
+			width: 0.4d
+			x: 19.0d
+			y: 6.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.4d
+			hover: ["block.minecraft.soul_sand"]
+			image: "minecraft:block/soul_sand"
+			rotation: 0.0d
+			width: 0.4d
+			x: 19.0d
+			y: 6.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.4d
+			hover: ["block.minecraft.soul_sand"]
+			image: "minecraft:block/soul_sand"
+			rotation: 0.0d
+			width: 0.4d
+			x: 19.5d
+			y: 6.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.4d
+			hover: ["block.minecraft.soul_sand"]
+			image: "minecraft:block/soul_sand"
+			rotation: 0.0d
+			width: 0.4d
+			x: 18.5d
+			y: 6.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.4d
+			hover: ["block.minecraft.wither_skeleton_skull"]
+			image: "ftbchunks:textures/faces/minecraft/wither_skeleton.png"
+			rotation: 0.0d
+			width: 0.4d
+			x: 18.5d
+			y: 5.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.4d
+			hover: ["block.minecraft.wither_skeleton_skull"]
+			image: "ftbchunks:textures/faces/minecraft/wither_skeleton.png"
+			rotation: 0.0d
+			width: 0.4d
+			x: 19.0d
+			y: 5.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.4d
+			hover: ["block.minecraft.wither_skeleton_skull"]
+			image: "ftbchunks:textures/faces/minecraft/wither_skeleton.png"
+			rotation: 0.0d
+			width: 0.4d
+			x: 19.5d
+			y: 5.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.5d
+			hover: ["item.minecraft.wooden_axe"]
+			image: "minecraft:item/wooden_axe"
+			rotation: 0.0d
+			width: 0.5d
+			x: 3.8d
+			y: -1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.5d
+			hover: ["item.minecraft.wooden_sword"]
+			image: "minecraft:item/wooden_sword"
+			rotation: 0.0d
+			width: 0.5d
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.5d
+			hover: ["item.minecraft.wooden_shovel"]
+			image: "minecraft:item/wooden_shovel"
+			rotation: 0.0d
+			width: 0.5d
+			x: 4.3d
+			y: -1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.5d
+			hover: ["item.minecraft.wooden_hoe"]
+			image: "minecraft:item/wooden_hoe"
+			rotation: 0.0d
+			width: 0.5d
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:block/sculk_sensor_tendril_inactive"
+			rotation: 0.0d
+			width: 1.0d
+			x: 18.154761904761934d
+			y: -2.695068027210887d
+		}
+	]
 	order_index: 1
 	quest_links: [ ]
-	quests: [{
-		description: ["{mp.quest.chapter1.welcome.desc}"]
-		id: "48B8992B6A14929A"
-		shape: "hexagon"
-		size: 2.0d
-		tasks: [{
-			icon: "minecraft:oak_log"
-			id: "536FC6882FCFD70C"
-			item: {
+	quests: [
+		{
+			description: ["{mp.quest.chapter1.welcome.desc}"]
+			id: "48B8992B6A14929A"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				icon: "minecraft:oak_log"
+				id: "536FC6882FCFD70C"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				title: "{mp.quest.chapter1.welcome.req1}"
+				type: "item"
+			}]
+			title: "{mp.quest.chapter1.welcome}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["48B8992B6A14929A"]
+			description: ["{mp.quest.chapter1.crafting.desc}"]
+			id: "5ADC181453C8F1BE"
+			tasks: [{
+				id: "3A1892E435E39E8D"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			title: "{mp.quest.chapter1.crafting}"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5ADC181453C8F1BE"]
+			id: "25446C2FC2DB9C78"
+			shape: "rsquare"
+			tasks: [{
+				id: "7C13C26E4FADD179"
+				item: {
+					Count: 1b
+					id: "minecraft:wooden_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["25446C2FC2DB9C78"]
+			id: "4E215D2FF42F197E"
+			shape: "rsquare"
+			tasks: [{
+				id: "38DAC2B80975E81B"
+				item: {
+					Count: 1b
+					id: "minecraft:stone_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["25446C2FC2DB9C78"]
+			id: "093FD58E643F4E37"
+			shape: "diamond"
+			tasks: [{
+				id: "0D37F42BE0F25EAF"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["25446C2FC2DB9C78"]
+			id: "320B445F66E29144"
+			shape: "diamond"
+			tasks: [{
+				id: "0EC89A15E4636E80"
+				item: "minecraft:smoker"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["25446C2FC2DB9C78"]
+			id: "4DDBAEC017A8AA22"
+			shape: "diamond"
+			tasks: [{
+				id: "3EA5C7FA5C084F2C"
+				item: "minecraft:blast_furnace"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4E215D2FF42F197E"]
+			id: "2147BEFC02A99C66"
+			tasks: [{
+				id: "2ED5FD07978B39D1"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4E215D2FF42F197E"]
+			id: "0EC6020EDECB0A2F"
+			tasks: [{
+				id: "7DDAEA8840086446"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0EC6020EDECB0A2F"]
+			id: "38D8F9B5C9D49B3B"
+			shape: "rsquare"
+			tasks: [{
+				id: "0406F901E83308C9"
+				item: {
+					Count: 1b
+					id: "minecraft:iron_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4E215D2FF42F197E"]
+			id: "01A77B328530019C"
+			tasks: [{
+				id: "7DB4FA6CD1857274"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["38D8F9B5C9D49B3B"]
+			id: "61EFD93C1E211336"
+			tasks: [{
+				id: "0FB583C4BB0DF97C"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["38D8F9B5C9D49B3B"]
+			id: "4CA3E26471990882"
+			tasks: [{
+				id: "6638FB43381E0D48"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["38D8F9B5C9D49B3B"]
+			id: "34C6545C163EEB12"
+			tasks: [{
+				id: "01AEC670010EFB57"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["34C6545C163EEB12"]
+			id: "52280B450F9E22E9"
+			shape: "rsquare"
+			tasks: [{
+				id: "6979B388F4B2D87C"
+				item: {
+					Count: 1b
+					id: "minecraft:diamond_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["38D8F9B5C9D49B3B"]
+			id: "6D7C3A5E56B5D134"
+			tasks: [{
+				id: "288B3CAF579B33E9"
+				item: "create:zinc_ingot"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["52280B450F9E22E9"]
+			icon: {
 				Count: 1b
-				id: "itemfilters:tag"
+				id: "ftbquests:custom_icon"
 				tag: {
-					value: "minecraft:logs"
+					Icon: "minecraft:block/nether_portal"
 				}
 			}
-			title: "{mp.quest.chapter1.welcome.req1}"
-			type: "item"
-		}]
-		title: "{mp.quest.chapter1.welcome}"
-		x: 0.0d
-		y: 0.0d
-	}]
+			icon_scale: 0.8d
+			id: "7172E1DBC0357154"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					count: 10L
+					id: "4BCAB39958130493"
+					item: "minecraft:obsidian"
+					type: "item"
+				}
+				{
+					advancement: "minecraft:nether/root"
+					criterion: ""
+					icon: {
+						Count: 1b
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "minecraft:block/nether_portal"
+						}
+					}
+					id: "0008B8F541E29FC2"
+					type: "advancement"
+				}
+			]
+			x: 18.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7172E1DBC0357154"]
+			id: "5B716CB3804336D7"
+			tasks: [{
+				id: "4395C0B09EDC3C4D"
+				item: "minecraft:ancient_debris"
+				type: "item"
+			}]
+			x: 20.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7172E1DBC0357154"]
+			icon: "minecraft:wither_skeleton_skull"
+			id: "41AEC362444FC8F1"
+			tasks: [
+				{
+					count: 3L
+					id: "55E4434BA2F6F326"
+					item: "minecraft:wither_skeleton_skull"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "5B3571F1DC777367"
+					item: "minecraft:soul_sand"
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4270B5996C2F58E6"]
+			id: "39DB2DDFDB0F8D9F"
+			tasks: [{
+				id: "715ADCBEB7803056"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			x: 22.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["41AEC362444FC8F1"]
+			id: "4270B5996C2F58E6"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:wither"
+				id: "7B5FCD62E44DA700"
+				type: "kill"
+				value: 1L
+			}]
+			x: 20.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7172E1DBC0357154"]
+			icon: "minecraft:netherite_upgrade_smithing_template"
+			id: "7464140048DB143C"
+			tasks: [{
+				id: "6C83E0D998D743F6"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:trim_templates"
+					}
+				}
+				type: "item"
+			}]
+			x: 20.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"7464140048DB143C"
+				"5B716CB3804336D7"
+			]
+			id: "64394D7B4EA5E12D"
+			shape: "rsquare"
+			tasks: [{
+				id: "5C28BECCFDC126EC"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "minecraft:netherite_sword"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:netherite_pickaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:netherite_shovel"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:netherite_axe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:netherite_helmet"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:netherite_chestplate"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:netherite_leggings"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:netherite_boots"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 22.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"7172E1DBC0357154"
+				"52280B450F9E22E9"
+			]
+			icon: "minecraft:end_portal_frame"
+			id: "0154A3B1B993C945"
+			tasks: [
+				{
+					count: 10L
+					id: "349233CF5C7069AF"
+					item: "minecraft:ender_eye"
+					type: "item"
+				}
+				{
+					advancement: "minecraft:story/follow_ender_eye"
+					criterion: ""
+					icon: "minecraft:end_portal_frame"
+					id: "6C246BF27FC6F18E"
+					type: "advancement"
+				}
+			]
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0154A3B1B993C945"]
+			icon: "minecraft:dragon_head"
+			id: "31881A1D5E044D9E"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "5B09513F287D54B5"
+				type: "kill"
+				value: 1L
+			}]
+			x: 20.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["31881A1D5E044D9E"]
+			id: "6380D68EE3C8AB17"
+			tasks: [{
+				id: "74B15356013C4719"
+				item: "minecraft:dragon_egg"
+				type: "item"
+			}]
+			x: 22.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["52280B450F9E22E9"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:block/sculk_shrieker_can_summon_inner_top"
+				}
+			}
+			id: "67DAE53600E944A1"
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				biome: "minecraft:deep_dark"
+				id: "7B1A1A135DAEEE32"
+				type: "biome"
+			}]
+			x: 18.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["67DAE53600E944A1"]
+			id: "0294374797A7F8E3"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:warden"
+				icon: {
+					Count: 1b
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ftbchunks:textures/faces/minecraft/warden.png"
+					}
+				}
+				id: "7E456961F11DE44C"
+				type: "kill"
+				value: 1L
+			}]
+			x: 20.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5ADC181453C8F1BE"]
+			icon: "minecraft:red_bed"
+			id: "0029DB0378FDC9A9"
+			tasks: [{
+				id: "7F86BBBC3A82234D"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:beds"
+					}
+				}
+				title: "Any #minecraft:beds"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+	]
 	title: "Resources"
 }

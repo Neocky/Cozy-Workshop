@@ -37,8 +37,10 @@
 
 
     "mp.quest.chapter1.welcome": "Welcome to the getting started chapter!",
+    "mp.quest.chapter1.crafting": "Age of crafting",
 
     "mp.quest.chapter1.welcome.desc": "This questline serves as a guide through the progression of Minecraft, whether you are brand new to Minecraft or you have previously played it. \\n \\n Like in every other modpack, wood is a necessary starting item!",
+    "mp.quest.chapter1.crafting.desc": "Let's upgrade our crafting grid to a 3x3 grid with a crafting table. This way we can create more complex items.",
 
     "mp.quest.chapter1.welcome.req1": "Gather wood",
 
