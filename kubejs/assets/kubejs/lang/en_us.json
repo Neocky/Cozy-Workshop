@@ -49,6 +49,15 @@
     "mp.quest.chapter1.gold_ingot": "Shiny Metal",
     "mp.quest.chapter1.redstone": "01010010",
     "mp.quest.chapter1.zinc_ingot": "New Ore on the Block",
+    "mp.quest.chapter1.diamond": "Ohhh Shiny!",
+    "mp.quest.chapter1.diamond_pickaxe": "Break it all",
+    "mp.quest.chapter1.nether": "Let's go to Hell",
+    "mp.quest.chapter1.ancient_debris": "This looks old",
+    "mp.quest.chapter1.netherite_upgrade_smithing_template": "Let's get an upgrade",
+    "mp.quest.chapter1.netherite_tool": "The Final Tier",
+    "mp.quest.chapter1.wither_skeleton_skull": "Build a Boss",
+    "mp.quest.chapter1.wither": "Kill the Wither!",
+    "mp.quest.chapter1.nether_star": "Truly a Star",
     
 
     "mp.quest.chapter1.welcome.desc": "This questline serves as a guide through the progression of Minecraft, whether you are brand new to Minecraft or you have previously played it. \\n \\n Like in every other modpack, wood is a necessary starting item!",
@@ -65,7 +74,15 @@
     "mp.quest.chapter1.gold_ingot.desc": "Gold Ingots are used in advanced machinery and blocks. \\n \\n Obtain some to get started!",
     "mp.quest.chapter1.redstone.desc": "Redstone can be used to create circuits and advanced machinery. \\n \\n Obtain some to get started!",
     "mp.quest.chapter1.zinc_ingot.desc": "This new ore is mainly used for advanced machines from the mod &9Create&r. \\n \\n Obtain some to get started!",
-
+    "mp.quest.chapter1.diamond.desc": "Diamond can be found deep below the surface. It is one of the hardest materials out there.",
+    "mp.quest.chapter1.diamond_pickaxe.desc": "A &2Diamond Pickaxe&r can break every stone in the world. \\n \\n Craft a Diamond Pickaxe for an upgrade.",
+    "mp.quest.chapter1.nether.desc": "The Nether is a hot and dangerous place where you can find some advanced materials needed to progress further. \\n \\n Gather Obsidian with your Diamond Pickaxe and visit the new Dimension.",
+    "mp.quest.chapter1.ancient_debris.desc": "To be able to craft the last tier of tools you will need to find Ancient Debris. Then you can smelt that into Netherite Ingots which are needed for upgrading your tools. \\n \\n Gather Ancient Debris!",
+    "mp.quest.chapter1.netherite_upgrade_smithing_template.desc": "Upgrade Smithing Templates are needed to upgrade your diamond tools to netherite nools. They can be found in Bastions in the Nether. \\n \\n Templates get consumed when used for an upgrade. Make sure to duplicate them before you start upgrading your tools!",
+    "mp.quest.chapter1.netherite_tool.desc": "Netherite Tools and Armor are the toughest in existence. They can be forged in a Smithing Table with a Diamond Tool, a Netherite Ingot and an Upgrade Template. \\n \\n Upgrade one of your diamond tools to a netherite tool.",
+    "mp.quest.chapter1.wither_skeleton_skull.desc": "To fight the boss of the Nether you will need to build him yourself. The boss drops the &3Nether Star&r which can be used to create beacons.\\n \\n Gather the needed ressources to build the Wither.",
+    "mp.quest.chapter1.wither.desc": "The Wither is one of the thougher bosses to kill. He can fly and shoot exploding heads. Make sure you build him outside your base. \\n \\n Build the Wither with 4x Soulsand in a T position and 3x Wither Skeleton Skulls on top of the soulsand blocks.",
+    "mp.quest.chapter1.nether_star.desc": "Obtain the Nether Star by defeating the Wither. It can be used to create beacons.",
 
     "mp.quest.chapter1.welcome.req1": "Gather wood",
 

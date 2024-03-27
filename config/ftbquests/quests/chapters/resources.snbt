@@ -378,17 +378,20 @@
 		}
 		{
 			dependencies: ["38D8F9B5C9D49B3B"]
+			description: ["{mp.quest.chapter1.diamond.desc}"]
 			id: "34C6545C163EEB12"
 			tasks: [{
 				id: "01AEC670010EFB57"
 				item: "minecraft:diamond"
 				type: "item"
 			}]
+			title: "{mp.quest.chapter1.diamond}"
 			x: 14.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["34C6545C163EEB12"]
+			description: ["{mp.quest.chapter1.diamond_pickaxe.desc}"]
 			id: "52280B450F9E22E9"
 			shape: "rsquare"
 			tasks: [{
@@ -402,6 +405,7 @@
 				}
 				type: "item"
 			}]
+			title: "{mp.quest.chapter1.diamond_pickaxe}"
 			x: 16.0d
 			y: 0.0d
 		}
@@ -420,6 +424,7 @@
 		}
 		{
 			dependencies: ["52280B450F9E22E9"]
+			description: ["{mp.quest.chapter1.nether.desc}"]
 			icon: {
 				Count: 1b
 				id: "ftbquests:custom_icon"
@@ -452,22 +457,26 @@
 					type: "advancement"
 				}
 			]
+			title: "{mp.quest.chapter1.nether}"
 			x: 18.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["7172E1DBC0357154"]
+			description: ["{mp.quest.chapter1.ancient_debris.desc}"]
 			id: "5B716CB3804336D7"
 			tasks: [{
 				id: "4395C0B09EDC3C4D"
 				item: "minecraft:ancient_debris"
 				type: "item"
 			}]
+			title: "{mp.quest.chapter1.ancient_debris}"
 			x: 20.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["7172E1DBC0357154"]
+			description: ["{mp.quest.chapter1.wither_skeleton_skull.desc}"]
 			icon: "minecraft:wither_skeleton_skull"
 			id: "41AEC362444FC8F1"
 			tasks: [
@@ -484,22 +493,26 @@
 					type: "item"
 				}
 			]
+			title: "{mp.quest.chapter1.wither_skeleton_skull}"
 			x: 18.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["4270B5996C2F58E6"]
+			description: ["{mp.quest.chapter1.nether_star.desc}"]
 			id: "39DB2DDFDB0F8D9F"
 			tasks: [{
 				id: "715ADCBEB7803056"
 				item: "minecraft:nether_star"
 				type: "item"
 			}]
+			title: "{mp.quest.chapter1.nether_star}"
 			x: 22.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["41AEC362444FC8F1"]
+			description: ["{mp.quest.chapter1.wither.desc}"]
 			id: "4270B5996C2F58E6"
 			shape: "gear"
 			size: 1.5d
@@ -509,24 +522,21 @@
 				type: "kill"
 				value: 1L
 			}]
+			title: "{mp.quest.chapter1.wither}"
 			x: 20.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["7172E1DBC0357154"]
+			description: ["{mp.quest.chapter1.netherite_upgrade_smithing_template.desc}"]
 			icon: "minecraft:netherite_upgrade_smithing_template"
 			id: "7464140048DB143C"
 			tasks: [{
-				id: "6C83E0D998D743F6"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "minecraft:trim_templates"
-					}
-				}
+				id: "7C62D43511600ABE"
+				item: "minecraft:netherite_upgrade_smithing_template"
 				type: "item"
 			}]
+			title: "{mp.quest.chapter1.netherite_upgrade_smithing_template}"
 			x: 20.0d
 			y: 2.5d
 		}
@@ -535,6 +545,7 @@
 				"7464140048DB143C"
 				"5B716CB3804336D7"
 			]
+			description: ["{mp.quest.chapter1.netherite_tool.desc}"]
 			id: "64394D7B4EA5E12D"
 			shape: "rsquare"
 			tasks: [{
@@ -605,6 +616,7 @@
 				}
 				type: "item"
 			}]
+			title: "{mp.quest.chapter1.netherite_tool}"
 			x: 22.0d
 			y: 2.0d
 		}
