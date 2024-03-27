@@ -297,7 +297,7 @@
 						value: "minecraft:coals"
 					}
 				}
-				title: "Any #minecraft:coals"
+				title: "{mp.quest.chapter1.coal.req1}"
 				type: "item"
 			}]
 			title: "{mp.quest.chapter1.coal}"
@@ -625,6 +625,7 @@
 				"7172E1DBC0357154"
 				"52280B450F9E22E9"
 			]
+			description: ["{mp.quest.chapter1.end_portal.desc}"]
 			icon: "minecraft:end_portal_frame"
 			id: "0154A3B1B993C945"
 			tasks: [
@@ -642,11 +643,13 @@
 					type: "advancement"
 				}
 			]
+			title: "{mp.quest.chapter1.end_portal}"
 			x: 18.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["0154A3B1B993C945"]
+			description: ["{mp.quest.chapter1.ender_dragon.desc}"]
 			icon: "minecraft:dragon_head"
 			id: "31881A1D5E044D9E"
 			shape: "gear"
@@ -657,22 +660,26 @@
 				type: "kill"
 				value: 1L
 			}]
+			title: "{mp.quest.chapter1.ender_dragon}"
 			x: 20.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["31881A1D5E044D9E"]
+			description: ["{mp.quest.chapter1.ender_dragon_egg.desc}"]
 			id: "6380D68EE3C8AB17"
 			tasks: [{
 				id: "74B15356013C4719"
 				item: "minecraft:dragon_egg"
 				type: "item"
 			}]
+			title: "{mp.quest.chapter1.ender_dragon_egg}"
 			x: 22.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["52280B450F9E22E9"]
+			description: ["{mp.quest.chapter1.deep_dark.desc}"]
 			icon: {
 				Count: 1b
 				id: "ftbquests:custom_icon"
@@ -688,11 +695,13 @@
 				id: "7B1A1A135DAEEE32"
 				type: "biome"
 			}]
+			title: "{mp.quest.chapter1.deep_dark}"
 			x: 18.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["67DAE53600E944A1"]
+			description: ["{mp.quest.chapter1.warden.desc}"]
 			id: "0294374797A7F8E3"
 			shape: "gear"
 			size: 1.5d
@@ -709,11 +718,13 @@
 				type: "kill"
 				value: 1L
 			}]
+			title: "{mp.quest.chapter1.warden}"
 			x: 20.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["5ADC181453C8F1BE"]
+			description: ["{mp.quest.chapter1.bed.desc}"]
 			icon: "minecraft:red_bed"
 			id: "0029DB0378FDC9A9"
 			tasks: [{
@@ -725,9 +736,10 @@
 						value: "minecraft:beds"
 					}
 				}
-				title: "Any #minecraft:beds"
+				title: "{mp.quest.chapter1.bed.req1}"
 				type: "item"
 			}]
+			title: "{mp.quest.chapter1.bed}"
 			x: 6.0d
 			y: 2.0d
 		}

@@ -4,12 +4,12 @@
     "mp.chapters.group.1": "Main",
     "mp.chapters.1.title": "Welcome",
     "mp.chapters.2.title": "Resources",
-    
+
     "mp.chapters.group.2": "Farming",
     "mp.chapters.3.title": "Plants",
     "mp.chapters.4.title": "Kitchen",
     "mp.chapters.5.title": "Meals",
-    
+
     "mp.chapters.group.3": "Technology",
     "mp.chapters.6.title": "Automation",
     "mp.chapters.7.title": "Bees",
@@ -37,6 +37,7 @@
 
     "mp.quest.chapter1.welcome": "Welcome to the getting started chapter!",
     "mp.quest.chapter1.crafting": "Age of crafting",
+    "mp.quest.chapter1.bed": "Good Night!",
     "mp.quest.chapter1.wooden_pickaxe": "Let's go mining!",
     "mp.quest.chapter1.furnace": "Power of Heat",
     "mp.quest.chapter1.blast_furnace": "Ore Smelting",
@@ -54,18 +55,24 @@
     "mp.quest.chapter1.nether": "Let's go to Hell",
     "mp.quest.chapter1.ancient_debris": "This looks old",
     "mp.quest.chapter1.netherite_upgrade_smithing_template": "Let's get an upgrade",
-    "mp.quest.chapter1.netherite_tool": "The Final Tier",
+    "mp.quest.chapter1.netherite_tool": "&eThe Final Tier&r",
     "mp.quest.chapter1.wither_skeleton_skull": "Build a Boss",
-    "mp.quest.chapter1.wither": "Kill the Wither!",
-    "mp.quest.chapter1.nether_star": "Truly a Star",
-    
+    "mp.quest.chapter1.wither": "&5Kill the Wither!&r",
+    "mp.quest.chapter1.nether_star": "&eTruly a Star&r",
+    "mp.quest.chapter1.end_portal": "The Journey",
+    "mp.quest.chapter1.ender_dragon": "&5The Boss of Minecraft&r",
+    "mp.quest.chapter1.ender_dragon_egg": "&eNext Generation&r",
+    "mp.quest.chapter1.deep_dark": "Visit the &dDeep Dark&r",
+    "mp.quest.chapter1.warden": "&5Kill the Warden&r",
+
 
     "mp.quest.chapter1.welcome.desc": "This questline serves as a guide through the progression of Minecraft, whether you are brand new to Minecraft or you have previously played it. \\n \\n Like in every other modpack, wood is a necessary starting item!",
     "mp.quest.chapter1.crafting.desc": "Let's upgrade our crafting grid! Craft a Crafting Table to unlock a 3x3 crafting grid. This way we can create more complex items.",
+    "mp.quest.chapter1.bed.desc": "Craft a Bed to sleep through the night and to set your spawn point.",
     "mp.quest.chapter1.wooden_pickaxe.desc": "Pickaxes can break most stone and metal blocks. They will allow you to gather more advanced resources for later use. \\n \\n Start by crafting a &2Wooden Pickaxe&r and gather some &3Cobblestone&r with it!",
-    "mp.quest.chapter1.furnace.desc": "A furnace can be used to smelt ores and cook food.",
+    "mp.quest.chapter1.furnace.desc": "A Furnace can be used to smelt ores and cook food.",
     "mp.quest.chapter1.blast_furnace.desc": "A Blast Furnace can smelt down ores into ingots much faster than a furnace.",
-    "mp.quest.chapter1.smoker.desc": "A smoker can process food much faster than a furnace.",
+    "mp.quest.chapter1.smoker.desc": "A Smoker can process food much faster than a furnace.",
     "mp.quest.chapter1.stone_pickaxe.desc": "Stone can be easily broken with our new Wooden Pickaxe. \\n \\n We should upgrade our pickaxe to a &3Stone Pickaxe&r to break better ores like &bIron&r.",
     "mp.quest.chapter1.coal.desc": "Coal is used as fuel in a furnace. To prevent mining coal, you can smelt down &2Wooden Logs&r into Charcoal. This is a renewable fuel source.",
     "mp.quest.chapter1.iron_ingot.desc": "Iron Ingots are used in advanced tools and machines. \\n \\n Obtain some to get started!",
@@ -83,9 +90,15 @@
     "mp.quest.chapter1.wither_skeleton_skull.desc": "To fight the boss of the Nether you will need to build him yourself. The boss drops the &3Nether Star&r which can be used to create beacons.\\n \\n Gather the needed ressources to build the Wither.",
     "mp.quest.chapter1.wither.desc": "The Wither is one of the thougher bosses to kill. He can fly and shoot exploding heads. Make sure you build him outside your base. \\n \\n Build the Wither with 4x Soulsand in a T position and 3x Wither Skeleton Skulls on top of the soulsand blocks.",
     "mp.quest.chapter1.nether_star.desc": "Obtain the Nether Star by defeating the Wither. It can be used to create beacons.",
+    "mp.quest.chapter1.end_portal.desc": "To reach the End you will need to find a stronghold where the end portal is. Ender Eyes will fly towards a stronghold by right clicking them. \\n \\n Craft some Endery Eyes and find the dungeon with them. Keep some Endery Eyes as spare as you will need them to activate the end portal.",
+    "mp.quest.chapter1.ender_dragon.desc": "Kill the Ender Dragon to finish the game. \\n \\n The Ender Dragon will get healed through nearby crystals which are ontop of obsidian pillars. You will need to destroy them before you are able to kill the Ender Dragon. \\n \\n Good luck!",
+    "mp.quest.chapter1.ender_dragon_egg.desc": "Obtain the Ender Dragon Egg after you killed the Ender Dragon. Tip: The Egg is affected by gravity.",
+    "mp.quest.chapter1.deep_dark.desc": "The deep dark biome is a rare biome underground. The Warden can spawn here.",
+    "mp.quest.chapter1.warden.desc": "The &dWarden&r appears after setting off a &5Sculk Sensor&r that is near a &3Sculk Shrieker&r for at least 3 times. The Warden is blind and can only hear you. So sneak around him.",
 
     "mp.quest.chapter1.welcome.req1": "Gather wood",
-
+    "mp.quest.chapter1.bed.req1": "Craft any Bed",
+    "mp.quest.chapter1.coal.req1": "Gather any Coal",
 
 
     "mp.item.tropical_fish_huh.display": "Huh?",
