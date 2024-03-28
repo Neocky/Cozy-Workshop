@@ -7,6 +7,88 @@
 	id: "3768C6DC088C683F"
 	order_index: 1
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			id: "4B1CD07F6EBA5DE4"
+			tasks: [{
+				id: "4603B26F0654832C"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "farmersdelight:tools/knives"
+					}
+				}
+				title: "Any #farmersdelight:tools/knives"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4B1CD07F6EBA5DE4"]
+			id: "79DEDC46639D53B8"
+			tasks: [{
+				id: "1DD27C6044A3E8CE"
+				item: "farmersdelight:cutting_board"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			id: "52E418F672DB6DC1"
+			tasks: [{
+				id: "4307A11AE1CB5042"
+				item: "farmersdelight:stove"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "3E6E2FC8C62FADD6"
+			tasks: [{
+				id: "59FB86C578E78451"
+				item: "farmersdelight:cooking_pot"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			id: "42A2E4050A5DA9D1"
+			tasks: [{
+				id: "12D0703ACD5EA9AB"
+				item: {
+					Count: 1b
+					id: "farmersdelight:skillet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			id: "7E7191298A266762"
+			tasks: [{
+				id: "6874E4183B691FB4"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "farmersdelight:cabinets/wooden"
+					}
+				}
+				title: "Any #farmersdelight:cabinets/wooden"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+	]
 	title: "Kitchen"
 }
