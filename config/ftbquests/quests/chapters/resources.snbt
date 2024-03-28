@@ -744,5 +744,5 @@
 			y: 2.0d
 		}
 	]
-	title: "Resources"
+	title: "{mp.chapters.2.title}"
 }

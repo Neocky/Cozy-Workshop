@@ -5,8 +5,377 @@
 	group: "7CE1DD02538D7728"
 	icon: "minecraft:potato"
 	id: "5F2BD6452B6E703E"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: ["block.minecraft.cornflower"]
+			image: "minecraft:block/cornflower"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: ["block.minecraft.oxeye_daisy"]
+			image: "minecraft:block/oxeye_daisy"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: ["block.minecraft.poppy"]
+			image: "minecraft:block/poppy"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: ["block.minecraft.azure_bluet"]
+			image: "minecraft:block/azure_bluet"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 1.0d
+		}
+	]
 	order_index: 0
+	progression_mode: "flexible"
 	quest_links: [ ]
-	quests: [ ]
-	title: "Plants"
+	quests: [
+		{
+			description: ["{mp.quest.plants.potato.desc}"]
+			id: "79DAF1D90178C56B"
+			tasks: [{
+				id: "1E81D8ADCA253AA5"
+				item: "minecraft:potato"
+				type: "item"
+			}]
+			title: "{mp.quest.plants.potato}"
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			description: ["{mp.quest.plants.carrot.desc}"]
+			id: "46BE1645FFEF192C"
+			tasks: [{
+				id: "6C9E7D3E1A47E2DE"
+				item: "minecraft:carrot"
+				type: "item"
+			}]
+			title: "{mp.quest.plants.carrot}"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			description: ["{mp.quest.plants.wheat_seeds.desc}"]
+			id: "5CDC3A8F0C954ED4"
+			tasks: [{
+				id: "5FBF71178A7FB084"
+				item: "minecraft:wheat_seeds"
+				type: "item"
+			}]
+			title: "{mp.quest.plants.wheat_seeds}"
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			description: ["{mp.quest.plants.pumpkin_seeds.desc}"]
+			id: "2560DC6201B158D5"
+			tasks: [{
+				id: "73F1BD7F949A472B"
+				item: "minecraft:pumpkin_seeds"
+				type: "item"
+			}]
+			title: "{mp.quest.plants.pumpkin_seeds}"
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			description: ["{mp.quest.plants.melon_seeds.desc}"]
+			id: "36EFF9350D9977C5"
+			tasks: [{
+				id: "6F07D46C3A5A808F"
+				item: "minecraft:melon_seeds"
+				type: "item"
+			}]
+			title: "{mp.quest.plants.carrot}"
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			description: ["{mp.quest.plants.beetroot_seeds.desc}"]
+			id: "0786E1DD47068F31"
+			tasks: [{
+				id: "25A85EAED4CE4922"
+				item: "minecraft:beetroot_seeds"
+				type: "item"
+			}]
+			title: "{mp.quest.plants.beetroot_seeds}"
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			description: ["{mp.quest.plants.cabbage_seeds.desc}"]
+			id: "0F0B2429D7E58F78"
+			tasks: [{
+				id: "4173C64FFD99C42F"
+				item: "farmersdelight:cabbage_seeds"
+				type: "item"
+			}]
+			title: "{mp.quest.plants.cabbage_seeds}"
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			description: ["{mp.quest.plants.tomato_seeds.desc}"]
+			id: "6CEAB0AD711DC1A2"
+			tasks: [{
+				id: "29ADBD83D306F3D5"
+				item: "farmersdelight:tomato_seeds"
+				type: "item"
+			}]
+			title: "{mp.quest.plants.tomato_seeds}"
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			description: ["{mp.quest.plants.onion.desc}"]
+			id: "3C60093AEF0FEFC7"
+			tasks: [{
+				id: "4B7C440B610BAD42"
+				item: "farmersdelight:onion"
+				type: "item"
+			}]
+			title: "{mp.quest.plants.onion}"
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			description: ["{mp.quest.plants.rice.desc}"]
+			id: "67825DA8905ED769"
+			tasks: [{
+				id: "58F8B625B4EECF75"
+				item: "farmersdelight:rice"
+				type: "item"
+			}]
+			title: "{mp.quest.plants.rice}"
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			description: ["{mp.quest.plants.sweet_berries.desc}"]
+			id: "4EEC701C4214204D"
+			tasks: [{
+				id: "61009C51E62450C5"
+				item: "minecraft:sweet_berries"
+				type: "item"
+			}]
+			title: "{mp.quest.plants.sweet_berries}"
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			description: ["{mp.quest.plants.nether_wart.desc}"]
+			id: "3B0753D03BDE2644"
+			tasks: [{
+				id: "63742FDACED21138"
+				item: "minecraft:nether_wart"
+				type: "item"
+			}]
+			title: "{mp.quest.plants.nether_wart}"
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			description: ["{mp.quest.plants.cocoa_beans.desc}"]
+			id: "54F9BE60D8C7984C"
+			tasks: [{
+				id: "2365E0A3B8098EAA"
+				item: "minecraft:cocoa_beans"
+				type: "item"
+			}]
+			title: "{mp.quest.plants.cocoa_beans}"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			description: ["{mp.quest.plants.brown_mushroom.desc}"]
+			id: "6769781A7768E125"
+			tasks: [{
+				id: "1AAD5AAC09843CB4"
+				item: "minecraft:brown_mushroom"
+				type: "item"
+			}]
+			title: "{mp.quest.plants.brown_mushroom}"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			description: ["{mp.quest.plants.red_mushroom.desc}"]
+			id: "0BCEDB5E8A3E1BED"
+			tasks: [{
+				id: "28039C8171F9E2F5"
+				item: "minecraft:red_mushroom"
+				type: "item"
+			}]
+			title: "{mp.quest.plants.red_mushroom}"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			description: ["{mp.quest.plants.crimson_fungus.desc}"]
+			id: "5F8F975F2AC0C683"
+			tasks: [{
+				id: "6574A9933A1FE9D0"
+				item: "minecraft:crimson_fungus"
+				type: "item"
+			}]
+			title: "{mp.quest.plants.crimson_fungus}"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			description: ["{mp.quest.plants.warped_fungus.desc}"]
+			id: "17AE09732C289ED4"
+			tasks: [{
+				id: "54406651C23673F5"
+				item: "minecraft:warped_fungus"
+				type: "item"
+			}]
+			title: "{mp.quest.plants.warped_fungus}"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			description: ["{mp.quest.plants.apple.desc}"]
+			id: "3307FD633392063D"
+			tasks: [{
+				id: "49784E110C93552F"
+				item: "minecraft:apple"
+				type: "item"
+			}]
+			title: "{mp.quest.plants.apple}"
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0786E1DD47068F31"]
+			description: ["{mp.quest.plants.overweight_beetroot_block.desc}"]
+			id: "76FEFCB6AD66E275"
+			shape: "rsquare"
+			tasks: [{
+				id: "4817B1BBF6495C31"
+				item: "overweight_farming:overweight_beetroot_block"
+				type: "item"
+			}]
+			title: "{mp.quest.plants.overweight_beetroot_block}"
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["46BE1645FFEF192C"]
+			description: ["{mp.quest.plants.overweight_carrot_block.desc}"]
+			id: "75E9827BF0C3C004"
+			shape: "rsquare"
+			tasks: [{
+				id: "5381C36DBC85F0DA"
+				item: "overweight_farming:overweight_carrot_block"
+				type: "item"
+			}]
+			title: "{mp.quest.plants.overweight_carrot_block}"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["54F9BE60D8C7984C"]
+			description: ["{mp.quest.plants.overweight_cocoa_block.desc}"]
+			id: "007D2746F8E827F5"
+			shape: "rsquare"
+			tasks: [{
+				id: "58312A2618DD7184"
+				item: "overweight_farming:overweight_cocoa_block"
+				type: "item"
+			}]
+			title: "{mp.quest.plants.overweight_cocoa_block}"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["79DAF1D90178C56B"]
+			description: ["{mp.quest.plants.overweight_potato_block.desc}"]
+			id: "7F1EF6863395E336"
+			shape: "rsquare"
+			tasks: [{
+				id: "6C71BFDDBED18AF9"
+				item: "overweight_farming:overweight_potato_block"
+				type: "item"
+			}]
+			title: "{mp.quest.plants.overweight_potato_block}"
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3B0753D03BDE2644"]
+			description: ["{mp.quest.plants.overweight_nether_wart_block.desc}"]
+			id: "6347F5C558EFF2AF"
+			tasks: [{
+				id: "200D209EDC5C72A6"
+				item: "overweight_farming:overweight_nether_wart_block"
+				type: "item"
+			}]
+			title: "{mp.quest.plants.overweight_nether_wart_block}"
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3307FD633392063D"]
+			description: ["{mp.quest.plants.overweight_apple_block.desc}"]
+			id: "7019EC10A94D090D"
+			tasks: [{
+				id: "4BE83D5A99430858"
+				item: "overweight_farming:overweight_apple_block"
+				type: "item"
+			}]
+			title: "{mp.quest.plants.overweight_apple_block}"
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			description: ["{mp.quest.plants.straw_hat.desc}"]
+			id: "7D0E1BD594409AB3"
+			shape: "rsquare"
+			tasks: [{
+				id: "289BF04916EF090A"
+				item: {
+					Count: 1b
+					id: "overweight_farming:straw_hat"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{mp.quest.plants.straw_hat}"
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+	title: "{mp.chapters.3.title}"
 }
