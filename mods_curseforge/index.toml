@@ -1,16 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = "complementary-reimagined.pw.toml"
-hash = "17b174cef345aa8512bd7361add5c9704b31fe8ba787dd7e65a8097bada11a82"
-metafile = true
-
-[[files]]
-file = "complementary-unbound.pw.toml"
-hash = "a6abfa266c4e0aebf5fc8e640768baedb08e7cdadbf7e1b209561be82d5fa9b6"
-metafile = true
-
-[[files]]
 file = "config/MouseTweaks.cfg"
 hash = "4069ce1a439d8c37453c1b1e9f2037e0942674c7e48723a39b37eab245792ad4"
 
@@ -506,6 +496,11 @@ hash = "e9179c6f362e82c08ffb103a8e19c7dbdbeb18b24cca69ffacbd8b1929e23031"
 metafile = true
 
 [[files]]
+file = "mods/balm.pw.toml"
+hash = "d02b891b8549c4bacda20466c941001255efd7f184f5ff6bd662ef90c9f6de95"
+metafile = true
+
+[[files]]
 file = "mods/citadel.pw.toml"
 hash = "454a06dd8f4f896dc23545a1ea4dcf304ca1265cdfe6c98b729d2943fb0b0341"
 metafile = true
@@ -531,8 +526,18 @@ hash = "1e56f528d8e21b0cf9c52c3d6deea2a4eafa408170b39a070195dbf66617f373"
 metafile = true
 
 [[files]]
+file = "mods/craterlib.pw.toml"
+hash = "525f433cb1a7851422596126b0d4bee6af94793d001510f94bf86b315d0165d3"
+metafile = true
+
+[[files]]
 file = "mods/create.pw.toml"
 hash = "6ecc31d75d379730df8fe950438b4ca26ed1daa8612406374552665f9222f9ea"
+metafile = true
+
+[[files]]
+file = "mods/cut-through.pw.toml"
+hash = "e1eb9c8386bc3ec75f1dcc14ff420b1a2e64aa2553678cb5ccfa945966280c82"
 metafile = true
 
 [[files]]
@@ -566,6 +571,26 @@ hash = "dec4a848fbbd45662a533444aa0749c230deb718b5117ceb279963e91ac78f85"
 metafile = true
 
 [[files]]
+file = "mods/fast-leaf-decay.pw.toml"
+hash = "4da758690c2a7ac4d0e17283203d0b1bac670edfaf42f1863cd624941d3a0145"
+metafile = true
+
+[[files]]
+file = "mods/fastfurnace.pw.toml"
+hash = "932ddad36de5cc064fd285cff392872050de95e262029d336e99f44e0ce01d97"
+metafile = true
+
+[[files]]
+file = "mods/fastsuite.pw.toml"
+hash = "f66951f1aede8b984643c636b2f3177354395254f9e60a9728dbcbcf1d94668d"
+metafile = true
+
+[[files]]
+file = "mods/fastworkbench.pw.toml"
+hash = "77095e78d0432b58d1243f271e953c8c6b318bf8dbd0563358b07e15baf30a9c"
+metafile = true
+
+[[files]]
 file = "mods/ferritecore.pw.toml"
 hash = "5bd0506bc0be25116b234f2b5af9447f60d82ae1cb6c5be4e12d8841f6c2501c"
 metafile = true
@@ -573,6 +598,11 @@ metafile = true
 [[files]]
 file = "mods/fish-of-thieves.pw.toml"
 hash = "b47ad94e7b2900f0bc336b1ef6c49cc644b405f7c0068334b66263bccee72305"
+metafile = true
+
+[[files]]
+file = "mods/flickerfix.pw.toml"
+hash = "c0aee4eedcbdab214dc04eb23ab98aace056c9473ac7d326c5f5edc5e1da58fb"
 metafile = true
 
 [[files]]
@@ -608,6 +638,11 @@ metafile = true
 [[files]]
 file = "mods/ftb-xmod-compat.pw.toml"
 hash = "c29644a21f7936f1db9dc3c3dd54fe593a91dfeb1cc3f13ffc5fff5e02f890a6"
+metafile = true
+
+[[files]]
+file = "mods/harvest-with-ease.pw.toml"
+hash = "5a1e1d9e5a5e64d7b7641ba4e394d374fd762abcb7f2920dda74c4d29bbdae86"
 metafile = true
 
 [[files]]
@@ -666,8 +701,18 @@ hash = "fac74cc46a4424c4a235a6efbb7e8b3b62c200ad95564e230857eec26b33f216"
 metafile = true
 
 [[files]]
+file = "mods/netherportalfix.pw.toml"
+hash = "820d6b97344411476b96ae2bc8a3e4b9e30e15dfd15d8d0c945726b0011928d4"
+metafile = true
+
+[[files]]
 file = "mods/nethers-delight.pw.toml"
 hash = "43ff48404322ec170ef9a931bc2f95cc9b488e2834934e2af6c5e0ebebc5fb9c"
+metafile = true
+
+[[files]]
+file = "mods/no-villager-death-messages.pw.toml"
+hash = "ee8d4fd4529afdb1a277faf15c9dffc9ea74fc4a6560d07582cf0728ff6acd2d"
 metafile = true
 
 [[files]]
@@ -681,6 +726,11 @@ hash = "1deb44f93c9d72a2fee8b3b33fb3da84e228c0d92062111a3d205ebe18225c66"
 metafile = true
 
 [[files]]
+file = "mods/placebo.pw.toml"
+hash = "14eb87dea15b2484cda7bed648ed7382d8636e1e953a0e3f73f92c528c145934"
+metafile = true
+
+[[files]]
 file = "mods/probejs.pw.toml"
 hash = "7b68e55ac49b66e79da5ef7ab05cb41549d4bb17e9050aeacc465bac97c6548c"
 metafile = true
@@ -688,6 +738,11 @@ metafile = true
 [[files]]
 file = "mods/productivebees.pw.toml"
 hash = "db4483dc49686b0f9cb88671b6c32e019347f9b5ed031a2e86aedf827091954e"
+metafile = true
+
+[[files]]
+file = "mods/puzzles-lib.pw.toml"
+hash = "b7051b4c2310e1566a96e72b525469b460ed1132e393f3865b798bc3d80386f0"
 metafile = true
 
 [[files]]
@@ -701,6 +756,21 @@ hash = "5a1192528bb03cab00ab6d81bffd6f89faa653b5385b8e1c03963c4d78e287e3"
 metafile = true
 
 [[files]]
+file = "mods/simple-discord-rpc.pw.toml"
+hash = "465a7640e2a633cdb3484c8ba099350bbe451721108972125d444e06384f00ef"
+metafile = true
+
+[[files]]
 file = "mods/textrues-embeddium-options.pw.toml"
 hash = "ae4956baa7bfc8a7d596169d256eba7ed2e2961b55e4ad331b50d3dc6c72baeb"
+metafile = true
+
+[[files]]
+file = "shaderpacks/complementary-reimagined.pw.toml"
+hash = "17b174cef345aa8512bd7361add5c9704b31fe8ba787dd7e65a8097bada11a82"
+metafile = true
+
+[[files]]
+file = "shaderpacks/complementary-unbound.pw.toml"
+hash = "a6abfa266c4e0aebf5fc8e640768baedb08e7cdadbf7e1b209561be82d5fa9b6"
 metafile = true
