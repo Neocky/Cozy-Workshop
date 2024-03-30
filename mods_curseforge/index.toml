@@ -566,6 +566,11 @@ hash = "5b5868d9da5c3d76ea1edf2fd19e7b1612e599a625f8e6ef6bf56859df0783b3"
 metafile = true
 
 [[files]]
+file = "mods/experimental-settings-disabler.pw.toml"
+hash = "f517e9859936fc5370fdd7cf80d3a6157d87f2e55b7fada135de64a5bbd1aef8"
+metafile = true
+
+[[files]]
 file = "mods/farmers-delight.pw.toml"
 hash = "dec4a848fbbd45662a533444aa0749c230deb718b5117ceb279963e91ac78f85"
 metafile = true

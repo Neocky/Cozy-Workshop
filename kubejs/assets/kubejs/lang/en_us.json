@@ -34,7 +34,6 @@
 
     "mp.quest.welcome.discord.img": "Join the Discord!",
 
-    "mp.quest.chapter1.title": "Ressources",
 
     "mp.quest.chapter1.welcome": "Welcome to the getting started chapter!",
     "mp.quest.chapter1.crafting": "Age of crafting",
@@ -101,7 +100,6 @@
     "mp.quest.chapter1.bed.req1": "Craft any Bed",
     "mp.quest.chapter1.coal.req1": "Gather any Coal",
 
-    "mp.quest.plants.title": "Plants",
 
     "mp.quest.plants.potato": "Everything can be made from Potatoes",
     "mp.quest.plants.carrot": "Bunnies love you",
@@ -128,7 +126,6 @@
     "mp.quest.plants.overweight_nether_wart_block": "Mutated Nether Wart",
     "mp.quest.plants.overweight_apple_block": "Mutated Apple",
     "mp.quest.plants.straw_hat": "You a Farmer, Harry!",
-
 
     "mp.quest.plants.potato.desc": "Potatoes are a diverse food to include in many recipes. \\n \\n Gather Potatoes",
     "mp.quest.plants.carrot.desc": "Some say, that Carrots will help your eyes. I didn't see that personally. \\n \\n Gather Carrots.",
@@ -157,6 +154,18 @@
     "mp.quest.plants.straw_hat.desc": "A Straw Hat keeps you cool while farming in the sun. It looks also really stylish. \\n \\n Obtain a Straw Hat by trading with a &3Farmer Villager&r.",
 
 
+    "mp.quest.kitchen.stove": "TurboHeat 3000",
+    "mp.quest.kitchen.cooking_pot": "Dinner's Served!",
+    "mp.quest.kitchen.skillet": "Portable Cooking",
+    "mp.quest.kitchen.cabinets": "Kitchen Storage",
+
+    "mp.quest.kitchen.stove.desc": "Stoves can be used as a heat surce for Cooking Pots. You can also cook six different Items directly on the Stove. \\n \\n Craft a Stove.",
+    "mp.quest.kitchen.cooking_pot.desc": "Cooking Pots allow to create advanced meals. Place one down above a heat source like a Stove to get started. \\n \\n Craft a Cooking Pot.",
+    "mp.quest.kitchen.skillet.desc": "Skillets let you cook on the go. Stand near heat, then hold food in your other hand. Start cooking by holding right click. Skillets can be placed down as a block while sneaking. \\n \\n Craft a Skillet.",
+    "mp.quest.kitchen.cabinets.desc": "Cabinets make a nice decoration for your Kitchen. They can also store Items. \\n \\n Craft any Wooden Cabinet.",
+
+    "mp.quest.kitchen.knife.req1": "Craft any Knife",
+    "mp.quest.kitchen.cabinets.req1": "Craft any Wooden Cabinet",
 
 
     "mp.item.tropical_fish_huh.display": "Huh?",

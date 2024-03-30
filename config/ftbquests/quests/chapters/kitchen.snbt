@@ -5,10 +5,49 @@
 	group: "7CE1DD02538D7728"
 	icon: "farmersdelight:stove"
 	id: "3768C6DC088C683F"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "farmersdelight:item/bacon_sandwich"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "farmersdelight:item/minced_beef"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: -5.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "farmersdelight:item/beef_patty"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: -5.5d
+		}
+	]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
+			description: ["{farmersdelight.advancement.craft_knife.desc}."]
 			id: "4B1CD07F6EBA5DE4"
 			tasks: [{
 				id: "4603B26F0654832C"
@@ -19,44 +58,52 @@
 						value: "farmersdelight:tools/knives"
 					}
 				}
-				title: "Any #farmersdelight:tools/knives"
+				title: "{mp.quest.kitchen.knife.req1}"
 				type: "item"
 			}]
+			title: "{farmersdelight.advancement.craft_knife}"
 			x: 0.0d
-			y: -3.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["4B1CD07F6EBA5DE4"]
+			description: ["{farmersdelight.advancement.use_cutting_board.desc}."]
 			id: "79DEDC46639D53B8"
 			tasks: [{
 				id: "1DD27C6044A3E8CE"
 				item: "farmersdelight:cutting_board"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -3.0d
+			title: "{farmersdelight.advancement.use_cutting_board}"
+			x: 0.0d
+			y: -4.0d
 		}
 		{
+			description: ["{mp.quest.kitchen.stove.desc}"]
 			id: "52E418F672DB6DC1"
 			tasks: [{
 				id: "4307A11AE1CB5042"
 				item: "farmersdelight:stove"
 				type: "item"
 			}]
+			title: "{mp.quest.kitchen.stove}"
 			x: 0.0d
-			y: 0.0d
+			y: 2.0d
 		}
 		{
+			description: ["{mp.quest.kitchen.cooking_pot.desc}"]
 			id: "3E6E2FC8C62FADD6"
 			tasks: [{
 				id: "59FB86C578E78451"
 				item: "farmersdelight:cooking_pot"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -1.5d
+			title: "{mp.quest.kitchen.cooking_pot}"
+			x: -2.0d
+			y: 0.0d
 		}
 		{
+			description: ["{mp.quest.kitchen.skillet.desc}"]
 			id: "42A2E4050A5DA9D1"
 			tasks: [{
 				id: "12D0703ACD5EA9AB"
@@ -69,10 +116,12 @@
 				}
 				type: "item"
 			}]
-			x: 1.5d
-			y: -1.5d
+			title: "{mp.quest.kitchen.skillet}"
+			x: 2.0d
+			y: 0.0d
 		}
 		{
+			description: ["{mp.quest.kitchen.cabinets.desc}"]
 			id: "7E7191298A266762"
 			tasks: [{
 				id: "6874E4183B691FB4"
@@ -83,11 +132,68 @@
 						value: "farmersdelight:cabinets/wooden"
 					}
 				}
-				title: "Any #farmersdelight:cabinets/wooden"
+				title: "{mp.quest.kitchen.cabinets.req1}"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 0.0d
+			title: "{mp.quest.kitchen.cabinets}"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			description: ["{farmersdelight.advancement.eat_nourishing_food.desc}"]
+			id: "51EA2F3455D5F2DC"
+			shape: "hexagon"
+			tasks: [{
+				advancement: "farmersdelight:main/eat_nourishing_food"
+				criterion: ""
+				id: "4C25CA134BCAB429"
+				type: "advancement"
+			}]
+			title: "{farmersdelight.advancement.eat_nourishing_food}"
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			description: ["{farmersdelight.advancement.place_feast.desc}"]
+			id: "4AA79373F278309B"
+			shape: "hexagon"
+			tasks: [{
+				advancement: "farmersdelight:main/place_feast"
+				criterion: ""
+				id: "0B040AD4136646F5"
+				type: "advancement"
+			}]
+			title: "{farmersdelight.advancement.place_feast}"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			description: ["{farmersdelight.advancement.eat_comfort_food.desc}"]
+			id: "2FBD39A7FADFD177"
+			shape: "hexagon"
+			tasks: [{
+				advancement: "farmersdelight:main/eat_comfort_food"
+				criterion: ""
+				id: "05EF117AFAE026E4"
+				type: "advancement"
+			}]
+			title: "{farmersdelight.advancement.eat_comfort_food}"
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			description: ["{farmersdelight.advancement.master_chef.desc}"]
+			id: "727CAB1CD2C711A9"
+			shape: "hexagon"
+			tasks: [{
+				advancement: "farmersdelight:main/master_chef"
+				criterion: ""
+				id: "52072F1065BC0018"
+				type: "advancement"
+			}]
+			title: "{farmersdelight.advancement.master_chef}"
+			x: -2.0d
+			y: 2.0d
 		}
 	]
 	title: "Kitchen"
