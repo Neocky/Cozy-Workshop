@@ -1,13 +1,21 @@
 
+// Add Information in JEI to Items and Blocks
+
 JEIEvents.information(e => {
     e.addItem(
         "minecraft:wheat_seeds", [
-            "Wheat Seeds can be obtained from breaking Grass."
+            Text.translate("mp.item.minecraft.wheat_seeds.info1").string
     ])
 
     e.addItem(
         "farmersdelight:skillet", [
-        "Skillets let you cook on the go. Stand near heat, then hold food in your other hand. Start cooking by holding right click.",
-        "Skillets can be placed down as a block while sneaking."
+            Text.translatable("mp.item.farmersdelight.skillet.info1").string,
+            Text.translatable("mp.item.farmersdelight.skillet.info2").string
     ])
+
+    e.addItem(
+        "fishofthieves:fish_bone", [
+            Text.translate("mp.item.fishofthieves.fish_bone.info1").string
+    ])
+
 })

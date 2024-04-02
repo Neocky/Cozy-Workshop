@@ -16,7 +16,7 @@
     "mp.chapters.8.title": "Storage",
 
     "mp.chapters.group.4": "Exploration",
-    "mp.chapters.9.title": "Exploration",
+    "mp.chapters.9.title": "Lost Treasures",
     "mp.chapters.10.title": "Fishing",
     "mp.chapters.11.title": "Zoology",
 
@@ -168,6 +168,16 @@
     "mp.quest.kitchen.cabinets.req1": "Craft any Wooden Cabinet",
 
 
+
+
+    "mp.item.minecraft.wheat_seeds.info1": "Wheat Seeds can be obtained from breaking Grass.",
+    "mp.item.farmersdelight.skillet.info1": "Skillets let you cook on the go. Stand near heat, then hold food in your other hand. Start cooking by holding right click.",
+    "mp.item.farmersdelight.skillet.info2": "Skillets can be placed down as a block while sneaking.",
+    "mp.item.fishofthieves.fish_bone.info1": "Can be placed down as decoration.",
+
+
+
     "mp.item.tropical_fish_huh.display": "Huh?",
     "mp.item.tropical_fish_huh.lore": "Found in your pocket"
+
 }

@@ -5,8 +5,135 @@
 	group: "7EBEFCF7B4BEED55"
 	icon: "minecraft:spyglass"
 	id: "0BAE9F5DAC6B933D"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 1.0d
+		hover: [ ]
+		image: "minecraft:item/dark_oak_chest_boat"
+		rotation: 0.0d
+		width: 1.0d
+		x: 0.0d
+		y: 0.0d
+	}]
 	order_index: 0
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			icon: {
+				Count: 1b
+				id: "minecraft:player_head"
+				tag: {
+					SkullOwner: {
+						Id: [I;
+							-1127436681
+							180833488
+							-2128164608
+							1920737827
+						]
+						Properties: {
+							textures: [{
+								Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDljMTgzMmU0ZWY1YzRhZDljNTE5ZDE5NGIxOTg1MDMwZDI1NzkxNDMzNGFhZjI3NDVjOWRmZDYxMWQ2ZDYxZCJ9fX0="
+							}]
+						}
+					}
+				}
+			}
+			id: "2270B0034B3943F1"
+			shape: "octagon"
+			tasks: [{
+				id: "102488EFBB83B11B"
+				structure: "dungeoncrawl:dungeon"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			id: "71C48BB6DFCC201B"
+			shape: "hexagon"
+			tasks: [{
+				advancement: "betterdungeons:spider_dungeon"
+				criterion: ""
+				id: "6FA0D2BD28A7C139"
+				type: "advancement"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			id: "46A9FC71547C07B0"
+			shape: "hexagon"
+			tasks: [{
+				advancement: "betterdungeons:small_dungeon"
+				criterion: ""
+				id: "54D522FD79E7C2BB"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			id: "7FA69B1F4516DA40"
+			shape: "hexagon"
+			tasks: [{
+				advancement: "betterdungeons:zombie_dungeon"
+				criterion: ""
+				id: "1D930AF1FA332C07"
+				type: "advancement"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			id: "0E5159BB36BA111E"
+			shape: "hexagon"
+			tasks: [{
+				advancement: "betterdungeons:skeleton_dungeon"
+				criterion: ""
+				id: "0C13A597C3D4B8E7"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			icon: "minecraft:bone"
+			id: "530ED6B741C2C7BC"
+			shape: "octagon"
+			tasks: [{
+				id: "6D59C6583A56D253"
+				structure: "explorify:mausoleum"
+				type: "structure"
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			icon: "minecraft:nether_bricks"
+			id: "019E1B273AA43D50"
+			shape: "octagon"
+			tasks: [{
+				id: "1A1DD7D081FD01AA"
+				structure: "explorify:black_spiral"
+				type: "structure"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			id: "4907A51927B0F60C"
+			shape: "hexagon"
+			tasks: [{
+				advancement: "betterdungeons:small_nether_dungeon"
+				criterion: ""
+				id: "3E688123E740D058"
+				type: "advancement"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+	]
 	title: "{mp.chapters.9.title}"
 }

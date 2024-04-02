@@ -1,4 +1,6 @@
 
+// Remove JEI Categories from JEI
+
 let jei_categories = [
     "productivebees:block_centrifuge",
     "productivebees:bottler",

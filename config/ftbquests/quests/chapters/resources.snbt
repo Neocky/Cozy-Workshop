@@ -169,7 +169,7 @@
 		{
 			description: ["{mp.quest.chapter1.welcome.desc}"]
 			id: "48B8992B6A14929A"
-			shape: "hexagon"
+			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
 				icon: "minecraft:oak_log"
@@ -688,7 +688,7 @@
 				}
 			}
 			id: "67DAE53600E944A1"
-			shape: "hexagon"
+			shape: "octagon"
 			size: 1.0d
 			tasks: [{
 				biome: "minecraft:deep_dark"

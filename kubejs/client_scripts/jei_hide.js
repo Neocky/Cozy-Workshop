@@ -1,4 +1,6 @@
 
+// Hide Items in JEI
+
 JEIEvents.hideItems(event => {
     event.hide([
         "productivebees:bottler",
