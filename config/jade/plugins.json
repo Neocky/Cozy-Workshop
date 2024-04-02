@@ -79,5 +79,10 @@
     "canvas_beehive": true,
     "bee_attributes": true,
     "productive_bee": true
+  },
+  "storagedrawers": {
+    "display.stacklimit": true,
+    "display.content": true,
+    "display.status": true
   }
 }
