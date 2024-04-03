@@ -30,7 +30,7 @@ function check_updates()
     //let current_version = "1.0.0"
     let current = JsonIO.read('kubejs/update_notifier.json') ?? {}
     if (!("enabled" in current)) { current["enabled"] = true }
-    if (!("skipped_versions" in current)) { current["skipped_versions"] = [] }
+    if (!("hidden_versions" in current)) { current["hidden_versions"] = [] }
     if (!("is_notified_at_this_launch" in current)) { current["is_notified_at_this_launch"] = false }
     JsonIO.write('kubejs/update_notifier.json', current)
     if (current["is_notified_at_this_launch"]) { return }
@@ -54,10 +54,12 @@ function check_updates()
 
         console.log(`${modpack_name}-logging: An update for the modpack is available! ${latest_version} is out. Currently running ${current_version}`)
 
-        if (current["enabled"] && !current['skipped_versions'].contains(latest_version))
+        if (current["enabled"] && !current["hidden_versions"].contains(latest_version))
         {
+            // tell player that new version is available
+            Client.player.playNotifySound("minecraft:entity.experience_orb.pickup", "master", 1, 1)
             Client.player.tell(Component.join([
-                Component.white(`\nAn update for `),
+                Component.green(`An update for `),
                 Component.gold(`${modpack_name}`)
                     .click({
                         "action": "open_url",
@@ -67,44 +69,60 @@ function check_updates()
                         Component.gold(`${modpack_name}`),
                         Component.yellow(` on CurseForge`)
                 ])),
-                Component.white(" is available!\n"),
-                Component.white("\nYou are playing on version "),
-                Component.red(current_version),
+                Component.green(" is available!\n"),
+                Component.white("You are playing on version "),
+                Component.yellow(current_version),
                 Component.white(", the latest version is "),
                 Component.green(latest_version),
-                Component.white('!\nUpdate using your launcher or via '),
-                Component.gold("[CurseForge]")
+                Component.white('!\nUpdate using your launcher or via:\n'),
+                Component.string("[CurseForge]").color(0xF16436)
                     .click({
                         "action": "open_url",
-                        "value": `${json_result["curseforge_link"]}/files`
+                        "value": `${json_result["link_curseforge"]}/files`
                     })
                     .hover(Component.join([
-                        Component.gold(`${modpack_name} `),
-                        Component.yellow(`downloads page on CurseForge.`)
+                        Component.yellow(`Open `),
+                        Component.gold(`${modpack_name}`),
+                        Component.yellow(` downloads page on `),
+                        Component.string("CurseForge").color(0xF16436)
                 ])),
                 Component.white(" "),
-                Component.green("[Modrinth]")
-                .click({
-                    "action": "open_url",
-                    "value": `${json_result["modrinth_link"]}/`
-                })
-                .hover(Component.join([
-                    Component.gold(`${modpack_name} `),
-                    Component.yellow(`downloads page on Modrinth.`)
-                ])),
-                Component.white("."),
-                Component.white('\nYou can also '),
-                Component.lightPurple("[hide]")
+                Component.string("[Modrinth]").color(0x1BD96A)
                     .click({
-                        "action": "run_command",
-                        "value": `/update_notifier skip ${latest_version}`
+                        "action": "open_url",
+                        "value": `${json_result["link_modrinth"]}/`
                     })
                     .hover(Component.join([
-                        Component.yellow(`Hide only this update.\nYou will no longer be notified for version `),
+                        Component.yellow(`Open `),
+                        Component.gold(`${modpack_name}`),
+                        Component.yellow(` downloads page on `),
+                        Component.string("Modrinth").color(0x1BD96A)
+                ])),
+                Component.white(" "),
+                Component.darkGray("[GitHub]")
+                    .click({
+                        "action": "open_url",
+                        "value": `${json_result["link_github"]}/`
+                    })
+                    .hover(Component.join([
+                        Component.yellow(`Open `),
+                        Component.gold(`${modpack_name}`),
+                        Component.yellow(` release page on `),
+                        Component.darkGray("GitHub")
+                ])),
+                Component.gray('\nYou can also '),
+                Component.red("[hide]")
+                    .click({
+                        "action": "run_command",
+                        "value": `/update_notifier hide ${latest_version}`
+                    })
+                    .hover(Component.join([
+                        Component.red(`Hide only this update!\n`),
+                        Component.yellow(`You will no longer be notified for version `),
                         Component.green(`${latest_version}`),
-                        Component.yellow(` , but you will be notified again when the next version is available.`)
+                        Component.yellow(`,\nbut you will be notified again when the next version is available.`)
                     ])),
-                Component.white(" this update message temporarily."),
+                Component.gray(" this update message temporarily."),
             ]))
         }
         current["is_notified_at_this_launch"] = true
@@ -130,7 +148,7 @@ NetworkEvents.dataReceived('update_notifier_check', event => {
 })
 
 
-NetworkEvents.dataReceived('update_notifier_skip', event => {
+NetworkEvents.dataReceived('update_notifier_hide', event => {
     let current = JsonIO.read('kubejs/update_notifier.json')
     if (current == null)
     {
@@ -138,9 +156,9 @@ NetworkEvents.dataReceived('update_notifier_skip', event => {
     }
 
     let version = event.data["version"]
-    if (!current["skipped_versions"].contains(version))
+    if (!current["hidden_versions"].contains(version))
     {
-        current["skipped_versions"].push(version)
+        current["hidden_versions"].push(version)
         Client.player.tell(Component.join([
             Component.white(`\nVersion `),
             Component.green(version),
@@ -161,7 +179,7 @@ NetworkEvents.dataReceived('update_notifier_skip', event => {
         Client.player.tell(Component.join([
             Component.white(`\nVersion`),
             Component.green(version),
-            Component.white("is already skipped!\n"),
+            Component.white("is already hidden!\n"),
         ]))
     }
     JsonIO.write('kubejs/update_notifier.json', current)
@@ -178,18 +196,18 @@ NetworkEvents.dataReceived('update_notifier_enable', event => {
 })
 
 
-NetworkEvents.dataReceived('update_notifier_clean_skip_list', event => {
+NetworkEvents.dataReceived('update_notifier_clean_hide_list', event => {
     let current = JsonIO.read('kubejs/update_notifier.json')
     if (current == null)
     {
         return
     }
 
-    current["skipped_versions"] = []
+    current["hidden_versions"] = []
     JsonIO.write('kubejs/update_notifier.json', current)
 
     Client.player.tell(Component.join([
-        Component.white(`\nSkipped versions list `),
+        Component.white(`\nHidden versions list `),
         Component.green('cleaned'),
         Component.white(" successfully!\n"),
     ]))

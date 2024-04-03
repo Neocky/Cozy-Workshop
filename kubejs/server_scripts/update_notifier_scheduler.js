@@ -79,9 +79,9 @@ ServerEvents.loaded(event => {
 ServerEvents.commandRegistry(event => {
     const { commands: Commands, arguments: Arguments } = event;
     event.register(
-        Commands.literal("update_notifier").then(Commands.literal("skip").then(Commands.argument("version", Arguments.  STRING.create(event)).executes(ctx => {
+        Commands.literal("update_notifier").then(Commands.literal("hide").then(Commands.argument("version", Arguments.  STRING.create(event)).executes(ctx => {
             let player = ctx.source.player
-            player.sendData('update_notifier_skip', { version: Arguments.STRING.getResult(ctx, "version") })
+            player.sendData('update_notifier_hide', { version: Arguments.STRING.getResult(ctx, "version") })
             return 1
         }))).then(Commands.literal("enable").executes(ctx => {
             let player = ctx.source.player
@@ -89,7 +89,7 @@ ServerEvents.commandRegistry(event => {
             return 1
         })).then(Commands.literal("reset").executes(ctx => {
             let player = ctx.source.player
-            player.sendData('update_notifier_clean_skip_list', {})
+            player.sendData('update_notifier_clean_hide_list', {})
             return 1
         }))
     )
