@@ -1,0 +1,13 @@
+name = "NetJS (KubeJS Addon)"
+filename = "netjs-forge-1.20.1-1.2.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "4f0354ea9adc6e1c50d52291f535107c6a2cfcb7"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5011225
+project-id = 888356
