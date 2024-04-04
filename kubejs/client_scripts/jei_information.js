@@ -18,4 +18,16 @@ JEIEvents.information(e => {
             Text.translate("mp.item.fishofthieves.fish_bone.info1").string
     ])
 
+
+    e.addItem(
+        "kubejs:chocolate_ore", [
+            Text.translate("mp.block.kubejs.chocolate_ore.info1").string
+    ])
+
+    e.addItem(
+        "kubejs:deepslate_chocolate_ore", [
+            Text.translate("mp.block.kubejs.deepslate_chocolate_ore.info1").string
+    ])
+
+
 })
