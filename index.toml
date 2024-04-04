@@ -405,6 +405,10 @@ file = "config/balm-common.toml"
 hash = "2e83e8a8f8e120214aeb50f55eb08f26c53b90e841c1949a9b7ca400f6c34088"
 
 [[files]]
+file = "config/bcc-common.toml"
+hash = "37510cb4734a34c24bbdeadee2f32307abebd81aa9aebb9d0545fc7cfdb0bb33"
+
+[[files]]
 file = "config/betterdungeons-forge-1_20.toml"
 hash = "67e7e94693c7ca0945fe1b7e08639cdf4faad9a8e1eec2b029bf414539113753"
 
@@ -690,7 +694,7 @@ hash = "1838bc5236cd65bf40d6026b8f35c28799f32e2e3e077f979a1c34593604ec2b"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "17df2807b754faeafe2532f1718d75fc5e8f785a6849993d1abe31466df64a81"
+hash = "7be77e425fb08347d706681335a40782e73a8fec2e498fd52f14043de2c65ba6"
 
 [[files]]
 file = "config/overweight_farming-common.toml"
@@ -778,7 +782,7 @@ hash = "678b9aff966101c8f455573e39911ccee1694d20627b3a1307e1756fdb23f375"
 
 [[files]]
 file = "kubejs/client_scripts/update_notifier_checker.js"
-hash = "f87046368b5adec8f3d3c9e6630a089a959bc69541a54572c01ad7139e21fe3b"
+hash = "40d4e11112472110f2767acee1b04d84ee1e7c6258dff0c33afa1b67d00b7901"
 
 [[files]]
 file = "kubejs/config/client.properties"
@@ -1082,7 +1086,7 @@ hash = "49d75d50cc63f5dac916ffa2ea4eec93b89d56423a2152f408a190bd83025870"
 
 [[files]]
 file = "kubejs/server_scripts/initial_inventory.js"
-hash = "5d34f6624736f0344252dc355c53a12ad705d4bfabdf14f6423aee122a4e7ebc"
+hash = "ae69a0f4c91ba48bb1c7b1353f35a79a8ba6c6ff908a3efc13f66d54fe2762de"
 
 [[files]]
 file = "kubejs/server_scripts/mods/fishofthieves/fishofthieves.js"
@@ -1098,15 +1102,23 @@ hash = "276a623582a9f8a42d59a50e637ae5a795c974ea2c63044c53257c06bb57eb3b"
 
 [[files]]
 file = "kubejs/server_scripts/update_notifier_scheduler.js"
-hash = "1fadcbb28927801209d4269e9465ab150b2315665ece39ee9dc5c769d0c5d812"
+hash = "5a97acbe865696c1758e4e066ddf198198651f8d2e1b97e6d2bac9767a5c31c9"
+
+[[files]]
+file = "kubejs/startup_scripts/custom_addition.js"
+hash = "a7b32e898e191bf875aeebfa9db214fa4ec30b9989b387bc78fb1ce26462a76d"
 
 [[files]]
 file = "kubejs/startup_scripts/update_notifier_startup.js"
-hash = "66c8205874228c0027f5205d880113509cdc876372ba245d33953f63de398cb1"
+hash = "3cc7b424b6c9a53218b471de03b572d8f7a1d7471c52b4dd67090f96402c9ede"
 
 [[files]]
 file = "kubejs/update_notifier.json"
-hash = "127b6ea085dc229ee97a386889643c60dbc79777985d4a6d8f4a8062b58f150c"
+hash = "fd2b1e3f99108c4439ce6ab8b998e487c8dfdccba57f3a525a4118bc89c59144"
+
+[[files]]
+file = "kubejs/update_notifier_modpack_version.json"
+hash = "8f49476bc8b1505171034c666ff585cf05b552275fbbf6f771b02f6dd53b7c3b"
 
 [[files]]
 file = "mods/ai-improvements.pw.toml"
@@ -1125,7 +1137,7 @@ metafile = true
 
 [[files]]
 file = "mods/almost-unified.pw.toml"
-hash = "aa14fce8a6a91618809e369bbb591e115bb3ae8c25e2f295447d7787998ff97f"
+hash = "468010808e6157b52ff172c72065da086d67c8bdd850d3af6a2d89eb46b1d110"
 metafile = true
 
 [[files]]
@@ -1191,6 +1203,11 @@ metafile = true
 [[files]]
 file = "mods/create-central-kitchen.pw.toml"
 hash = "2491a4f1b76a1aeee3578a530ec6c62449c0b585707dd98458cd84b450417e8c"
+metafile = true
+
+[[files]]
+file = "mods/create-confectionery.pw.toml"
+hash = "7f98e3461e1319ef01a91a8258aa2d932179d0406280d980b356ddbfbef52213"
 metafile = true
 
 [[files]]
