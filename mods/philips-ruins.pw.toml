@@ -1,0 +1,13 @@
+name = "Philips Ruins"
+filename = "Philips-Ruins1.20.1-3.5.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/KdJhOYVV/versions/7PyTkTEB/Philips-Ruins1.20.1-3.5.jar"
+hash-format = "sha1"
+hash = "fd095135293bcdf73c0ded95a084bfa660f1d72d"
+
+[update]
+[update.modrinth]
+mod-id = "KdJhOYVV"
+version = "7PyTkTEB"
