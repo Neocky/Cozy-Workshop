@@ -118,8 +118,8 @@
 				item: "productivebees:sand_nest"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 6.0d
+			x: 6.5d
+			y: 6.5d
 		}
 		{
 			id: "07B09E0E8D1EEEF6"
@@ -151,8 +151,8 @@
 				item: "productivebees:slimy_nest"
 				type: "item"
 			}]
-			x: 5.5d
-			y: 6.0d
+			x: 6.5d
+			y: 5.5d
 		}
 		{
 			id: "251ADBD404CD357C"
@@ -195,7 +195,7 @@
 				item: "productivebees:glowstone_nest"
 				type: "item"
 			}]
-			x: -5.0d
+			x: -6.0d
 			y: 6.0d
 		}
 		{
