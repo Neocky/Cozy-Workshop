@@ -5,18 +5,6 @@
 	group: "7EBEFCF7B4BEED55"
 	icon: "minecraft:spyglass"
 	id: "0BAE9F5DAC6B933D"
-	images: [{
-		click: ""
-		corner: false
-		dev: false
-		height: 1.0d
-		hover: [ ]
-		image: "minecraft:item/dark_oak_chest_boat"
-		rotation: 0.0d
-		width: 1.0d
-		x: 0.0d
-		y: 0.0d
-	}]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -133,6 +121,20 @@
 			}]
 			x: -2.5d
 			y: -2.0d
+		}
+		{
+			id: "6863727D0AF00AB3"
+			tasks: [{
+				id: "2AEB44A310C23F80"
+				item: {
+					Count: 1b
+					id: "explorerscompass:explorerscompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
 		}
 	]
 	title: "{mp.chapters.9.title}"

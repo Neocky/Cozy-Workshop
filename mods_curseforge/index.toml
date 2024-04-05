@@ -576,6 +576,11 @@ hash = "f517e9859936fc5370fdd7cf80d3a6157d87f2e55b7fada135de64a5bbd1aef8"
 metafile = true
 
 [[files]]
+file = "mods/explorers-compass.pw.toml"
+hash = "0ba2a01934d2de588071ac5a5281dd9a29fc46166fe6b9f99a809a70fe1a6668"
+metafile = true
+
+[[files]]
 file = "mods/explorify.pw.toml"
 hash = "f37fa0d524b176234a3f32fd2d4d448647356e8f4b3bdbca2c6927ff4a5f3721"
 metafile = true

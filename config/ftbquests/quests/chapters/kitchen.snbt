@@ -27,7 +27,7 @@
 			image: "farmersdelight:item/minced_beef"
 			rotation: 0.0d
 			width: 1.0d
-			x: 1.0d
+			x: -1.0d
 			y: -5.5d
 		}
 		{
@@ -39,7 +39,7 @@
 			image: "farmersdelight:item/beef_patty"
 			rotation: 0.0d
 			width: 1.0d
-			x: -1.0d
+			x: 1.0d
 			y: -5.5d
 		}
 	]

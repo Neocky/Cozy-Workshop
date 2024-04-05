@@ -7,6 +7,266 @@
 	id: "13912873A199FCA8"
 	order_index: 1
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			id: "609CB9014BB2FCE3"
+			tasks: [
+				{
+					id: "4C88BD26A006A1D0"
+					item: "minecraft:honeycomb"
+					type: "item"
+				}
+				{
+					id: "0CFA67456AEB7845"
+					item: "minecraft:honey_bottle"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["609CB9014BB2FCE3"]
+			id: "50C00CEA445CAC4B"
+			tasks: [{
+				count: 4L
+				id: "77D43F6920D448CB"
+				item: "productivebees:bee_cage"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["50C00CEA445CAC4B"]
+			id: "383CAA37E5A02459"
+			tasks: [{
+				id: "697A457AECD4CF39"
+				item: "minecraft:beehive"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["383CAA37E5A02459"]
+			id: "603DCDBE13C67FFF"
+			tasks: [{
+				id: "7681D8D7FC8BD42E"
+				item: "productivebees:honey_treat"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			id: "2F750585B0E4CA2A"
+			tasks: [{
+				id: "5A751DF9487879EE"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:iron"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 10.0d
+		}
+		{
+			id: "7E3EA60F5BD55DD6"
+			shape: "hexagon"
+			tasks: [{
+				id: "54E3C6B12DDD47BF"
+				item: "productivebees:coarse_dirt_nest"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.5d
+		}
+		{
+			id: "0D0C691BF93CF080"
+			shape: "hexagon"
+			tasks: [{
+				id: "3B53A6A5D2DAB332"
+				item: "productivebees:oak_wood_nest"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 6.5d
+		}
+		{
+			id: "07267A6DF008BC2C"
+			shape: "hexagon"
+			tasks: [{
+				id: "343C69777752B0DC"
+				item: "productivebees:gravel_nest"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.0d
+		}
+		{
+			id: "31FBDD7561D042D8"
+			shape: "hexagon"
+			tasks: [{
+				id: "13E5954A6B70EEAD"
+				item: "productivebees:sand_nest"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			id: "07B09E0E8D1EEEF6"
+			shape: "hexagon"
+			tasks: [{
+				id: "7938F3BC96728467"
+				item: "productivebees:stone_nest"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 7.0d
+		}
+		{
+			id: "1C21E969CE52BC32"
+			shape: "hexagon"
+			tasks: [{
+				id: "248BF4575101EEBA"
+				item: "productivebees:snow_nest"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 5.0d
+		}
+		{
+			id: "360595C4B1F2B134"
+			shape: "hexagon"
+			tasks: [{
+				id: "665B30EFDEB9A8EB"
+				item: "productivebees:slimy_nest"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 6.0d
+		}
+		{
+			id: "251ADBD404CD357C"
+			shape: "hexagon"
+			tasks: [{
+				id: "72B310F304BBE73A"
+				item: "productivebees:sugar_cane_nest"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 7.0d
+		}
+		{
+			id: "6CA6F50E517751D9"
+			shape: "hexagon"
+			tasks: [{
+				id: "48EF24344F1BAB29"
+				item: "productivebees:nether_quartz_nest"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			id: "4E55EF97212916E0"
+			shape: "hexagon"
+			tasks: [{
+				id: "70DCE9C393BFD525"
+				item: "productivebees:nether_brick_nest"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 5.0d
+		}
+		{
+			id: "5FA755B4BDC4714D"
+			shape: "hexagon"
+			tasks: [{
+				id: "02C847BE4815B4EC"
+				item: "productivebees:glowstone_nest"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 6.0d
+		}
+		{
+			id: "65BFEB94C91330CA"
+			shape: "hexagon"
+			tasks: [{
+				id: "3456CEFB76BCB30E"
+				item: "productivebees:nether_gold_nest"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 7.0d
+		}
+		{
+			id: "392AFCFDF14E7BCF"
+			shape: "hexagon"
+			tasks: [{
+				id: "50C39A68798DC1D4"
+				item: "productivebees:obsidian_nest"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 5.0d
+		}
+		{
+			id: "000BC267736C123B"
+			shape: "hexagon"
+			tasks: [{
+				id: "7E14667082590E33"
+				item: "productivebees:end_stone_nest"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 7.0d
+		}
+		{
+			id: "26634C3B4094B1F6"
+			tasks: [{
+				id: "1D0E1031E9E385D5"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:coal"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			id: "7C51955A0005E09F"
+			tasks: [{
+				id: "23F677B57E60C2A6"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:gold"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 10.0d
+		}
+	]
 	title: "{mp.chapters.7.title}"
 }

@@ -91,6 +91,24 @@
   "ignoredRecipeTypes": [
     "cucumber:shaped_tag"
   ],
-  "ignoredRecipes": [],
+  "ignoredRecipes": [
+    "create:crushing/coal_ore",
+    "create:crushing/deepslate_coal_ore",
+    "create:crushing/iron_ore",
+    "create:crushing/deepslate_iron_ore",
+    "create:crushing/copper_ore",
+    "create:crushing/deepslate_copper_ore",
+    "create:crushing/zinc_ore",
+    "create:crushing/deepslate_zinc_ore",
+    "create:crushing/gold_ore",
+    "create:crushing/deepslate_gold_ore",
+    "create:crushing/nether_gold_ore",
+    "create:crushing/emerald_ore",
+    "create:crushing/deepslate_emerald_ore",
+    "create:crushing/diamond_ore",
+    "create:crushing/deepslate_diamond_ore",
+    "create:crushing/lapis_ore",
+    "create:crushing/deepslate_lapis_ore"
+  ],
   "itemsHidingJeiRei": true
 }

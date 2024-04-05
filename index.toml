@@ -382,7 +382,7 @@ hash = "3e03a291b5310a6b94a45aff63e4731baa643701c42a968ed716483ccd1d5a37"
 
 [[files]]
 file = "config/almostunified/duplicates.json"
-hash = "40639e8cb9e9ea52b8557c50d29fc06e73e2ad1e7ca27ae5ce8fe2eca2e97188"
+hash = "04651901ea226e5542297a6879e2ce9a3d03354cb098685a0862e46d25cd2a2f"
 
 [[files]]
 file = "config/almostunified/startup.json"
@@ -390,7 +390,7 @@ hash = "ad711622f9b8c5cc8115f52396f5d82587b809fb20cbf9d94c7744aeebcaf4d5"
 
 [[files]]
 file = "config/almostunified/unify.json"
-hash = "9dd105eb404830a866f936672179caba237f174c21bdc31c7756442339241131"
+hash = "cea6daeef6ccdbc33cca942109e0ecb2f3a6c5eebf470297287c7706840ec7b5"
 
 [[files]]
 file = "config/appleskin-client.toml"
@@ -533,6 +533,14 @@ file = "config/experimentalsettingsdisabler-client.toml"
 hash = "d280f5cfcfa2b576a7b9486775491cec6c5f80c85c6325e5f396c9d764b16ce3"
 
 [[files]]
+file = "config/explorerscompass-client.toml"
+hash = "eaaa7a0af68a2b00a557d5df97191c80c996042cc33cc53eccd14e78431bff28"
+
+[[files]]
+file = "config/explorerscompass-common.toml"
+hash = "1646a67e28d5353d25354d7242ab099d147897e8e0a6f7f99a4bf4c7ae224462"
+
+[[files]]
 file = "config/farmersdelight-client.toml"
 hash = "e5f8f5743c23e6c1e569070d720f91e66495e8da03550a0d37d9a07c6d543014"
 
@@ -582,7 +590,7 @@ hash = "bef8ac7685428fcc7a3e6e1edc03c8ac946cb6d6bfb5351bdc2c251f430d8dc7"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/exploration.snbt"
-hash = "92dd3c08b18ec62a13b91db9cd47b9a3597386bb917bc2e27663a03eb982d6a0"
+hash = "0fac6a80ed5578088eea60ae643c09b423f518a3cd9752d146f7007fe8cf056b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/fishing.snbt"
@@ -590,7 +598,7 @@ hash = "f7780b79207f195153c73ab743b37c4eac414cd0ac18b35477441163c3a801c2"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/kitchen.snbt"
-hash = "6b04f3d93fed93ac85422ff42bf8759d8216d75843ca071864e1659b399fc22e"
+hash = "a902129ee219c9a7ab7ff1320acf50af9673008a4c0aaeff3e1fbc53e1f55672"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/meals.snbt"
@@ -654,7 +662,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "b204aa82d02c7f676ac8b547da072825f271662bcfce7f760eb4c91bf0bdf7c4"
+hash = "b0476b7815215d50b208d81a898dce2c7bb55ef9f186f3ec5cdd0682e78d0bab"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -694,7 +702,7 @@ hash = "1838bc5236cd65bf40d6026b8f35c28799f32e2e3e077f979a1c34593604ec2b"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "7be77e425fb08347d706681335a40782e73a8fec2e498fd52f14043de2c65ba6"
+hash = "30d903bd99b98f12ba519f9886c9c79274ff9258cf7b22035c8025e58e67e2d8"
 
 [[files]]
 file = "config/overweight_farming-common.toml"
@@ -754,7 +762,15 @@ hash = "989f3737ae4621b8ff6730bce4cbeeee756921e7e510e0c281c8a350501d98af"
 
 [[files]]
 file = "kubejs/assets/kubejs/lang/en_us.json"
-hash = "d709427242623e33e00f93c7d0944a986637a6443c9e962ca3d9579720f6d356"
+hash = "e7d9ab327050f9b7717cb58688d9266a1aa9b03d6f609039e7083abfb611f85b"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/chocolate_ore.png"
+hash = "a88d92a9a055779b2efe1a297be18be211ba1ff9ddd8a73fa8e679ecb310e9ff"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/deepslate_chocolate_ore.png"
+hash = "7c13a6aa23fcbf812eb52ca1618f419ba64904c94849a4a651e46dcfcbd17252"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/example_block.png"
@@ -770,7 +786,7 @@ hash = "34c992d8e06ca41b0065a357f092e5667b64c9c7a478f98b6bd5b0eae66e3eb1"
 
 [[files]]
 file = "kubejs/client_scripts/jei_information.js"
-hash = "6c6e82022becb41ca71e0999bdb84d5154afa672d56bb8f801ec53d8d636a13e"
+hash = "5fbb5763455085f0121be0668744633bfaffb3916ad9c75b88d09bab8c3c4a02"
 
 [[files]]
 file = "kubejs/client_scripts/jei_remove.js"
@@ -803,6 +819,18 @@ hash = "41e73d731241cd6302ae17329eb314c8fb987dfa9776287b6c24b8a438da3453"
 [[files]]
 file = "kubejs/data/fishovthieves/worldgen/structure_set/seapost.json"
 hash = "e34fb1ea31596c57a93effde89fd73d98d31ea483093093d78417b5e1be805e7"
+
+[[files]]
+file = "kubejs/data/modpack/forge/biome_modifier/add_chocolate_ore.json"
+hash = "b2d504b0258e3a275eb913cf0e33d98bb09c90c71a957b55cee8e4a09075d579"
+
+[[files]]
+file = "kubejs/data/modpack/worldgen/configured_feature/configured_chocolate_ore.json"
+hash = "15c4106e3bfca801b8e6f75c6eb02981bba306555cdd3a33bf0fea69e4c1f88a"
+
+[[files]]
+file = "kubejs/data/modpack/worldgen/placed_feature/placed_chocolate_ore.json"
+hash = "a869ecaa5614d1fe2d30f93feb62b564abb88f0ddc2c9ef1c1cca0d92b121481"
 
 [[files]]
 file = "kubejs/jsconfig.json"
@@ -1093,6 +1121,10 @@ file = "kubejs/server_scripts/mods/fishofthieves/fishofthieves.js"
 hash = "b74f61bd370b31f868d6250f6be25a84a98618435087ea7929609cad3b9c322f"
 
 [[files]]
+file = "kubejs/server_scripts/mods/kubejs/chocolate_ore.js"
+hash = "d736fbab2447c0ccee06be9c97eec2ff9945fdb5e9484dace8e95cf63664f2ba"
+
+[[files]]
 file = "kubejs/server_scripts/mods/minecraft/fish_loot.js"
 hash = "79dd0eb9ebc3ace3bf3a9e07059235d725bd41e4737bfed92eee45955b5e171d"
 
@@ -1106,7 +1138,11 @@ hash = "5a97acbe865696c1758e4e066ddf198198651f8d2e1b97e6d2bac9767a5c31c9"
 
 [[files]]
 file = "kubejs/startup_scripts/custom_addition.js"
-hash = "a7b32e898e191bf875aeebfa9db214fa4ec30b9989b387bc78fb1ce26462a76d"
+hash = "b9a3553bfdb13feff5dc6654affe0a6538bf5d06d5f445e6a130b9dc846d894a"
+
+[[files]]
+file = "kubejs/startup_scripts/custom_generation.js"
+hash = "b8e903efa11ebdca0b947bca4b54e66f12e81957829ffb931e6c9d57bcd9816f"
 
 [[files]]
 file = "kubejs/startup_scripts/update_notifier_startup.js"
@@ -1263,6 +1299,11 @@ metafile = true
 [[files]]
 file = "mods/experimental-settings-disabler.pw.toml"
 hash = "89084ab71f9a1f656799a58b9cbb53801fd883c60f75f97f777c5beb87e4cfaf"
+metafile = true
+
+[[files]]
+file = "mods/explorers-compass.pw.toml"
+hash = "cf35640e350078e8cd7b29f727c3227aeb0b465f0fba9a266e6cbe15dadc4955"
 metafile = true
 
 [[files]]
