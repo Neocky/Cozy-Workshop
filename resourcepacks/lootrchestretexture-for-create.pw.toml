@@ -1,0 +1,13 @@
+name = "LootrChestRetexture for Create!"
+filename = "LootrChestRetexture_v1.1_1.19.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "89baa371773d4783c5b2a21ada4aa0a032e289ff"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3943489
+project-id = 544412

@@ -5,9 +5,6 @@
  */
 
 LootJS.modifiers((event) => {
-
-    event.enableLogging();
-
     event
         .addBlockLootModifier("kubejs:chocolate_ore")
         .removeLoot(Ingredient.all)

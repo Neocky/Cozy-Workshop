@@ -54,6 +54,9 @@
   "jadeaddons": {
     "equipment_requirement": ""
   },
+  "supplementaries": {
+    "hat_stand": true
+  },
   "jade": {
     "coordinates.rel": false,
     "distance": false,
@@ -72,6 +75,9 @@
     "crafting_blueprint": true,
     "goggles.detailed": false,
     "placard": true
+  },
+  "lootr": {
+    "info": true
   },
   "productivebees": {
     "solitary_nest": true,

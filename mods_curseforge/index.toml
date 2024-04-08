@@ -501,6 +501,11 @@ hash = "d02b891b8549c4bacda20466c941001255efd7f184f5ff6bd662ef90c9f6de95"
 metafile = true
 
 [[files]]
+file = "mods/better-combat-by-daedelus.pw.toml"
+hash = "f96d0997b608834038df81602a54d1f219a51a7f96ebc452d06a72f8b4fc9529"
+metafile = true
+
+[[files]]
 file = "mods/citadel.pw.toml"
 hash = "454a06dd8f4f896dc23545a1ea4dcf304ca1265cdfe6c98b729d2943fb0b0341"
 metafile = true
@@ -521,6 +526,11 @@ hash = "c1bdeff356cd2ac164e2c0e6d0ceeda234db9774c2df44fb9f0e71d3960cc3f1"
 metafile = true
 
 [[files]]
+file = "mods/connectivity.pw.toml"
+hash = "ad75b54b108148d1d01daa2eead5ead341a9e1bbc84d3418f71412296757b70d"
+metafile = true
+
+[[files]]
 file = "mods/controlling.pw.toml"
 hash = "1e56f528d8e21b0cf9c52c3d6deea2a4eafa408170b39a070195dbf66617f373"
 metafile = true
@@ -536,6 +546,11 @@ hash = "6ecc31d75d379730df8fe950438b4ca26ed1daa8612406374552665f9222f9ea"
 metafile = true
 
 [[files]]
+file = "mods/cupboard.pw.toml"
+hash = "703196e02c2f1c05f8cb8edb7b3ff9f0c1015bf0ead85730f976e09c24ce0fca"
+metafile = true
+
+[[files]]
 file = "mods/cut-through.pw.toml"
 hash = "e1eb9c8386bc3ec75f1dcc14ff420b1a2e64aa2553678cb5ccfa945966280c82"
 metafile = true
@@ -543,6 +558,11 @@ metafile = true
 [[files]]
 file = "mods/dark-mode-everywhere.pw.toml"
 hash = "a7f86043961b9645bd52000b0083193ca8dda09cc30e53810019491b57f33d57"
+metafile = true
+
+[[files]]
+file = "mods/decorative-blocks.pw.toml"
+hash = "02e3f47ff5a2fa074996387e14c81718e5c4df16dbe75ba1e1021157352f7815"
 metafile = true
 
 [[files]]
@@ -666,6 +686,11 @@ hash = "c29644a21f7936f1db9dc3c3dd54fe593a91dfeb1cc3f13ffc5fff5e02f890a6"
 metafile = true
 
 [[files]]
+file = "mods/handcrafted.pw.toml"
+hash = "b9a7e71472f5f88229bf2f9e214b223b3900052bdc56075906d7a22acf74568c"
+metafile = true
+
+[[files]]
 file = "mods/harvest-with-ease.pw.toml"
 hash = "5a1e1d9e5a5e64d7b7641ba4e394d374fd762abcb7f2920dda74c4d29bbdae86"
 metafile = true
@@ -716,6 +741,11 @@ hash = "e529665cfda65f7532a0cf52feac55eda02040f26f9ddaf2dfb4cdabe51332f4"
 metafile = true
 
 [[files]]
+file = "mods/lootr.pw.toml"
+hash = "0daa6f3e2326ab0ea10690d67edadcdd6ceb9a220515aa69791f2b7a0405ed80"
+metafile = true
+
+[[files]]
 file = "mods/magnesium-extras.pw.toml"
 hash = "a5c9c4409681fb848186182fb09aabd4d2cfcbd6fe4c46c219e4b2020b162b96"
 metafile = true
@@ -751,13 +781,28 @@ hash = "6fae8c1ae452f1c54248e73b743ad9c036419f4fefc31e92fb76446f02c72aaa"
 metafile = true
 
 [[files]]
+file = "mods/overflowing-bars.pw.toml"
+hash = "447d3edbe6b85c54c601c64709cf7223af19142d0a47c2a2032194baf10c61f2"
+metafile = true
+
+[[files]]
 file = "mods/overweight-farming.pw.toml"
 hash = "1deb44f93c9d72a2fee8b3b33fb3da84e228c0d92062111a3d205ebe18225c66"
 metafile = true
 
 [[files]]
+file = "mods/paxi.pw.toml"
+hash = "1bc510c2003bae5616d20b25637b08dd1f3038924e1ed5accf72cd1e5c82790d"
+metafile = true
+
+[[files]]
 file = "mods/placebo.pw.toml"
 hash = "14eb87dea15b2484cda7bed648ed7382d8636e1e953a0e3f73f92c528c145934"
+metafile = true
+
+[[files]]
+file = "mods/playeranimator.pw.toml"
+hash = "b52622122c19a3894e62fc5506d7c3332d202504fd406d6718be646f979feb40"
 metafile = true
 
 [[files]]
@@ -776,6 +821,11 @@ hash = "b7051b4c2310e1566a96e72b525469b460ed1132e393f3865b798bc3d80386f0"
 metafile = true
 
 [[files]]
+file = "mods/resourceful-lib.pw.toml"
+hash = "d64f9f2bec28a62c595d5be6c34bc11bd77970ddbcfc81cdafe6a4b4eabbc731"
+metafile = true
+
+[[files]]
 file = "mods/rhino.pw.toml"
 hash = "6be79c8aeb5bddbe5957a1292a7977d8e03926c3126472edeaa906ef54f51b58"
 metafile = true
@@ -786,13 +836,28 @@ hash = "5a1192528bb03cab00ab6d81bffd6f89faa653b5385b8e1c03963c4d78e287e3"
 metafile = true
 
 [[files]]
+file = "mods/selene.pw.toml"
+hash = "344d03a97fa0bf67aece64aceb5256b05493387366764f389b6350d8c41c497f"
+metafile = true
+
+[[files]]
 file = "mods/simple-discord-rpc.pw.toml"
 hash = "465a7640e2a633cdb3484c8ba099350bbe451721108972125d444e06384f00ef"
 metafile = true
 
 [[files]]
+file = "mods/sound-physics-remastered.pw.toml"
+hash = "5bf5faa4a3e31485734580e9b319423bdccf28bc94f91d7164f175fda959a47e"
+metafile = true
+
+[[files]]
 file = "mods/storage-drawers.pw.toml"
 hash = "ce92a2870c50085508caf9b680efffdfdd50b54e240e7bf047b6833c66ac139e"
+metafile = true
+
+[[files]]
+file = "mods/supplementaries.pw.toml"
+hash = "2702a1a7d6ebac7853d6e7ebb5dcf68e2edf4b54702ccb745c5d452b5d4df6cf"
 metafile = true
 
 [[files]]
@@ -823,6 +888,11 @@ metafile = true
 [[files]]
 file = "mods/yungs-better-witch-huts.pw.toml"
 hash = "d48200a73fc05992c86bc1ec2ffd0bcf3d49f9f4cd7fc0bbc9a1599e686a47a7"
+metafile = true
+
+[[files]]
+file = "resourcepacks/lootrchestretexture-for-create.pw.toml"
+hash = "c37caa1f9f13af724fd82001b276448fc99d2df71bcd7d12ac71565176f8a335"
 metafile = true
 
 [[files]]
