@@ -614,6 +614,7 @@
 						]
 					}
 				}
+				title: "{mp.quest.chapter1.netherite_tool.req1}"
 				type: "item"
 			}]
 			title: "{mp.quest.chapter1.netherite_tool}"
@@ -692,6 +693,7 @@
 			size: 1.0d
 			tasks: [{
 				biome: "minecraft:deep_dark"
+				icon: "minecraft:sculk"
 				id: "7B1A1A135DAEEE32"
 				type: "biome"
 			}]
@@ -744,5 +746,5 @@
 			y: 2.0d
 		}
 	]
-	title: "{mp.chapters.2.title}"
+	title: "&a{mp.chapters.2.title}"
 }

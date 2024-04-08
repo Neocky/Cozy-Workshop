@@ -76,5 +76,5 @@
 			y: 0.0d
 		}
 	]
-	title: "{mp.chapters.1.title}"
+	title: "&d{mp.chapters.1.title}"
 }

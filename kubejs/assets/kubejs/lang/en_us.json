@@ -3,12 +3,12 @@
     "mp.modpack.title": "Cozy Workshop",
     "mp.chapters.group.1": "Main",
     "mp.chapters.1.title": "Welcome",
-    "mp.chapters.2.title": "Resources",
+    "mp.chapters.2.title": "Walkthrough",
+    "mp.chapters.3.title": "Old Diary",
 
     "mp.chapters.group.2": "Farming",
-    "mp.chapters.3.title": "Plants",
-    "mp.chapters.4.title": "Kitchen",
-    "mp.chapters.5.title": "Meals",
+    "mp.chapters.4.title": "Plants",
+    "mp.chapters.5.title": "Kitchen",
 
     "mp.chapters.group.3": "Technology",
     "mp.chapters.6.title": "Automation",
@@ -99,6 +99,15 @@
     "mp.quest.chapter1.welcome.req1": "Gather wood",
     "mp.quest.chapter1.bed.req1": "Craft any Bed",
     "mp.quest.chapter1.coal.req1": "Gather any Coal",
+    "mp.quest.chapter1.netherite_tool.req1": "Craft any Netherite Tool/Armor",
+
+
+    "mp.quest.diary.welcome": "An old Diary",
+    "mp.quest.diary.entry_1": "Entry #1 - A new life",
+
+
+    "mp.quest.diary.welcome.desc": "Advance through the pack and unlock chapters of an old diary. Uncover the truth of the past and expand your knowledge of the world. \\n \\n This is written on the book cover:\\n \\n \\nDiary of &mmy&r our life \\n \\n- W.",
+    "mp.quest.diary.entry_1.desc": "So how do I start... I never wrote one of these ones before...\\n \\nMy name is William but friends name me Willy and I recently married the love of my life. She gifted me this diary to write from time to time so one day I can look back onto my life. \\n After our wedding we found a place for our new house. Currently I am still building it with lumber from the old wood mill. Construction is not a problem as I am a carpenter. The problem is the place. This cursed place. \\n After we laid down the foundation the problems started to arise. First the land was uneven and we needed to make some landscaping changes. After we build the foundation the second problem arised quickly. The foundation sunk a little. It sunk! We could fix the problems but the house got more expensive. \\nOur money is currently short and we need to stretch the budget. My Wife started working on the fields again to earn something. I didn't want her to start working on the fields again but she insisted. \\nI hope this nightmare ends soon...",
 
 
     "mp.quest.plants.potato": "Everything can be made from Potatoes",
