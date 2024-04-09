@@ -33,6 +33,8 @@
     "mp.quest.welcome.team.desc": "Players in a team share their quest progress with their team members. If you want to create a team use the command &b/ftbteams party create (name of team)&r to create the team.",
 
     "mp.quest.welcome.discord.img": "Join the Discord!",
+    "mp.quest.welcome.github.img": "Star this modpack on GitHub!",
+    "mp.quest.welcome.kofi.img": "Support my work with a Donation. :)",
 
 
     "mp.quest.chapter1.welcome": "Welcome to the getting started chapter!",
@@ -64,7 +66,6 @@
     "mp.quest.chapter1.ender_dragon_egg": "&eNext Generation&r",
     "mp.quest.chapter1.deep_dark": "Visit the &dDeep Dark&r",
     "mp.quest.chapter1.warden": "&5Kill the Warden&r",
-
 
     "mp.quest.chapter1.welcome.desc": "This questline serves as a guide through the progression of Minecraft, whether you are brand new to Minecraft or you have previously played it. \\n \\n Like in every other modpack, wood is a necessary starting item!",
     "mp.quest.chapter1.crafting.desc": "Let's upgrade our crafting grid! Craft a Crafting Table to unlock a 3x3 crafting grid. This way we can create more complex items.",
@@ -103,22 +104,22 @@
 
 
     "mp.quest.diary.welcome": "An old Diary",
-    "mp.quest.diary.entry_1": "Entry #1 - A new Life",
-    "mp.quest.diary.entry_2": "Entry #2 - New Home",
-    "mp.quest.diary.entry_3": "Entry #3 - My Workshop",
-    "mp.quest.diary.entry_4": "Entry #4 - Chocolate Bars",
-    "mp.quest.diary.entry_5": "Entry #5 - Growing",
-    "mp.quest.diary.entry_6": "Entry #6 - Conversion",
-    "mp.quest.diary.entry_7": "Entry #7 - Ascension",
+    "mp.quest.diary.entry_1": "&2Entry #1 - A new Life",
+    "mp.quest.diary.entry_2": "&aEntry #2 - New Home",
+    "mp.quest.diary.entry_3": "&bEntry #3 - My Workshop",
+    "mp.quest.diary.entry_4": "&6Entry #4 - Chocolate Bars",
+    "mp.quest.diary.entry_5": "&dEntry #5 - Growing",
+    "mp.quest.diary.entry_6": "&cEntry #6 - Conversion",
+    "mp.quest.diary.entry_7": "&eEntry #7 - Ascension",
 
-    "mp.quest.diary.welcome.desc": "Advance through the pack and unlock chapters of an old diary. Uncover the truth of the past and expand your knowledge of the world. \\n \\n This is written on the book cover:\\n \\n \\nDiary of &mmy&r our life \\n \\n- W.",
-    "mp.quest.diary.entry_1.desc": "So how do I start... I never wrote one of these ones before...\\n \\nMy name is William but friends name me Willy and I recently married the love of my life. She gifted me this diary to write from time to time so one day I can look back onto my life. \\n After our wedding we found a place for our new house. Currently I am still building it with lumber from the old wood mill. Construction is not a problem as I am a carpenter. The problem is the place. This cursed place. \\n After we laid down the foundation the problems started to arise. First the land was uneven and we needed to make some landscaping changes. After we build the foundation the second problem arised quickly. The foundation sunk a little. It sunk! We could fix the problems but the house got more expensive. \\nOur money is currently short and we need to stretch the budget. My Wife started working on the fields again to earn something. I didn't want her to start working on the fields again but she insisted. \\nI hope this nightmare ends soon...",
-    "mp.quest.diary.entry_2.desc": "After weeks of hard work we finished building our house. It is finally done. I can't believe it. \\n We moved into it and since then we didn't have any money issues anymore. Currently I am building furniture for other people in the village and my wife quit the field work. Now she takes care of our chickens. To celebrate our new home I bought my wife a cow from a bonus I got for a nice desk I had build. She cried of joy and named the cow Moo. Yes just Moo. \\n Since then we have fresh milk every morning with nice eggs from our chickens for breakfast. \\n \\n So whats next? \\n I am currently looking to build a small shack next to the house to use as a workshop and my wife talks about getting more animals. I just hope that she finds a better name for the poor animals.",
-    "mp.quest.diary.entry_3.desc": "The winter came and the carpenter jobs dried up. This was expected. In the meantime I finished building my workshop where I'm currently writing from. It has a nice long table where I can tinker with stuff and where I spend my days until sunset. My goal is to create something from milk that we can sell to others in the village. \\n I started with heating milk and adding some ingredients. The most prominent candidate right now is sugar from sugar canes. With milk and sugar it creates a sweet fluid. But there is still something missing and I'm searching for the last ingredient until the taste is just perfect. I hope that we will never have to worry about money anymore.",
-    "mp.quest.diary.entry_4.desc": "Cocoa Beans! Cocoa Beans were missing in the recipe. \\n Milk heated with Sugar and Cocoa Beans create a sweet creamy fluid. When pressed into a form and letting it cool of it creates a nice brown bar which tastes really good and is sweet. I named this new food Chocolate. My wife loves the new Chocolate Bars and the kids in town too. \\n I just need to find a way to produce them in large quantities... \\n We will be rich! We will never ever have to work again! When I tell that my wife she will cry of joy. I need to talk to her. We need more cows which produce milk. And more sugar canes. And more coca beans.",
-    "mp.quest.diary.entry_5.desc": "We got more cows. We now have 6! \\n I created a new machine which produces new Chocolate Bars every day. Milk, Sugar and Cocoa Beans get heated and pressed into a bar and then get cooled down. Everything happens automatically. My wife thinks this &kthing of mine&r will grow about my head. She has no idea. I do that for us so she doesn't need to work on a field again. She will never need to work again! \\n I just need to get the recipe perfect. I can't sell some half good Chocolate Bars in the village. They need to be perfect. Perfect!",
-    "mp.quest.diary.entry_6.desc": "I need more room. The workshop is full. Everything is full of machines which create Chocolate Bars. The rest is full of Chocolate Bars itself. \\n I can't sell them yet. The recipe is not perfect. I need to make more. I needed more room. \\n So I started to build machines in our house. My wife didn't like it. She hated it and screamed at me that I should stop. She cried and asked what happened to me. I said I am doing everything for her. This is all for her. She didn't understand me. \\n \\nShe left... \\n \\nI am alone...\\n \\nI have room for the new machines. I started building and couldn't stop. Everything is full again. The factory must grow. I need to make more. Need to make more Chocolate Bars. Chocolate Bars. My Chocolate Bars!",
-    "mp.quest.diary.entry_7.desc": "I did it. \\n I build a machine that will create energy from Chocolate Bars. I feed it every day. It needs more. The hunger is never satisfied. I feed it more. It needs more. \\n Soon I will have enough energy that I can start it. I don't know what happens. I don't know why I build it. I just know that I need it. \\n \\nI searched for you but you weren't there. You know I did it for you. Everything was for you.\\n \\nWe were happy... But we both left.\\n \\n-Goodbye Willy",
+    "mp.quest.diary.welcome.desc": "Advance through the pack and unlock 7 different chapters of an old diary. Uncover the truth of the past and expand your knowledge of the world. \\n \\nThis is written on the book cover:\\n \\n \\nDiary of &mmy&r our life \\n \\n- W.",
+    "mp.quest.diary.entry_1.desc": "So how do I start... I never wrote one of these ones before...\\n \\nMy name is William but friends name me Willy and I recently married the love of my life. She gifted me this diary to write from time to time so one day I can look back onto my life. \\n \\nAfter our wedding we found a place for our new house. Currently I am still building it with lumber from the old wood mill. Construction is not a problem as I am a carpenter. The problem is the place. This cursed place. \\nAfter we laid down the foundation the problems started to arise. First the land was uneven and we needed to make some landscaping changes. After we build the foundation the second problem arised quickly. The foundation sunk a little. It sunk! We could fix the problems but the house got more expensive. \\nOur money is currently short and we need to stretch the budget. My Wife started working on the fields again to earn something. I didn't want her to start working there again but she insisted. \\nI hope this nightmare ends soon...",
+    "mp.quest.diary.entry_2.desc": "After weeks of hard work we finished building our house. It is finally done. I can't believe it. \\n We moved into it and since then we didn't have any money issues anymore. Currently I am building furniture for other people in the village and my wife quit the field work. Now she takes care of our chickens. To celebrate our new home I bought my wife a cow from a bonus I got for a nice desk I had build. She cried of joy and named the cow Moo. Yes just Moo. \\nSince then we have fresh milk every morning with nice eggs from our chickens for breakfast. \\n \\nSo whats next? \\n \\nI am currently looking to build a small shack next to the house to use as a workshop and my wife talks about getting more animals. I just hope that she finds a better name for the poor animals.",
+    "mp.quest.diary.entry_3.desc": "The winter came and the carpenter jobs dried up. This was expected. \\nIn the meantime I finished building my workshop where I'm currently writing from. It has a nice long table where I can tinker with stuff and where I spend my days until sunset. My goal is to create something from milk that we can sell to others in the village. \\nI started with heating milk and adding some ingredients. The most prominent candidate right now is sugar from sugar canes. With milk and sugar it creates a sweet fluid. But there is still something missing and I'm searching for the last ingredient until the taste is just perfect. \\nI hope that this will help so we will never have to worry about money anymore.",
+    "mp.quest.diary.entry_4.desc": "Cocoa Beans! Cocoa Beans were missing in the recipe. \\nMilk heated with Sugar and Cocoa Beans create a sweet creamy fluid. When pressed into a form and letting it cool of it creates a nice brown bar which tastes really good and is sweet. I named this new food Chocolate. My wife loves the new Chocolate Bars and the kids in town too. \\n \\nI just need to find a way to produce them in large quantities... \\nWe will be rich! We will never ever have to work again! When I tell that my wife she will cry of joy. I need to talk to her. We need more cows which produce milk. And more sugar canes. And more coca beans.",
+    "mp.quest.diary.entry_5.desc": "We got more cows. We now have 6! \\nI created a new machine which produces new Chocolate Bars every day. Milk, Sugar and Cocoa Beans get heated and pressed into a bar and then get cooled down. Everything happens automatically. \\nMy wife thinks this &othing of mine&r will grow over my head. She has no idea. I do that for us so she doesn't need to work on a field again. She will never need to work again! \\n \\nI just need to get the recipe perfect. I can't sell some half good Chocolate Bars in the village. They need to be perfect. Perfect!",
+    "mp.quest.diary.entry_6.desc": "I need more room. The workshop is full. Everything is full of machines which create Chocolate Bars. The rest is full of Chocolate Bars itself. \\nI can't sell them yet. The recipe is not perfect. I need to make more. I needed more room. \\nSo I started to build machines in our house. My wife didn't like it. She hated it and screamed at me that I should stop. She cried and asked what happened to me. I said I am doing everything for her. This is all for her. She didn't understand me. \\n \\nShe left... \\n \\nI am alone...\\n \\nI have room for the new machines. I started building and couldn't stop. Everything is full again. The factory must grow. I need to make more. Need to make more Chocolate Bars. Chocolate Bars. My Chocolate Bars!",
+    "mp.quest.diary.entry_7.desc": "I did it. \\nI build a machine that will create energy from Chocolate Bars. I feed it every day. It needs more. The hunger is never satisfied. I feed it more. It needs more. \\nSoon I will have enough energy that I can start it. I don't know what happens. I don't know why I build it. I just know that I need it. \\n \\nI searched for you but you weren't there. You know I did it for you. Everything was for you.\\n \\nWe were happy... But we both left.\\n \\n-Goodbye, Willy",
 
 
     "mp.quest.plants.potato": "Everything can be made from Potatoes",
@@ -197,8 +198,9 @@
 
     "mp.quest.bees.welcome": "Bzzzz",
     "mp.quest.bees.beehive": "First Beehive",
-    "mp.quest.bees.sturdy_bee_cage": "Capturing Bees",
+    "mp.quest.bees.bee_cage": "Capturing Bees",
     "mp.quest.bees.advanced_beehive": "Bee resident",
+    "mp.quest.bees.honey_treat": "Lure some Bees",
     "mp.quest.bees.wood_nest": "Wood Nest",
     "mp.quest.bees.stone_nest": "Stone Nest",
     "mp.quest.bees.dirt_nest": "Dirt Nest",
@@ -211,6 +213,7 @@
     "mp.quest.bees.soul_sand_nest": "Soul Sand Nest",
     "mp.quest.bees.nether_quartz_nest": "Nether Quartz Nest",
     "mp.quest.bees.nether_brick_nest": "Nether Brick Nest",
+    "mp.quest.bees.nether_gold_nest": "Nether Gold Nest",
     "mp.quest.bees.end_stone_nest": "End Stone Nest",
     "mp.quest.bees.obsidian_nest": "Obsidian Nest",
 
@@ -226,13 +229,15 @@
     "mp.quest.bees.soul_sand_nest.sub": "Lures Ghostly Bees in the Nether",
     "mp.quest.bees.nether_quartz_nest.sub": "Lures Crystalline Bees in the Nether",
     "mp.quest.bees.nether_brick_nest.sub": "Lures Magmatic Bees in the Nether",
+    "mp.quest.bees.nether_gold_nest.sub": "Lures Gold Bees in the Nether",
     "mp.quest.bees.end_stone_nest.sub": "Lures Ender Bees in the End",
     "mp.quest.bees.obsidian_nest.sub": "Lures Draconic Bees in the End",
 
     "mp.quest.bees.welcome.desc": "Welcome to your Bee journey! \\n \\nFind a Beehive and shearing it when it is full will give you honeycombs. Using glass bottles will give you Honey Bottles.",
     "mp.quest.bees.beehive.desc": "Craft yourself a Beehive, which can hold 3 Bees each. \\nBees will only create Honey/Honeycombs if they have the right flowers. Most Bees of the mod will require a special block! Check JEI for more info.",
-    "mp.quest.bees.sturdy_bee_cage.desc": "To start with our own bee farm we need to capture some bees.\\n \nRight-clicking a bee with a Bee Cage will capture it.",
+    "mp.quest.bees.bee_cage.desc": "To start with our own bee farm we need to capture some bees.\\n \nRight-clicking a bee with a Bee Cage will capture it.",
     "mp.quest.bees.advanced_beehive.desc": "Bees will fly around and produce Honeycombs which they will drop of in the inventory of these. You will get Honey if you insert glass bottles. \\Honeycombs can be crafted into a treat.",
+    "mp.quest.bees.honey_treat.desc": "Honey Treat is used to lure different bees when given to nests.",
     "mp.quest.bees.wood_nest.desc": "Wood Nests lure Carpenter Bees and Blue Banded Bees. Dark Oak Nests can lure 3 different bees. \\nThe Wood Nest can be placed in any Overworld Biome",
     "mp.quest.bees.stone_nest.desc": "Stone Nests lure Mason Bees or Digger Bees.",
     "mp.quest.bees.dirt_nest.desc": "Dirt Nests lure Ashy Mining Bees, Chocolate Mining Bees and Leafcutter Bees.",
@@ -245,6 +250,7 @@
     "mp.quest.bees.soul_sand_nest.desc": "Soul Sand Nests lure Ghostly Bees when given Ghast Tears and placed in the Nether.",
     "mp.quest.bees.nether_quartz_nest.desc": "Nether Quartz Nests lure Crystalline Bees when given Nether Quartz.",
     "mp.quest.bees.nether_brick_nest.desc": "Nether Brick Nests lure Magmatic Bees when given Magma Cream.",
+    "mp.quest.bees.nether_gold_nest.desc": "Nether Gold Nests lure Gold Bees when given Gold Ingots.",
     "mp.quest.bees.end_stone_nest.desc": "End Stone Nests lure Ender Bees when given Popped Chorus Fruits.",
     "mp.quest.bees.obsidian_nest.desc": "Obsidian Nests lure Draconic Bees when given Dragon's Breath.",
 

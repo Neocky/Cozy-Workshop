@@ -9,6 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			description: ["{mp.quest.bees.welcome.desc}"]
 			id: "609CB9014BB2FCE3"
 			tasks: [
 				{
@@ -22,11 +23,13 @@
 					type: "item"
 				}
 			]
+			title: "{mp.quest.bees.welcome}"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["609CB9014BB2FCE3"]
+			description: ["{mp.quest.bees.bee_cage.desc}"]
 			id: "50C00CEA445CAC4B"
 			tasks: [{
 				count: 4L
@@ -34,28 +37,33 @@
 				item: "productivebees:bee_cage"
 				type: "item"
 			}]
+			title: "{mp.quest.bees.bee_cage}"
 			x: 0.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["50C00CEA445CAC4B"]
+			description: ["{mp.quest.bees.beehive.desc}"]
 			id: "383CAA37E5A02459"
 			tasks: [{
 				id: "697A457AECD4CF39"
 				item: "minecraft:beehive"
 				type: "item"
 			}]
+			title: "{mp.quest.bees.beehive}"
 			x: 0.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["383CAA37E5A02459"]
+			description: ["{mp.quest.bees.honey_treat.desc}"]
 			id: "603DCDBE13C67FFF"
 			tasks: [{
 				id: "7681D8D7FC8BD42E"
 				item: "productivebees:honey_treat"
 				type: "item"
 			}]
+			title: "{mp.quest.bees.honey_treat}"
 			x: 0.0d
 			y: 6.0d
 		}
@@ -78,156 +86,198 @@
 			y: 10.0d
 		}
 		{
+			description: ["{mp.quest.bees.dirt_nest.desc}"]
 			id: "7E3EA60F5BD55DD6"
 			shape: "hexagon"
+			subtitle: "{mp.quest.bees.dirt_nest.sub}"
 			tasks: [{
 				id: "54E3C6B12DDD47BF"
 				item: "productivebees:coarse_dirt_nest"
 				type: "item"
 			}]
+			title: "{mp.quest.bees.dirt_nest}"
 			x: 3.5d
 			y: 5.5d
 		}
 		{
+			description: ["{mp.quest.bees.wood_nest.desc}"]
 			id: "0D0C691BF93CF080"
 			shape: "hexagon"
+			subtitle: "{mp.quest.bees.wood_nest.sub}"
 			tasks: [{
 				id: "3B53A6A5D2DAB332"
 				item: "productivebees:oak_wood_nest"
 				type: "item"
 			}]
+			title: "{mp.quest.bees.wood_nest}"
 			x: 3.5d
 			y: 6.5d
 		}
 		{
+			description: ["{mp.quest.bees.gravel_nest.desc}"]
 			id: "07267A6DF008BC2C"
 			shape: "hexagon"
+			subtitle: "{mp.quest.bees.gravel_nest.sub}"
 			tasks: [{
 				id: "343C69777752B0DC"
 				item: "productivebees:gravel_nest"
 				type: "item"
 			}]
+			title: "{mp.quest.bees.gravel_nest}"
 			x: 4.5d
 			y: 5.0d
 		}
 		{
+			description: ["{mp.quest.bees.sand_nest.desc}"]
 			id: "31FBDD7561D042D8"
 			shape: "hexagon"
+			subtitle: "{mp.quest.bees.sand_nest.sub}"
 			tasks: [{
 				id: "13E5954A6B70EEAD"
 				item: "productivebees:sand_nest"
 				type: "item"
 			}]
+			title: "{mp.quest.bees.sand_nest}"
 			x: 6.5d
 			y: 6.5d
 		}
 		{
+			description: ["{mp.quest.bees.stone_nest.desc}"]
 			id: "07B09E0E8D1EEEF6"
 			shape: "hexagon"
+			subtitle: "{mp.quest.bees.stone_nest.sub}"
 			tasks: [{
 				id: "7938F3BC96728467"
 				item: "productivebees:stone_nest"
 				type: "item"
 			}]
+			title: "{mp.quest.bees.stone_nest}"
 			x: 4.5d
 			y: 7.0d
 		}
 		{
+			description: ["{mp.quest.bees.snow_nest.desc}"]
 			id: "1C21E969CE52BC32"
 			shape: "hexagon"
+			subtitle: "{mp.quest.bees.snow_nest.sub}"
 			tasks: [{
 				id: "248BF4575101EEBA"
 				item: "productivebees:snow_nest"
 				type: "item"
 			}]
+			title: "{mp.quest.bees.snow_nest}"
 			x: 5.5d
 			y: 5.0d
 		}
 		{
+			description: ["{mp.quest.bees.slimy_nest.desc}"]
 			id: "360595C4B1F2B134"
 			shape: "hexagon"
+			subtitle: "{mp.quest.bees.slimy_nest.sub}"
 			tasks: [{
 				id: "665B30EFDEB9A8EB"
 				item: "productivebees:slimy_nest"
 				type: "item"
 			}]
+			title: "{mp.quest.bees.slimy_nest}"
 			x: 6.5d
 			y: 5.5d
 		}
 		{
+			description: ["{mp.quest.bees.reed_nest.desc}"]
 			id: "251ADBD404CD357C"
 			shape: "hexagon"
+			subtitle: "{mp.quest.bees.reed_nest.sub}"
 			tasks: [{
 				id: "72B310F304BBE73A"
 				item: "productivebees:sugar_cane_nest"
 				type: "item"
 			}]
+			title: "{mp.quest.bees.reed_nest}"
 			x: 5.5d
 			y: 7.0d
 		}
 		{
+			description: ["{mp.quest.bees.nether_quartz_nest.desc}"]
 			id: "6CA6F50E517751D9"
 			shape: "hexagon"
+			subtitle: "{mp.quest.bees.nether_quartz_nest.sub}"
 			tasks: [{
 				id: "48EF24344F1BAB29"
 				item: "productivebees:nether_quartz_nest"
 				type: "item"
 			}]
+			title: "{mp.quest.bees.nether_quartz_nest}"
 			x: -4.0d
 			y: 6.0d
 		}
 		{
+			description: ["{mp.quest.bees.nether_brick_nest.desc}"]
 			id: "4E55EF97212916E0"
 			shape: "hexagon"
+			subtitle: "{mp.quest.bees.nether_brick_nest.sub}"
 			tasks: [{
 				id: "70DCE9C393BFD525"
 				item: "productivebees:nether_brick_nest"
 				type: "item"
 			}]
+			title: "{mp.quest.bees.nether_brick_nest}"
 			x: -4.5d
 			y: 5.0d
 		}
 		{
+			description: ["{mp.quest.bees.glowstone_nest.desc}"]
 			id: "5FA755B4BDC4714D"
 			shape: "hexagon"
+			subtitle: "{mp.quest.bees.glowstone_nest.sub}"
 			tasks: [{
 				id: "02C847BE4815B4EC"
 				item: "productivebees:glowstone_nest"
 				type: "item"
 			}]
+			title: "{mp.quest.bees.glowstone_nest}"
 			x: -6.0d
 			y: 6.0d
 		}
 		{
+			description: ["{mp.quest.bees.nether_gold_nest.desc}"]
 			id: "65BFEB94C91330CA"
 			shape: "hexagon"
+			subtitle: "{mp.quest.bees.nether_gold_nest.sub}"
 			tasks: [{
 				id: "3456CEFB76BCB30E"
 				item: "productivebees:nether_gold_nest"
 				type: "item"
 			}]
+			title: "{mp.quest.bees.nether_gold_nest}"
 			x: -4.5d
 			y: 7.0d
 		}
 		{
+			description: ["{mp.quest.bees.obsidian_nest.desc}"]
 			id: "392AFCFDF14E7BCF"
 			shape: "hexagon"
+			subtitle: "{mp.quest.bees.obsidian_nest.sub}"
 			tasks: [{
 				id: "50C39A68798DC1D4"
 				item: "productivebees:obsidian_nest"
 				type: "item"
 			}]
+			title: "{mp.quest.bees.obsidian_nest}"
 			x: -5.5d
 			y: 5.0d
 		}
 		{
+			description: ["{mp.quest.bees.end_stone_nest.desc}"]
 			id: "000BC267736C123B"
 			shape: "hexagon"
+			subtitle: "{mp.quest.bees.end_stone_nest.sub}"
 			tasks: [{
 				id: "7E14667082590E33"
 				item: "productivebees:end_stone_nest"
 				type: "item"
 			}]
+			title: "{mp.quest.bees.end_stone_nest}"
 			x: -5.5d
 			y: 7.0d
 		}

@@ -5,12 +5,25 @@
 	group: "6E30B58C103A8CEE"
 	icon: "minecraft:book"
 	id: "37647DF85275F0E5"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 2.0d
+		hover: [ ]
+		image: "minecraft:item/written_book"
+		rotation: 0.0d
+		width: 2.0d
+		x: 0.0d
+		y: -5.0d
+	}]
 	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
 			description: ["{mp.quest.diary.welcome.desc}"]
 			id: "5CE43901FD8BBA45"
+			optional: true
 			tasks: [{
 				id: "07D01B640533CF10"
 				title: "{mp.quest.diary.welcome}"
@@ -21,9 +34,9 @@
 		}
 		{
 			description: ["{mp.quest.diary.entry_1.desc}"]
+			icon: "minecraft:oak_sapling"
 			id: "6C82A1FF6632D317"
 			invisible: true
-			optional: true
 			shape: "hexagon"
 			tasks: [{
 				advancement: "minecraft:story/iron_tools"
@@ -32,8 +45,109 @@
 				type: "advancement"
 			}]
 			title: "{mp.quest.diary.entry_1}"
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6C82A1FF6632D317"]
+			description: ["{mp.quest.diary.entry_2.desc}"]
+			icon: "minecraft:milk_bucket"
+			id: "3946F997E2C03F47"
+			invisible: true
+			shape: "hexagon"
+			tasks: [{
+				advancement: "create:mechanical_press"
+				criterion: ""
+				id: "5625DE6BD06425A9"
+				type: "advancement"
+			}]
+			title: "{mp.quest.diary.entry_2}"
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3946F997E2C03F47"]
+			description: ["{mp.quest.diary.entry_3.desc}"]
+			id: "14949DD294CE42DA"
+			invisible: true
+			shape: "hexagon"
+			tasks: [{
+				advancement: "create:mechanical_mixer"
+				criterion: ""
+				id: "3DFF9D307A1C47ED"
+				type: "advancement"
+			}]
+			title: "{mp.quest.diary.entry_3}"
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["14949DD294CE42DA"]
+			description: ["{mp.quest.diary.entry_4.desc}"]
+			icon: "create:bar_of_chocolate"
+			id: "2E371F9227AEC2BF"
+			invisible: true
+			shape: "hexagon"
+			tasks: [{
+				advancement: "create:chocolate_bucket"
+				criterion: ""
+				id: "3977B0DAA191E4B7"
+				type: "advancement"
+			}]
+			title: "{mp.quest.diary.entry_4}"
 			x: 0.0d
 			y: -3.0d
+		}
+		{
+			dependencies: ["2E371F9227AEC2BF"]
+			description: ["{mp.quest.diary.entry_5.desc}"]
+			icon: "create:chocolate_bucket"
+			id: "769560F39E4C3997"
+			invisible: true
+			shape: "hexagon"
+			tasks: [{
+				advancement: "create:steam_engine"
+				criterion: ""
+				id: "7158824A64BE8C8A"
+				type: "advancement"
+			}]
+			title: "{mp.quest.diary.entry_5}"
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["769560F39E4C3997"]
+			description: ["{mp.quest.diary.entry_6.desc}"]
+			icon: "create:mechanical_press"
+			id: "6E17473D671735F7"
+			invisible: true
+			shape: "hexagon"
+			tasks: [{
+				advancement: "create:brass"
+				criterion: ""
+				id: "0A67EAE6905FD2CB"
+				type: "advancement"
+			}]
+			title: "{mp.quest.diary.entry_6}"
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6E17473D671735F7"]
+			description: ["{mp.quest.diary.entry_7.desc}"]
+			icon: "create:precision_mechanism"
+			id: "1B3B2476528A28B3"
+			invisible: true
+			shape: "hexagon"
+			tasks: [{
+				advancement: "create:mechanical_crafter"
+				criterion: ""
+				id: "6B5B1DBC8336A3BC"
+				type: "advancement"
+			}]
+			title: "{mp.quest.diary.entry_7}"
+			x: 1.5d
+			y: 3.0d
 		}
 	]
 	title: "&#DB6C23{mp.chapters.3.title}"

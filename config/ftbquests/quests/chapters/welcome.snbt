@@ -5,18 +5,44 @@
 	group: "6E30B58C103A8CEE"
 	icon: "minecraft:campfire"
 	id: "26B2A7EA014B1E98"
-	images: [{
-		click: "https://discord.gg/"
-		corner: false
-		dev: false
-		height: 1.0d
-		hover: ["mp.quest.welcome.discord.img"]
-		image: "ftblibrary:icons/star"
-		rotation: 0.0d
-		width: 1.0d
-		x: 0.0d
-		y: 2.5d
-	}]
+	images: [
+		{
+			click: "https://discord.gg/"
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: ["mp.quest.welcome.discord.img"]
+			image: "supplementaries:textures/gui/book/icon/discord.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			click: "https://github.com/Neocky/Cozy-Workshop"
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: ["mp.quest.welcome.github.img"]
+			image: "supplementaries:textures/gui/book/icon/github.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			click: "https://ko-fi.com/neocky"
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: ["mp.quest.welcome.kofi.img"]
+			image: "supplementaries:textures/gui/book/icon/kofi.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 2.5d
+		}
+	]
 	order_index: 0
 	progression_mode: "flexible"
 	quest_links: [ ]
