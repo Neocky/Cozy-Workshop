@@ -79,6 +79,9 @@
   "lootr": {
     "info": true
   },
+  "corpse": {
+    "corpse": true
+  },
   "productivebees": {
     "solitary_nest": true,
     "jar": true,
