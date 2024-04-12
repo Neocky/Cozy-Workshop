@@ -56,7 +56,7 @@ config/jei/recipe-category-sort-order.ini
 *.fmdata
 config/collective/checked.txt
 *.db
-*.local
+
 emi.json
 config/jade/sort-order.json
 /mods/assets/
