@@ -35,7 +35,7 @@
 				structure: "dungeoncrawl:dungeon"
 				type: "structure"
 			}]
-			x: 0.0d
+			x: 1.0d
 			y: 3.0d
 		}
 		{
@@ -47,8 +47,8 @@
 				id: "6FA0D2BD28A7C139"
 				type: "advancement"
 			}]
-			x: -3.0d
-			y: 0.0d
+			x: -2.5d
+			y: -2.0d
 		}
 		{
 			id: "46A9FC71547C07B0"
@@ -59,7 +59,7 @@
 				id: "54D522FD79E7C2BB"
 				type: "advancement"
 			}]
-			x: 0.0d
+			x: 1.0d
 			y: -3.0d
 		}
 		{
@@ -95,8 +95,8 @@
 				structure: "explorify:mausoleum"
 				type: "structure"
 			}]
-			x: -2.5d
-			y: 2.0d
+			x: -1.0d
+			y: 3.0d
 		}
 		{
 			icon: "minecraft:nether_bricks"
@@ -119,8 +119,8 @@
 				id: "3E688123E740D058"
 				type: "advancement"
 			}]
-			x: -2.5d
-			y: -2.0d
+			x: -1.0d
+			y: -3.0d
 		}
 		{
 			id: "6863727D0AF00AB3"
@@ -135,6 +135,34 @@
 			}]
 			x: 0.0d
 			y: 0.0d
+		}
+		{
+			description: ["{advancements.takesapillage.bastille.description}"]
+			icon: "minecraft:deepslate_bricks"
+			id: "168DCD1999D3B24B"
+			shape: "octagon"
+			tasks: [{
+				id: "697580B15296EFCC"
+				structure: "takesapillage:bastille"
+				type: "structure"
+			}]
+			title: "{advancements.takesapillage.bastille.title}"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			description: ["{advancements.takesapillage.pillager_camp.description}"]
+			icon: "minecraft:campfire"
+			id: "238B8905C1308F9A"
+			shape: "octagon"
+			tasks: [{
+				id: "4943D157387A4733"
+				structure: "takesapillage:pillager_camp"
+				type: "structure"
+			}]
+			title: "{advancements.takesapillage.pillager_camp.title}"
+			x: -2.5d
+			y: 2.0d
 		}
 	]
 	title: "{mp.chapters.9.title}"
