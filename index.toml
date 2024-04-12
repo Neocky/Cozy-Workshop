@@ -421,6 +421,10 @@ file = "config/attributefix.json"
 hash = "3be892a0c66418b41d471201c65aab180c2336018f70bc0c1f3660fa92f0ce7e"
 
 [[files]]
+file = "config/balanced_flight.toml"
+hash = "4ab2689b50ea82fc5cba8d9b671456fff626e55389c0e2b8e4191cb9a42aa624"
+
+[[files]]
 file = "config/balm-common.toml"
 hash = "2e83e8a8f8e120214aeb50f55eb08f26c53b90e841c1949a9b7ca400f6c34088"
 
@@ -701,10 +705,6 @@ file = "config/immediatelyfast.json"
 hash = "645b87f55cf42c04dbab8f76dc7f3173a510ffdc712305fc62371ebac07fed1e"
 
 [[files]]
-file = "config/inventoryprofilesnext/New World/villager-trading-config.json"
-hash = "900a5d6592eaefcc3812b240e2efc8a48eb4edb5684a0435feebeaa18992aaf3"
-
-[[files]]
 file = "config/inventoryprofilesnext/integrationHints/exampleIntegrationHints.json"
 hash = "ca413dea02cce69c69dccdc525fb0ec013236876eff2d142772c68db3d772d3a"
 
@@ -738,7 +738,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "26c35e6368ed0c26e73d7880c6e444fa005115a3835dc0e6e06dfc059f488c3d"
+hash = "c8b9b6976c58a8c5f1a047bdc114670b7e4b597b2cf6d8a9330f1fa60b8cd15d"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -794,7 +794,7 @@ hash = "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "b1ee302b8bffabad44cfa35cb9ab205f34cbba268932f25c68b3610e9fde73c9"
+hash = "d4b21f6de902d4b42fd3a2a451c85d5c89f1a5753b29fd33d489bd10477e14b4"
 
 [[files]]
 file = "config/overflowingbars-client.toml"
@@ -834,11 +834,11 @@ hash = "d24f20a9cbccf3f605df5c16e8a1c65306e5e36c5501a8980cbb1be00537bd34"
 
 [[files]]
 file = "config/sound_physics_remastered/occlusion.properties"
-hash = "f219114d9c7a4425ff45657767edb67388fbcfb642314e3468da8cf5de5f81c1"
+hash = "98779724326707820524f879711252a67f81b217eced10e939216e273c33dadc"
 
 [[files]]
 file = "config/sound_physics_remastered/reflectivity.properties"
-hash = "3cc33f071165f5c919c426abab50c771ffde5e489e972cf4224be8ea59058fdd"
+hash = "76591c082eb2c1eef5532fd32218598a5ecad98f7f827c4e9819f17e4b02b121"
 
 [[files]]
 file = "config/sound_physics_remastered/soundphysics.properties"
@@ -939,6 +939,10 @@ hash = "783d78bd1ee61d3b32273670dff9d82c34cd74c5ae899a10f104f473828d5bbc"
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/example_item.png"
 hash = "45a5f56eba6066ad05c70988a32b72c50cfeb6e35857739bd582007011ea002b"
+
+[[files]]
+file = "kubejs/client_scripts/item_tooltips.js"
+hash = "a765f8b0eea4e12430cad97ff59aaf00fe356f9e93c926aa16d8f568eb03e06d"
 
 [[files]]
 file = "kubejs/client_scripts/jei_hide.js"
@@ -1487,6 +1491,11 @@ hash = "9a47ae3e125db2d8222de6b8e145678687201e500f9b788b9fd014619db091c3"
 metafile = true
 
 [[files]]
+file = "mods/drippy-loading-screen.pw.toml"
+hash = "a49da0eb6aebdcfbd6d3436aaeb23bca3fb47f2c7100adaafe625b929f68013b"
+metafile = true
+
+[[files]]
 file = "mods/dungeon-crawl.pw.toml"
 hash = "ee1b4b6d53fce1aa5a3eaa8cb321b56e55a9e3fffeb31152ab1dcd130284eaf1"
 metafile = true
@@ -1519,6 +1528,11 @@ metafile = true
 [[files]]
 file = "mods/explorify.pw.toml"
 hash = "f37fa0d524b176234a3f32fd2d4d448647356e8f4b3bdbca2c6927ff4a5f3721"
+metafile = true
+
+[[files]]
+file = "mods/fancymenu.pw.toml"
+hash = "5f47f92ced62138e7742006a4dfb800674da963d2fd58df7a2d9d0432f281fd1"
 metafile = true
 
 [[files]]
@@ -1662,6 +1676,11 @@ hash = "83219231c7af4677a2507e01ca0faf39acca69f05506148d1d6a3e47b4c94562"
 metafile = true
 
 [[files]]
+file = "mods/konkrete.pw.toml"
+hash = "ed461d699dfadb76e5b38cf39d1eea7c35221db5587a35bf38499782b6f98160"
+metafile = true
+
+[[files]]
 file = "mods/kotlin-for-forge.pw.toml"
 hash = "fab49ce0c16fa78f71c7b39d23a4318055598f1cee0a964781f3b56801e2ed44"
 metafile = true
@@ -1694,6 +1713,11 @@ metafile = true
 [[files]]
 file = "mods/magnesium-extras.pw.toml"
 hash = "a5c9c4409681fb848186182fb09aabd4d2cfcbd6fe4c46c219e4b2020b162b96"
+metafile = true
+
+[[files]]
+file = "mods/melody.pw.toml"
+hash = "0d48dec6e4adc2e7d683208cac4298bc22979fc8a354ae560cf10870e9a86d38"
 metafile = true
 
 [[files]]
@@ -1797,6 +1821,11 @@ hash = "f435fb26b5ce5e660cf709d8415732d19f4fe1aa498edbd55a7ae5af1e8c802f"
 metafile = true
 
 [[files]]
+file = "mods/second-chance-forge.pw.toml"
+hash = "8df67423c8cd9dfc24ec459b435b9361c1b1c72ac585ccb4353321eb1ee58f29"
+metafile = true
+
+[[files]]
 file = "mods/simple-backups.pw.toml"
 hash = "1f5873ba978d67743652798c8161188de2a5f9d813736e36a084ce3db99692ce"
 metafile = true
@@ -1874,6 +1903,10 @@ hash = "d38c9028f0f87cdbe02d13e36c5e7f9802c27636a72fd1a18edf0c873dab11a4"
 file = "resourcepacks/lootrchestretexture-for-create.pw.toml"
 hash = "c37caa1f9f13af724fd82001b276448fc99d2df71bcd7d12ac71565176f8a335"
 metafile = true
+
+[[files]]
+file = "screenshots/2024-04-12_13.25.42.png"
+hash = "774e80e79483df92488f6ea65ad2331482e6b5f3edb2049c0394e36540b75aa0"
 
 [[files]]
 file = "shaderpacks/ComplementaryReimagined_r5.1.1.zip.txt"
