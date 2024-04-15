@@ -74,7 +74,9 @@ function check_updates()
                 Component.yellow(current_version),
                 Component.white(", the latest version is "),
                 Component.green(latest_version),
-                Component.white('!\nUpdate using your launcher or via:\n'),
+                Component.white('!\n'),
+                Component.yellow('> '),
+                Component.white('Update using your launcher or via:\n'),
                 Component.string("[CurseForge]").color(0xF16436)
                     .click({
                         "action": "open_url",

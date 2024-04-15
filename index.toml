@@ -557,6 +557,10 @@ file = "config/ding.toml"
 hash = "2b6723b7dd16e59d4034e211ecd78aed4f11c08f5429e886d5188534156e6c20"
 
 [[files]]
+file = "config/drippyloadingscreen/options.txt"
+hash = "80ed128a0e856c1d2cf85164d65366dc0c3d14813009401f030ed29143be48e5"
+
+[[files]]
 file = "config/dungeon_crawl.toml"
 hash = "ef72b74a2be9ed2a94911f9f2b43ae27b25f0e6ed9713207af44cc881c1f81c6"
 
@@ -599,6 +603,54 @@ hash = "eaaa7a0af68a2b00a557d5df97191c80c996042cc33cc53eccd14e78431bff28"
 [[files]]
 file = "config/explorerscompass-common.toml"
 hash = "1646a67e28d5353d25354d7242ab099d147897e8e0a6f7f99a4bf4c7ae224462"
+
+[[files]]
+file = "config/fancymenu/assets/background_main_menu.png"
+hash = "c9805fe8cb57ba0612571a546932694530ce31b9dc9c5f579296af7065c109f4"
+
+[[files]]
+file = "config/fancymenu/custom_gui_screens.txt"
+hash = "ff492043eaf454c46e949d5eef32ece90cc5a19feb50a161dd29a43b5732c880"
+
+[[files]]
+file = "config/fancymenu/custom_locals/modpack/en_us.local"
+hash = "1a1da6a2c16ffccfb3702ed353251e3f7ba239657395ac52c77386df3d8b5277"
+
+[[files]]
+file = "config/fancymenu/customizablemenus.txt"
+hash = "a474ea7af5a5f1e5b18ebf6838cf75db9fbad4227460e4572f2bfd9838d276d9"
+
+[[files]]
+file = "config/fancymenu/customization/drippy_loading_overlay_layout.txt"
+hash = "0ef460bd02ecd92a1e18e19d4040ac8f715355f1054806d176e9d891c850944b"
+
+[[files]]
+file = "config/fancymenu/customization/title_screen_layout.txt"
+hash = "1acf9198da4a89efccca4b0c6a73ced4e9057df71b75795a204598abd89fa9c2"
+
+[[files]]
+file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
+hash = "051d700ea7ff1bd626063d60f9a9cd65a0af1fed5903706d1e70fce20bcb2495"
+
+[[files]]
+file = "config/fancymenu/legacy_checklist.txt"
+hash = "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
+
+[[files]]
+file = "config/fancymenu/options.txt"
+hash = "5889bb34ea491690782db29da7deef78efe813bc3e2428f12778f1e982a72259"
+
+[[files]]
+file = "config/fancymenu/ui_themes/dark.json"
+hash = "43ac9bee88f1a4c9b66fee0d4b6fcec14a52feab46bf803928aabed96f510cc9"
+
+[[files]]
+file = "config/fancymenu/ui_themes/light.json"
+hash = "6954379d658fdf496f162792a3244f0f08635858ed4b0553a718a7ef63b8a620"
+
+[[files]]
+file = "config/fancymenu/user_variables.db"
+hash = "3d7d4cda73d6bde134a568ccbe4e8d2e7fbe701570012b71fa45acdb2258c823"
 
 [[files]]
 file = "config/farmersdelight-client.toml"
@@ -705,6 +757,14 @@ file = "config/immediatelyfast.json"
 hash = "645b87f55cf42c04dbab8f76dc7f3173a510ffdc712305fc62371ebac07fed1e"
 
 [[files]]
+file = "config/inventoryprofilesnext/New World/prev-villager-trading-config.json"
+hash = "900a5d6592eaefcc3812b240e2efc8a48eb4edb5684a0435feebeaa18992aaf3"
+
+[[files]]
+file = "config/inventoryprofilesnext/New World/villager-trading-config.json"
+hash = "1f3b21bb35a9de335a50521951ff89db07f50c1e5f721f525eb97d1eb5b0e307"
+
+[[files]]
 file = "config/inventoryprofilesnext/integrationHints/exampleIntegrationHints.json"
 hash = "ca413dea02cce69c69dccdc525fb0ec013236876eff2d142772c68db3d772d3a"
 
@@ -769,6 +829,22 @@ file = "config/jeresources.toml"
 hash = "dba9b465be70853db2eaa9ab61747b244c2dd1127668dd72121251150a4833a1"
 
 [[files]]
+file = "config/konkrete/locals/de_de.local"
+hash = "79a34cfd15c2d9c06498dc221be79279507d9b57666cd44f8d2c2cf95d3582ef"
+
+[[files]]
+file = "config/konkrete/locals/en_us.local"
+hash = "fdf1864fd049b3f1b9af1f8db6c5125a627be7d06a451c778da3329843d3c39a"
+
+[[files]]
+file = "config/konkrete/locals/pl_pl.local"
+hash = "d38a7776e362e4de6082078d803c1c9358d9d40526edfe4bdfd29c552aef76d8"
+
+[[files]]
+file = "config/konkrete/locals/pt_br.local"
+hash = "dca55a2792451b31424cd5c24037141ec57cdca51955d062dd908fa9ca6a3e9c"
+
+[[files]]
 file = "config/lootr-client.toml"
 hash = "bdba68cc47b3722ec0b8debe793eea47dc68b453dda9605593ac66a73c6eebda"
 
@@ -794,7 +870,7 @@ hash = "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "d4b21f6de902d4b42fd3a2a451c85d5c89f1a5753b29fd33d489bd10477e14b4"
+hash = "e591620d589a530692a3adc84eb8d97f64e8959dae1061f0123db280c44cc920"
 
 [[files]]
 file = "config/overflowingbars-client.toml"
@@ -834,11 +910,11 @@ hash = "d24f20a9cbccf3f605df5c16e8a1c65306e5e36c5501a8980cbb1be00537bd34"
 
 [[files]]
 file = "config/sound_physics_remastered/occlusion.properties"
-hash = "98779724326707820524f879711252a67f81b217eced10e939216e273c33dadc"
+hash = "f5136cf09f4b5ec36092e34e6e05da0caa36285c51106caa7098a48cc0c0ddf8"
 
 [[files]]
 file = "config/sound_physics_remastered/reflectivity.properties"
-hash = "76591c082eb2c1eef5532fd32218598a5ecad98f7f827c4e9819f17e4b02b121"
+hash = "082d1cbe43247909f28280e9fc3d0753b35a47cfc47137576544cddd28c6a021"
 
 [[files]]
 file = "config/sound_physics_remastered/soundphysics.properties"
@@ -913,6 +989,10 @@ file = "defaultconfigs/ftbxmodcompat/ftbxmodcompat.snbt"
 hash = "9e5046ac0b9f6d27945b689657835bff24310aec7b11f7461c972b514d0e0658"
 
 [[files]]
+file = "fancymenu_data/last_world.fmdata"
+hash = "eb75911e86a5ba474647885c675722aa7189975f925c0cdfaf087a3244157906"
+
+[[files]]
 file = "icon.png"
 hash = "fd56c447862de0c06d221748a1b9ddf12005270ad05575cadbf3226e9964b845"
 
@@ -942,7 +1022,7 @@ hash = "45a5f56eba6066ad05c70988a32b72c50cfeb6e35857739bd582007011ea002b"
 
 [[files]]
 file = "kubejs/client_scripts/item_tooltips.js"
-hash = "a765f8b0eea4e12430cad97ff59aaf00fe356f9e93c926aa16d8f568eb03e06d"
+hash = "12d8c794b862b9bb75c5cd93354225afab157785c891ea6ae8b3422e28188548"
 
 [[files]]
 file = "kubejs/client_scripts/jei_hide.js"
@@ -1363,6 +1443,11 @@ metafile = true
 [[files]]
 file = "mods/balm.pw.toml"
 hash = "1447df8a4bd1fd2cce2ae71f900f3d1f1626baa2fe37c877cef19549a4101c36"
+metafile = true
+
+[[files]]
+file = "mods/better-advancements.pw.toml"
+hash = "2bef9c1f47174d832175c2a6c05eb6504e1d37c59ba1cb3287315590532eb574"
 metafile = true
 
 [[files]]
