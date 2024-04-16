@@ -5,6 +5,68 @@
 	group: "0D958BFFBE88F1A4"
 	icon: "create:wrench"
 	id: "5112D40166FE9A47"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "create:block/smart_observer_front"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "create:item/goggles"
+			rotation: 0.0d
+			width: 1.5d
+			x: 10.0d
+			y: 3.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.5d
+			hover: [ ]
+			image: "create:item/crushed_raw_copper"
+			rotation: 0.0d
+			width: 0.5d
+			x: 17.5d
+			y: -3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.5d
+			hover: [ ]
+			image: "create:item/crushed_raw_gold"
+			rotation: 0.0d
+			width: 0.5d
+			x: 17.0d
+			y: -2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.5d
+			hover: [ ]
+			image: "create:item/crushed_raw_iron"
+			rotation: 0.0d
+			width: 0.5d
+			x: 18.5d
+			y: -3.0d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -230,6 +292,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["4CA3E26471990882"]
 			id: "6E20BD330F421DFE"
 			tasks: [{
 				id: "62445F1BC130EDFE"
@@ -286,7 +349,7 @@
 				item: "create:mechanical_crafter"
 				type: "item"
 			}]
-			x: 16.0d
+			x: 18.0d
 			y: 0.0d
 		}
 		{
@@ -298,7 +361,7 @@
 				type: "item"
 			}]
 			x: 18.0d
-			y: 0.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["7847203195C50D09"]
@@ -308,13 +371,13 @@
 				item: "create:mechanical_arm"
 				type: "item"
 			}]
-			x: 20.0d
-			y: 2.0d
+			x: 18.0d
+			y: 4.0d
 		}
 		{
 			dependencies: [
-				"0E27A4953F4C3FA0"
 				"7847203195C50D09"
+				"0EB34689E2822F3D"
 			]
 			id: "65F4561C21F2538B"
 			tasks: [{
@@ -328,23 +391,133 @@
 				}
 				type: "item"
 			}]
-			x: 18.0d
-			y: 4.0d
+			x: 20.0d
+			y: -2.0d
 		}
 		{
-			id: "0E27A4953F4C3FA0"
+			dependencies: [
+				"7847203195C50D09"
+				"0EB34689E2822F3D"
+			]
+			id: "2C9D511778A79E88"
+			shape: "hexagon"
+			size: 2.0d
 			tasks: [{
-				id: "4E9603BF8F9F8938"
+				id: "7C4A8C815C08617F"
 				item: {
 					Count: 1b
-					id: "create:copper_backtank"
+					id: "create_jetpack:jetpack"
 					tag: {
-						Air: 900
+						Air: 900.0f
 					}
 				}
 				type: "item"
 			}]
-			x: 16.0d
+			x: 22.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"7847203195C50D09"
+				"0EB34689E2822F3D"
+			]
+			id: "591FB37C1C310E86"
+			tasks: [{
+				id: "2C66890F2318C69D"
+				item: "create_power_loader:brass_chunk_loader"
+				type: "item"
+			}]
+			x: 22.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"64C61DBB9F1C0E65"
+				"01A77B328530019C"
+				"527E282D34292D09"
+			]
+			hide_dependency_lines: true
+			id: "7230F6447E13B45E"
+			tasks: [
+				{
+					id: "42FF0FFBB9D2AEE4"
+					item: "create:mechanical_pump"
+					type: "item"
+				}
+				{
+					id: "7B884DBF0C55E617"
+					item: "create:fluid_pipe"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7230F6447E13B45E"]
+			id: "2FBE0E8352016D99"
+			tasks: [{
+				id: "1ECC9DD4FAB4BC5C"
+				item: "create:fluid_tank"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2FBE0E8352016D99"]
+			id: "39260B82620B83F8"
+			tasks: [{
+				id: "4D83E3479A1AF47D"
+				item: "create:steam_engine"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["39260B82620B83F8"]
+			id: "5ABDDFF69F4A0EF4"
+			tasks: [{
+				id: "6077FA1825D6DE45"
+				item: "create:steam_whistle"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"7847203195C50D09"
+				"0EB34689E2822F3D"
+			]
+			id: "4F87F6EA7266ADEE"
+			tasks: [{
+				id: "568BA5B59EB13B1D"
+				item: {
+					Count: 1b
+					id: "create:extendo_grip"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 20.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"0EB34689E2822F3D"
+				"7847203195C50D09"
+			]
+			id: "15834994F6D3DC6F"
+			tasks: [{
+				id: "2E7FB9561E4BFF28"
+				item: "create:wand_of_symmetry"
+				type: "item"
+			}]
+			x: 22.0d
 			y: 4.0d
 		}
 	]
