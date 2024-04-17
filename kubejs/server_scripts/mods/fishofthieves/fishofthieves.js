@@ -9,7 +9,7 @@ ServerEvents.recipes(event => {
     event.shapeless(
         Item.of("minecraft:bone_meal", 1),
         [
-        "fishofthieves:fish_bone"
+            "fishofthieves:fish_bone"
         ]
     )
 

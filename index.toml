@@ -421,10 +421,6 @@ file = "config/attributefix.json"
 hash = "3be892a0c66418b41d471201c65aab180c2336018f70bc0c1f3660fa92f0ce7e"
 
 [[files]]
-file = "config/balanced_flight.toml"
-hash = "6a6ca8a9f1587a69e2e7ef56f9e9a8d0ebfcb31d5ae8b1a96fe3a93ee19fe6b3"
-
-[[files]]
 file = "config/balm-common.toml"
 hash = "2e83e8a8f8e120214aeb50f55eb08f26c53b90e841c1949a9b7ca400f6c34088"
 
@@ -434,7 +430,7 @@ hash = "d048f1f87fd8e006a5a77accb0416f7ef673197b29d65d0397dce7eb6b2b7d0f"
 
 [[files]]
 file = "config/betteradvancements-client.toml"
-hash = "caca7ec27174c71dfcaabc93724a2281950df979cfd6b7a40c5557c75e15438f"
+hash = "2c5eba79cde20bd1658a43dc0527e5d45b2e462d2f065e228527eee8513446be"
 
 [[files]]
 file = "config/bettercombat/client.json5"
@@ -527,6 +523,14 @@ hash = "36a4d9f5da68f6801b83ce0c4a1a8805fbeffb0dd997f2d405465d7774522296"
 [[files]]
 file = "config/create_central_kitchen-common.toml"
 hash = "b1f685f13c96f50624871714b4ae378ac843719ba56da27a6ce4c26a34cdf755"
+
+[[files]]
+file = "config/create_jetpack-client.toml"
+hash = "3ef10cf780e735b417be86d1ef29bb72fc9257250a4d5224bf9168d4978e93c9"
+
+[[files]]
+file = "config/create_jetpack-common.toml"
+hash = "f44a37f95b0817c8d398989ed0e11f1ad7fe32024db781dc7c612f64e5f2463a"
 
 [[files]]
 file = "config/cristellib/minecraftED.json5"
@@ -653,6 +657,10 @@ file = "config/fancymenu/ui_themes/light.json"
 hash = "6954379d658fdf496f162792a3244f0f08635858ed4b0553a718a7ef63b8a620"
 
 [[files]]
+file = "config/fancymenu/user_variables.db"
+hash = "3d7d4cda73d6bde134a568ccbe4e8d2e7fbe701570012b71fa45acdb2258c823"
+
+[[files]]
 file = "config/farmersdelight-client.toml"
 hash = "e5f8f5743c23e6c1e569070d720f91e66495e8da03550a0d37d9a07c6d543014"
 
@@ -694,7 +702,7 @@ hash = "4d0c62f84adc7bfbc67f6cf070d5051c273bfca1bd64e2d8236a511ff8ec8e6a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/automation.snbt"
-hash = "b73a51830ff7fe9e4846551e595815637a8c11aaf9786f84a69477d33b9cc0c4"
+hash = "69fa565803edc988ca4bd0725e2778d1446dd05b389c08c84a2dca14bdfbae94"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/bees.snbt"
@@ -706,7 +714,7 @@ hash = "f4e9ff463b85377f6868d52e555c20d0a3e9714fb00da1ae1f9755c02fedc40f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/exploration.snbt"
-hash = "7f18de1fdff7b4dd44cb0959702c1bce0698f632818eb7c479e0dba5cb78606f"
+hash = "89816d43db05e4920444ef802cc44ebdd4cdc7eb3ea2807ac466a5403f9758ac"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/fishing.snbt"
@@ -790,7 +798,7 @@ hash = "6250c2671835ce1955559e856d3b35fc0386fdb0dfc88b93591c766904d4901d"
 
 [[files]]
 file = "config/jade/sort-order.json"
-hash = "957d26dad8dd2d3a0cd03d9c450b78ff116e23b79be63c43fddf89798182ff41"
+hash = "2a0de9dad5280243fb5e27d267481b3614cf05b55721a452123ac4936d60402b"
 
 [[files]]
 file = "config/jei/blacklist.cfg"
@@ -798,7 +806,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "b9d8290e85ba755ef93a9329b6e1a6e739af1525927b59f40739cb74b437fdb0"
+hash = "286ec1d9eb731c64a6e2267c0aa0ecb1e0ee33873b63ca874c384e5337c2706a"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -870,7 +878,7 @@ hash = "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "c8d905bcf3ce19b23c5d9d3247f7d4e51c36a3b084c7145025c4bdf26336c1ff"
+hash = "76545e0e71b0477136d124edc3e3441e86d77a4ed4491401ab50c4800dfe0f58"
 
 [[files]]
 file = "config/overflowingbars-client.toml"
@@ -906,15 +914,15 @@ hash = "d0b988aa519ffd031e5421091eec1054464f2e29e48781f6274efd977535f574"
 
 [[files]]
 file = "config/sound_physics_remastered/allowed_sounds.properties"
-hash = "d24f20a9cbccf3f605df5c16e8a1c65306e5e36c5501a8980cbb1be00537bd34"
+hash = "3cf0b5fa4d18df3970b4e486a36ab3a416d62a78c11d59be730f2735cbfb51d9"
 
 [[files]]
 file = "config/sound_physics_remastered/occlusion.properties"
-hash = "c19fab786e150215dd886304f87fb7d25e808f7314de7eeaeb5d5cb208071922"
+hash = "986c8966e1a00c2e83a2161b7e4051d0952f8b856130f74f871ed4ef3ddb2ca3"
 
 [[files]]
 file = "config/sound_physics_remastered/reflectivity.properties"
-hash = "39a69456299d469c91618826133d38dad4599ba4a71b5a3aec3c9ccc8178f65b"
+hash = "f9c98eca5b12b0411bcea4b714b1054397f9db878c4cd17daefd011838bcddbd"
 
 [[files]]
 file = "config/sound_physics_remastered/soundphysics.properties"
@@ -987,6 +995,10 @@ hash = "b882485f06e840273d3d289b6040442b9a93f0c3a7ea01d730e0fea76d246c22"
 [[files]]
 file = "defaultconfigs/ftbxmodcompat/ftbxmodcompat.snbt"
 hash = "e30478d4a52c37ab82e44e49f02c191a37822994046ecf5b02014f0bf55ffd97"
+
+[[files]]
+file = "fancymenu_data/last_world.fmdata"
+hash = "eb75911e86a5ba474647885c675722aa7189975f925c0cdfaf087a3244157906"
 
 [[files]]
 file = "icon.png"
@@ -1338,7 +1350,7 @@ hash = "f5f47b23bfb1bdf33eb7a399a7671d1f8eafd678709f4179d59941b37dadbe56"
 
 [[files]]
 file = "kubejs/server_scripts/mods/kubejs/chocolate_ore.js"
-hash = "bb25cc1bf3428b644dc15f82b46c1c02a21633ff8a381e965deb5276ef1b9a42"
+hash = "81fda4af9381de9dfe9c36b5d4aee2e7cd4c78104c8a877b822d2963bdf822a5"
 
 [[files]]
 file = "kubejs/server_scripts/mods/minecraft/fish_loot.js"
@@ -1366,7 +1378,7 @@ hash = "cd4d93ecc3024dc81b1074c547d489ad4006b3228e408a58dcadbd47e7d09c96"
 
 [[files]]
 file = "kubejs/update_notifier.json"
-hash = "dbed378d87b379b8a53584f378397746d69a5e50bd7f25ff6e6b1648983b930a"
+hash = "fd2b1e3f99108c4439ce6ab8b998e487c8dfdccba57f3a525a4118bc89c59144"
 
 [[files]]
 file = "kubejs/update_notifier_modpack_version.json"
@@ -1485,11 +1497,6 @@ metafile = true
 [[files]]
 file = "mods/craterlib.pw.toml"
 hash = "4570d2a0795ae991299fb19575a367a848024f81a5bf450f380534f3a04874ee"
-metafile = true
-
-[[files]]
-file = "mods/create-balanced-flight.pw.toml"
-hash = "59da67ba28932cdaf191b2de978485db92ca26a2b089addc7c507dcdee11b590"
 metafile = true
 
 [[files]]

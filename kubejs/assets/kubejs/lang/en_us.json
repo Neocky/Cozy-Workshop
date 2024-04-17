@@ -268,6 +268,11 @@
     "block.kubejs.chocolate_ore": "Chocolate Ore",
     "block.kubejs.deepslate_chocolate_ore": "Deepslate Chocolate Ore",
     "mp.item.tropical_fish_huh.display": "Huh?",
-    "mp.item.tropical_fish_huh.lore": "Found in your pocket"
+    "mp.item.tropical_fish_huh.lore": "Found in your pocket",
 
+    "item.kubejs.chocolate_raw_cod": "Chocolate Raw Cod",
+    "item.kubejs.chocolate_cod": "Chocolate Cod",
+    "item.kubejs.chocolate_raw_salmon": "Chocolate Raw Salmon",
+    "item.kubejs.chocolate_salmon": "Chocolate Salmon",
+    "item.kubejs.chocolate_tropical_fish": "Chocolate Tropical Fish"
 }
