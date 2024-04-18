@@ -65,3 +65,11 @@ StartupEvents.registry('item', event => {
     })
 
 })
+
+
+StartupEvents.registry('fluid', event => {
+    event.create('kubejs:glue_fluid')
+        .thickTexture(0x00FF21)
+        .bucketColor(0x00FF21)
+        .displayName('Super Glue')
+})

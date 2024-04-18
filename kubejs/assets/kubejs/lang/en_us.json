@@ -340,5 +340,7 @@
     "item.kubejs.chocolate_cod": "Chocolate Cod",
     "item.kubejs.chocolate_raw_salmon": "Chocolate Raw Salmon",
     "item.kubejs.chocolate_salmon": "Chocolate Salmon",
-    "item.kubejs.chocolate_tropical_fish": "Chocolate Tropical Fish"
+    "item.kubejs.chocolate_tropical_fish": "Chocolate Tropical Fish",
+
+    "fluid.kubejs.glue_fluid": "Super Glue"
 }
