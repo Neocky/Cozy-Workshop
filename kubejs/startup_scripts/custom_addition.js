@@ -37,15 +37,31 @@ StartupEvents.registry('item', event => {
     // Adds Chocolate Fishes
     // Assets and idea from:
     // https://modrinth.com/mod/le-fishe-au-chocolat
-    let raw_chocolate_fishes = ['kubejs:chocolate_raw_cod', 'kubejs:chocolate_raw_salmon']
-    let cooked_chocolate_fishes = ['kubejs:chocolate_cod', 'kubejs:chocolate_salmon', 'kubejs:chocolate_tropical_fish']
+    let raw_chocolate_fishes = [
+        'kubejs:chocolate_raw_cod',
+        'kubejs:chocolate_raw_salmon'
+    ]
+
+    let cooked_chocolate_fishes = [
+        'kubejs:chocolate_cod',
+        'kubejs:chocolate_salmon',
+        'kubejs:chocolate_tropical_fish'
+    ]
 
     raw_chocolate_fishes.forEach(item => {
-        event.create(item).tag('kubejs:chocolate_fishes').tag('minecraft:fishes').tag('forge:raw_fishes').food(f => f.hunger(8).saturation(0.35))
+        event.create(item)
+            .tag('kubejs:chocolate_fishes')
+            .tag('minecraft:fishes')
+            .tag('forge:raw_fishes')
+            .food(f => f.hunger(8).saturation(0.35))
     })
 
     cooked_chocolate_fishes.forEach(item => {
-        event.create(item).tag('kubejs:chocolate_fishes').tag('minecraft:fishes').tag('forge:cooked_fishes').food(f => f.hunger(10).saturation(0.55))
+        event.create(item)
+            .tag('kubejs:chocolate_fishes')
+            .tag('minecraft:fishes')
+            .tag('forge:cooked_fishes')
+            .food(f => f.hunger(10).saturation(0.55))
     })
 
 })

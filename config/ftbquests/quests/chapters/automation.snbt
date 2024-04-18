@@ -71,6 +71,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			description: ["{mp.quest.create.welcome.desc}"]
 			icon: "create:brass_hand"
 			id: "4770E70A91D29214"
 			tasks: [{
@@ -78,10 +79,12 @@
 				title: "Automation with Create"
 				type: "checkmark"
 			}]
+			title: "{mp.quest.create.welcome}"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
+			description: ["{mp.quest.create.andesite_alloy.desc}"]
 			dependencies: ["4770E70A91D29214"]
 			id: "514CF4F4C7E861CA"
 			tasks: [{
@@ -89,10 +92,12 @@
 				item: "create:andesite_alloy"
 				type: "item"
 			}]
+			title: "{mp.quest.create.andesite_alloy}"
 			x: 2.0d
 			y: 0.0d
 		}
 		{
+			description: ["{mp.quest.create.cogwheel.desc}"]
 			dependencies: ["514CF4F4C7E861CA"]
 			id: "64C61DBB9F1C0E65"
 			tasks: [{
@@ -100,10 +105,12 @@
 				item: "create:cogwheel"
 				type: "item"
 			}]
+			title: "{mp.quest.create.cogwheel}"
 			x: 4.0d
 			y: 0.0d
 		}
 		{
+			description: ["{mp.quest.create.andesite_casing.desc}"]
 			dependencies: ["514CF4F4C7E861CA"]
 			id: "6F9184EB579299D1"
 			tasks: [{
@@ -111,10 +118,12 @@
 				item: "create:andesite_casing"
 				type: "item"
 			}]
+			title: "{mp.quest.create.andesite_casing}"
 			x: 2.0d
 			y: 2.0d
 		}
 		{
+			description: ["{mp.quest.create.mechanical_press.desc}"]
 			dependencies: ["6F9184EB579299D1"]
 			id: "527E282D34292D09"
 			tasks: [{
@@ -122,10 +131,12 @@
 				item: "create:mechanical_press"
 				type: "item"
 			}]
+			title: "{mp.quest.create.mechanical_press}"
 			x: 4.0d
 			y: 2.0d
 		}
 		{
+			description: ["{mp.quest.create.plates.desc}"]
 			dependencies: ["527E282D34292D09"]
 			id: "67C421F2A6941467"
 			tasks: [{
@@ -137,13 +148,15 @@
 						value: "forge:plates"
 					}
 				}
-				title: "Any #forge:plates"
+				title: "{mp.quest.create.plates.req1}"
 				type: "item"
 			}]
+			title: "{mp.quest.create.plates}"
 			x: 6.0d
 			y: 2.0d
 		}
 		{
+			description: ["{mp.quest.create.water_wheel.desc}"]
 			dependencies: ["64C61DBB9F1C0E65"]
 			id: "1B37E233335DD3B7"
 			tasks: [{
@@ -151,10 +164,12 @@
 				item: "create:water_wheel"
 				type: "item"
 			}]
+			title: "{mp.quest.create.water_wheel}"
 			x: 3.0d
 			y: -3.0d
 		}
 		{
+			description: ["{mp.quest.create.windmill.desc}"]
 			dependencies: ["64C61DBB9F1C0E65"]
 			id: "59706E1E61FF2749"
 			tasks: [
@@ -169,10 +184,12 @@
 					type: "item"
 				}
 			]
+			title: "{mp.quest.create.windmill}"
 			x: 5.0d
 			y: -3.0d
 		}
 		{
+			description: ["{mp.quest.create.encased_fan.desc}"]
 			dependencies: ["67C421F2A6941467"]
 			id: "208B494302C761E4"
 			tasks: [{
@@ -180,10 +197,12 @@
 				item: "create:encased_fan"
 				type: "item"
 			}]
+			title: "{mp.quest.create.encased_fan}"
 			x: 8.0d
 			y: 2.0d
 		}
 		{
+			description: ["{mp.quest.create.hand_crank.desc}"]
 			dependencies: ["64C61DBB9F1C0E65"]
 			id: "2070932FCDA724B3"
 			tasks: [{
@@ -191,10 +210,12 @@
 				item: "create:hand_crank"
 				type: "item"
 			}]
+			title: "{mp.quest.create.hand_crank}"
 			x: 4.0d
 			y: -2.0d
 		}
 		{
+			description: ["{mp.quest.create.mechanical_mixer.desc}"]
 			dependencies: [
 				"64C61DBB9F1C0E65"
 				"67C421F2A6941467"
@@ -212,20 +233,24 @@
 					type: "item"
 				}
 			]
+			title: "{mp.quest.create.mechanical_mixer}"
 			x: 8.0d
 			y: 0.0d
 		}
 		{
+			description: ["{mp.quest.create.belt_connector.desc}"]
 			id: "36BBC706CF049A6B"
 			tasks: [{
 				id: "1AEC584239163CB9"
 				item: "create:belt_connector"
 				type: "item"
 			}]
+			title: "{mp.quest.create.belt_connector}"
 			x: 2.0d
 			y: 6.0d
 		}
 		{
+			description: ["{mp.quest.create.wrench.desc}"]
 			dependencies: ["67C421F2A6941467"]
 			id: "4F99586C25E6616E"
 			tasks: [{
@@ -233,10 +258,12 @@
 				item: "create:wrench"
 				type: "item"
 			}]
+			title: "{mp.quest.create.wrench}"
 			x: 6.0d
 			y: 4.0d
 		}
 		{
+			description: ["{mp.quest.create.clipboard.desc}"]
 			dependencies: ["4770E70A91D29214"]
 			id: "2C3F3FA716BD49DD"
 			tasks: [{
@@ -244,10 +271,12 @@
 				item: "create:clipboard"
 				type: "item"
 			}]
+			title: "{mp.quest.create.clipboard}"
 			x: 0.0d
 			y: -2.0d
 		}
 		{
+			description: ["{mp.quest.create.andesite_funnel.desc}"]
 			dependencies: ["36BBC706CF049A6B"]
 			id: "41A94BA0177050CF"
 			tasks: [{
@@ -255,10 +284,12 @@
 				item: "create:andesite_funnel"
 				type: "item"
 			}]
+			title: "{mp.quest.create.andesite_funnel}"
 			x: 4.0d
 			y: 6.0d
 		}
 		{
+			description: ["{mp.quest.create.filter.desc}"]
 			dependencies: ["41A94BA0177050CF"]
 			id: "0040EA87E67EF0F2"
 			tasks: [{
@@ -266,10 +297,12 @@
 				item: "create:filter"
 				type: "item"
 			}]
+			title: "{mp.quest.create.filter}"
 			x: 6.0d
 			y: 6.0d
 		}
 		{
+			description: ["{mp.quest.create.blaze_burner.desc}"]
 			dependencies: ["26096810FD846F52"]
 			id: "029C9633E9727ED6"
 			tasks: [{
@@ -277,10 +310,12 @@
 				item: "create:blaze_burner"
 				type: "item"
 			}]
+			title: "{mp.quest.create.blaze_burner}"
 			x: 10.0d
 			y: 0.0d
 		}
 		{
+			description: ["{mp.quest.create.brass_ingot.desc}"]
 			dependencies: ["029C9633E9727ED6"]
 			id: "2F580C1E4C5D78D8"
 			tasks: [{
@@ -288,10 +323,12 @@
 				item: "create:brass_ingot"
 				type: "item"
 			}]
+			title: "{mp.quest.create.brass_ingot}"
 			x: 12.0d
 			y: 0.0d
 		}
 		{
+			description: ["{mp.quest.create.polished_rose_quartz.desc}"]
 			dependencies: ["4CA3E26471990882"]
 			id: "6E20BD330F421DFE"
 			tasks: [{
@@ -299,10 +336,12 @@
 				item: "create:polished_rose_quartz"
 				type: "item"
 			}]
+			title: "{mp.quest.create.polished_rose_quartz}"
 			x: 12.0d
 			y: 2.0d
 		}
 		{
+			description: ["{mp.quest.create.deployer.desc}"]
 			dependencies: [
 				"2F580C1E4C5D78D8"
 				"6E20BD330F421DFE"
@@ -313,10 +352,12 @@
 				item: "create:deployer"
 				type: "item"
 			}]
+			title: "{mp.quest.create.deployer}"
 			x: 16.0d
 			y: 2.0d
 		}
 		{
+			description: ["{mp.quest.create.precision_mechanism.desc}"]
 			dependencies: ["57F050499E5153CD"]
 			id: "7847203195C50D09"
 			tasks: [{
@@ -324,10 +365,12 @@
 				item: "create:precision_mechanism"
 				type: "item"
 			}]
+			title: "{mp.quest.create.precision_mechanism}"
 			x: 18.0d
 			y: 2.0d
 		}
 		{
+			description: ["{mp.quest.create.brass_casing.desc}"]
 			dependencies: ["2F580C1E4C5D78D8"]
 			id: "2850D52B73400B7E"
 			tasks: [{
@@ -335,10 +378,12 @@
 				item: "create:brass_casing"
 				type: "item"
 			}]
+			title: "{mp.quest.create.brass_casing}"
 			x: 14.0d
 			y: 0.0d
 		}
 		{
+			description: ["{mp.quest.create.mechanical_crafter.desc}"]
 			dependencies: [
 				"2850D52B73400B7E"
 				"6E20BD330F421DFE"
@@ -349,10 +394,12 @@
 				item: "create:mechanical_crafter"
 				type: "item"
 			}]
+			title: "{mp.quest.create.mechanical_crafter}"
 			x: 18.0d
 			y: 0.0d
 		}
 		{
+			description: ["{mp.quest.create.crushing_wheel.desc}"]
 			dependencies: ["0EB34689E2822F3D"]
 			id: "430ACDD8519E8107"
 			tasks: [{
@@ -360,10 +407,12 @@
 				item: "create:crushing_wheel"
 				type: "item"
 			}]
+			title: "{mp.quest.create.crushing_wheel}"
 			x: 18.0d
 			y: -2.0d
 		}
 		{
+			description: ["{mp.quest.create.mechanical_arm.desc}"]
 			dependencies: ["7847203195C50D09"]
 			id: "22A853D0A6AEF82B"
 			tasks: [{
@@ -371,10 +420,12 @@
 				item: "create:mechanical_arm"
 				type: "item"
 			}]
+			title: "{mp.quest.create.mechanical_arm}"
 			x: 18.0d
 			y: 4.0d
 		}
 		{
+			description: ["{mp.quest.create.potato_cannon.desc}"]
 			dependencies: [
 				"7847203195C50D09"
 				"0EB34689E2822F3D"
@@ -391,10 +442,12 @@
 				}
 				type: "item"
 			}]
+			title: "{mp.quest.create.potato_cannon}"
 			x: 20.0d
 			y: -2.0d
 		}
 		{
+			description: ["{mp.quest.create.jetpack.desc}"]
 			dependencies: [
 				"7847203195C50D09"
 				"0EB34689E2822F3D"
@@ -413,10 +466,12 @@
 				}
 				type: "item"
 			}]
+			title: "{mp.quest.create.jetpack}"
 			x: 22.0d
 			y: 1.0d
 		}
 		{
+			description: ["{mp.quest.create.brass_chunk_loader.desc}"]
 			dependencies: [
 				"7847203195C50D09"
 				"0EB34689E2822F3D"
@@ -427,10 +482,12 @@
 				item: "create_power_loader:brass_chunk_loader"
 				type: "item"
 			}]
+			title: "{mp.quest.create.brass_chunk_loader}"
 			x: 22.0d
 			y: -2.0d
 		}
 		{
+			description: ["{mp.quest.create.mechanical_pump.desc}"]
 			dependencies: [
 				"64C61DBB9F1C0E65"
 				"01A77B328530019C"
@@ -450,10 +507,12 @@
 					type: "item"
 				}
 			]
+			title: "{mp.quest.create.mechanical_pump}"
 			x: 8.0d
 			y: 6.0d
 		}
 		{
+			description: ["{mp.quest.create.fluid_tank.desc}"]
 			dependencies: ["7230F6447E13B45E"]
 			id: "2FBE0E8352016D99"
 			tasks: [{
@@ -461,10 +520,12 @@
 				item: "create:fluid_tank"
 				type: "item"
 			}]
+			title: "{mp.quest.create.fluid_tank}"
 			x: 10.0d
 			y: 6.0d
 		}
 		{
+			description: ["{mp.quest.create.steam_engine.desc}"]
 			dependencies: ["2FBE0E8352016D99"]
 			id: "39260B82620B83F8"
 			tasks: [{
@@ -472,10 +533,12 @@
 				item: "create:steam_engine"
 				type: "item"
 			}]
+			title: "{mp.quest.create.steam_engine}"
 			x: 12.0d
 			y: 6.0d
 		}
 		{
+			description: ["{mp.quest.create.steam_whistle.desc}"]
 			dependencies: ["39260B82620B83F8"]
 			id: "5ABDDFF69F4A0EF4"
 			tasks: [{
@@ -483,10 +546,12 @@
 				item: "create:steam_whistle"
 				type: "item"
 			}]
+			title: "{mp.quest.create.steam_whistle}"
 			x: 14.0d
 			y: 6.0d
 		}
 		{
+			description: ["{mp.quest.create.extendo_grip.desc}"]
 			dependencies: [
 				"7847203195C50D09"
 				"0EB34689E2822F3D"
@@ -503,10 +568,12 @@
 				}
 				type: "item"
 			}]
+			title: "{mp.quest.create.extendo_grip}"
 			x: 20.0d
 			y: 4.0d
 		}
 		{
+			description: ["{mp.quest.create.wand_of_symmetry.desc}"]
 			dependencies: [
 				"0EB34689E2822F3D"
 				"7847203195C50D09"
@@ -517,6 +584,7 @@
 				item: "create:wand_of_symmetry"
 				type: "item"
 			}]
+			title: "{mp.quest.create.wand_of_symmetry}"
 			x: 22.0d
 			y: 4.0d
 		}
