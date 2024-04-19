@@ -18,4 +18,17 @@ ServerEvents.recipes(event => {
             'overweight_farming:overweight_potato_block'
         ]), 'create:andesite_alloy'])
 
+
+    event.recipes.create.item_application(['create:brass_casing'],
+        [Ingredient.of([
+            'overweight_farming:overweight_apple_block',
+            'overweight_farming:overweight_beetroot_block',
+            'overweight_farming:overweight_carrot_block',
+            'overweight_farming:overweight_cocoa_block',
+            'overweight_farming:overweight_nether_wart_block',
+            'overweight_farming:overweight_poisonous_potato_block',
+            'overweight_farming:overweight_potato_block'
+        ]), 'create:brass_ingot'])
+
+
 })
