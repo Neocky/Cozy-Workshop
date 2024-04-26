@@ -1,0 +1,13 @@
+name = "Simplest Copper Gear"
+filename = "Simplest_Copper_Gear_forge_1.20.1-1.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/QlvIRpDN/versions/MbVlvcP2/Simplest_Copper_Gear_forge_1.20.1-1.0.1.jar"
+hash-format = "sha1"
+hash = "be266ca78827b54be1732325ab34a32971be2b4a"
+
+[update]
+[update.modrinth]
+mod-id = "QlvIRpDN"
+version = "MbVlvcP2"
