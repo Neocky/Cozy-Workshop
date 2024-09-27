@@ -15,6 +15,8 @@
 	renderBackpackWithElytra = true
 	#Disable backpack rendering
 	disableBackpackRender = false
+	#Sends a message to the player on death with backpack coordinates
+	sendBackpackCoordinatesMessage = true
 
 	#The position of the Overlay on the screen
 	[client.overlay]

@@ -179,9 +179,9 @@ NetworkEvents.dataReceived('update_notifier_hide', event => {
     else
     {
         Client.player.tell(Component.join([
-            Component.white(`\nVersion`),
+            Component.white(`Version`),
             Component.green(version),
-            Component.white("is already hidden!\n"),
+            Component.white("is already hidden!"),
         ]))
     }
     JsonIO.write('kubejs/update_notifier.json', current)
@@ -191,9 +191,9 @@ NetworkEvents.dataReceived('update_notifier_hide', event => {
 NetworkEvents.dataReceived('update_notifier_enable', event => {
     switcher(true)
     Client.player.tell(Component.join([
-        Component.white(`\nUpdate notifier is `),
+        Component.white(`Update notifier is `),
         Component.green('enabled'),
-        Component.white("!\n"),
+        Component.white("!"),
     ]))
 })
 
@@ -209,8 +209,8 @@ NetworkEvents.dataReceived('update_notifier_clean_hide_list', event => {
     JsonIO.write('kubejs/update_notifier.json', current)
 
     Client.player.tell(Component.join([
-        Component.white(`\nHidden versions list `),
+        Component.white(`Hidden versions list `),
         Component.green('cleaned'),
-        Component.white(" successfully!\n"),
+        Component.white(" successfully!"),
     ]))
 })

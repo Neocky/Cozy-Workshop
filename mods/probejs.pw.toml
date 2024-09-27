@@ -1,13 +1,13 @@
 name = "ProbeJS"
-filename = "probejs-6.0.0-forge.jar"
+filename = "probejs-7.0.0-forge.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/JJNYRb4B/versions/XIxTqWLF/probejs-6.0.0-forge.jar"
+url = "https://cdn.modrinth.com/data/JJNYRb4B/versions/oiljyqSe/probejs-7.0.0-forge.jar"
 hash-format = "sha1"
-hash = "39c6aa4497f49ef462153e14cff4f0b069fde211"
+hash = "77e3583413568ea27745aeffb2bfc3b0128238ee"
 
 [update]
 [update.modrinth]
 mod-id = "JJNYRb4B"
-version = "XIxTqWLF"
+version = "oiljyqSe"
